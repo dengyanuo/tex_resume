@@ -1,6 +1,9 @@
 /[0-9].txt
+/[0-9].diff
 /tmp/*.dvi
 /tmp/*.log
 /tmp/*.aux
 /testing/*.tex
 /testing/*.latex
+/bak/*
+

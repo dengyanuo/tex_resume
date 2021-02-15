@@ -61,6 +61,9 @@ gu up push :
 	@echo git push -u origin main
 	git push 
 
+gd:
+	git diff
+
 gs:
 	git status
 
