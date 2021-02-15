@@ -4,12 +4,13 @@
 \date{September 1994}
 
 \usepackage{hyperref}
+\pdftrailerid{fc5c78a8-a800-11f6-0000-3fc4b65c2e04}
 \hypersetup{
   pdfinfo={
     Author={Tizio Sempronio},
     Title={Creating a PDF document using PDFLaTeX},
     CreationDate={D:20040502195600},
-    ModDate={...},
+    ModDate={D:20040502195600},
     Keywords={PDF;LaTeX},
   }
 }
