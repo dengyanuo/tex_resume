@@ -19,6 +19,7 @@ all: $(PDFs)
 	# PDF2tex		$(PDF2tex)
 	@echo
 	@ls -l pdf/*.pdf
+	echo "$${index_html}" > pdf/index.html
 
 #pdf/latex_002_article_1998.pdf:Makefile
 pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
@@ -68,3 +69,50 @@ ga:
 
 gc:
 	git commit -a -m '$(shell date +%Y_%m%d_%H%M%P)'
+
+
+index_html_idx:=1
+
+define index_html
+<html>
+    <head>
+
+        <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
+
+        <style>
+
+table, th, td {
+	padding: 10px;
+    border: 1px solid black;
+}
+        </style>
+
+
+    </head>
+    <body onload="TTTmyTimer()">
+
+        <table>
+            <tr>
+                <th>idx</th>
+                <th>Name</th>
+                <th>FileSize</th>
+            </tr>
+$(foreach aa1,$(PDFs), 
+<tr>
+<td> $(index_html_idx) </td>
+<td> 
+<a href="$(notdir $(aa1))"> $(notdir $(aa1)) </a>
+</td>
+<td> $(shell cat $(aa1)|wc -c) </td>
+</tr>
+$(eval index_html_idx:=$(shell expr $(index_html_idx) + 1))
+)
+        </table>
+
+    </body>
+</html>
+
+
+endef
+export index_html
+
