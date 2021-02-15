@@ -57,7 +57,7 @@ ca clean_all:
 m vim_makefile:
 	vim Makefile
 
-up push :
+gu up push :
 	@echo git push -u origin main
 	git push 
 
@@ -69,6 +69,8 @@ ga:
 
 gc:
 	git commit -a -m '$(shell date +%Y_%m%d_%H%M%P)'
+
+X : ga gc up
 
 
 index_html_idx:=1
@@ -82,6 +84,8 @@ define index_html
         <style>
 
 table, th, td {
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
     border: 1px solid black;
 }
