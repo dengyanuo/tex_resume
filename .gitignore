@@ -1,0 +1,6 @@
+/[0-9].txt
+/tmp/*.dvi
+/tmp/*.log
+/tmp/*.aux
+/testing/*.tex
+/testing/*.latex
