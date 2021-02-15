@@ -1,5 +1,5 @@
 
-clean_dst11:=*.log *.ps *.pdf *.dvi *.aux
+clean_dst11:=*.log *.ps *.pdf *.dvi *.aux *.out
 clean_dst12:=$(foreach aa1,$(clean_dst11), */$(aa1))
 clean_dst21:=$(wildcard $(clean_dst11) $(clean_dst12))
 
