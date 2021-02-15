@@ -105,7 +105,7 @@ $(foreach aa1,$(PDFs),
 <tr>
 <td> $(index_html_idx) </td>
 <td> 
-<a href="$(notdir $(aa1))"> $(notdir $(aa1)) </a>
+<a href="$(notdir $(aa1))"> $(notdir $(aa1)) target="_blank" src=""</a>
 </td>
 <td> $(shell cat $(aa1)|wc -c) </td>
 </tr>
