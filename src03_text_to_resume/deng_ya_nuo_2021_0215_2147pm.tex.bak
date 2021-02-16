@@ -1,0 +1,58 @@
+\usepackage{helvet}
+
+Yanuo Deng (James)
+1565 Cress Way, Olivehurst,CA,95961
+(408)444-5520
+deng.ya.nuo@gmail.com
+Cantonese
+
+CAREER OBJECTIVE
+---
+Focused professional with 15+ years of experience and a proven knowledge of embedded system(linux/RTOS), and digital \& analogy circuit design. Amiing to leverage my skills to successfully fill the Integrated Circuit Engineer, Software Engineer, or Network Security Engineer role at your company.
+
+EXPERIENCE
+---
+C-MATRIXTECH CO.LTD., Zhuhai, Guangdong, 3 person R\&D/6
+Integrated Circuit Designer, Dec 2017 - Feb 2019
+ Verilog coding, FPGA simulation and debug for self-powered SOC chip. 
+ MCU debug; Port C-language from Assembly for the MCU; Analog circuit design.
+ Achieved self-powered MCU SOC used on iPhone data cables; Mass production 10 per month.
+
+VIOMI CO.LTD., Foshan, Guangdong, 3 person R\&D/200
+Software (Firmware) Engineer, May 2017 - Oct 2017
+ Linux driver for the wifi chip; Speech Recognition App for Linux.
+ Achieved smart wireless Speech Recognition module ; Mass production 3k per month.
+
+BLUEWAY CO.LTD., Huizhou, Guangdong, 5 person R\&D/2500
+Software (Firmware) Engineer, May 2016 - Apr 2017
+ FreeRTOS system migration for the embedded board, target for electric mowers.
+
+ADON CO.LTD., Foshan, Guangdong, 3 person R\&D/350
+Software (Firmware) Engineer, Oct 2013 - Dec 2015
+ Linux driver \& app for the Homepod (wifi speaker/charger for iPhone); Mass production, 3k per month.
+
+SKYIT SOFTWARE CO.LTD., Shunde, Guangdong, 5 person R\&D/500
+Software Engineer, Dec 2011 - Jul 2013
+ Windows Client App by C\#; Data API by C for the first order a meal App in China
+
+VBRIDGE MICROSYSTEM INC, San Jose, CA, 5 person R\&D/12
+Digital Integrated Circuit Engineer, Apr 2005 - May 2008
+ AES, DES, 3DES, MD5, SHA1, CRC : ipcores for the security engineer. 
+ 5 bit MCU for the dual-MIPS SOC chip
+ All IP cores include specification, testbench, RTL; All IP cores verified by the SOC Chip
+
+EDUCATION
+---
+XI'AN university of technology, Xi'an city, Shannxi, China
+Master of Science (M.S.) Microelectronics \& Solidstate Electronics (Apr 2005)
+
+ADDITIONAL SKILLS
+---
+ C, Verilog, Vim, Bash, Perl, Go-language, Gnumake, git
+ Linux / FreeRTOS driver
+
+Certifications
+---
+Electronics Engineer Certification, Foshan city, Aug 2008
+
+\bye
