@@ -1,7 +1,9 @@
 
-clean_dst11:=*.log *.ps *.pdf *.dvi *.aux *.out
-clean_dst12:=$(foreach aa1,$(clean_dst11), */$(aa1))
-clean_dst21:=$(wildcard $(clean_dst11) $(clean_dst12))
+clean_dst11:=*.log *.ps *.dvi *.aux *.out *.toc
+clean_dst21:=$(foreach aa1,$(clean_dst11), tmp/$(aa1))
+clean_dst22:=$(foreach aa1,$(clean_dst11), */$(aa1))
+clean_dst91:=$(wildcard $(clean_dst21) )
+clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex)
@@ -46,13 +48,10 @@ $(foreach aa3,$(PDF1latex),$(eval $(call FUNClatex2pdf, $(aa3))))
 $(foreach aa3,$(PDF2tex),$(eval   $(call FUNCtex2pdf,   $(aa3))))
 
 c clean:
+	$(if $(clean_dst91),rm -f $(clean_dst91))
 
 ca clean_all:
-#	rm -f *.log *.ps *.pdf *.dvi *.aux
-#	rm -f $(clean_dst11)
-#	rm -f $(clean_dst12)
-#	rm -f $(clean_dst21)
-	$(if $(clean_dst21),rm -f $(clean_dst21))
+	$(if $(clean_dst92),rm -f $(clean_dst92))
 
 m vim_makefile:
 	vim Makefile
