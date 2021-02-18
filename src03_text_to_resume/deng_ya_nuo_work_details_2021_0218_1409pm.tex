@@ -1,0 +1,107 @@
+\special{papersize=8.5in,11.5in}
+% 0.4 padding 
+\hsize 7.7 in     % 8.5  - 0.4 * 2
+\vsize 10.7 in    % 11.5 - 0.4 * 2
+\voffset -0.6 in  % 1 - 0.4
+\hoffset -0.6 in  % 1 - 0.4
+
+% \hsize 6.9 in     % 8.5  - 0.8 * 2
+% \vsize 9.9 in     % 11.5 - 0.8 * 2
+% \special{papersize=8.5in,11.5in}
+% % 0.4 padding 
+% \voffset -0.2 in  % 1 - 0.8
+% \hoffset -0.2 in  % 1 - 0.8
+
+\nopagenumbers
+
+\parindent = 0 pt
+\emergencystretch = 800 em
+%\tolerance=10000
+%\baselineskip = 16pt
+\baselineskip = 12pt
+
+
+\font\FFaa=      cmb10            at 24pt
+\font\FFbb=      cmr10            at 8.5pt
+\font\FFcc=      cmb10            at 13pt
+\font\FFdd=      cmb10            at 13pt
+\font\FFee=      cmti10           at 13pt
+
+
+\bigbreak
+
+\centerline{ \FFaa
+How to answer the questions in the interview.
+}
+
+{ \medbreak } { \FFcc
+What's IP cores?
+} { \smallbreak } {\par\noindent\hrule} { \smallbreak }
+
+    The first company I worked for was vbridge Microsyste.
+It's a design house. Its proudce were verified IP cores.
+7 new IP cores were designed for the security engine : 
+AES, DES, 3DES, MD5, SHA1, CRC, and a 5 bits MCU.
+I finished all IP cores at a rate of one month one IP core.
+
+{ \medbreak } { \FFcc
+How to finish a IP core?
+} { \smallbreak } {\par\noindent\hrule} { \smallbreak }
+The design were include specification, user manual, testbench, 
+RTL codes, timeing check script. 
+Each IP core have about 10 modules and 3000 to 5000 lines.
+3 to 4 of them were testbechs, and the others are RTLs.
+
+The proceduce are : 
+
+{ \parindent = 1 em \item{1} 
+using VIM to create or modify the codes;
+}
+{ \parindent = 1 em \item{2} 
+using NC to simulate the RTL code;
+}
+{ \parindent = 1 em \item{3} 
+using perl to analyze the simulation result;
+}
+{ \parindent = 1 em \item{4} 
+using verdi to debug the code if necessary.
+}
+{ \parindent = 1 em \item{5} 
+using VIM to create or modify the timing rules;
+}
+{ \parindent = 1 em \item{6} 
+using synopsys DC to generate the netlist.
+}
+{ \parindent = 1 em \item{7} 
+using NC to simulate the netlist;
+}
+{ \parindent = 1 em \item{8} 
+using perl to analyze the simulation result again.
+}
+
+If ok, the testbench, the netlist, and the timing rules can be sent to the backend.
+
+
+
+{ \medbreak } { \FFcc
+How to teach the new person?
+} { \smallbreak } {\par\noindent\hrule} { \smallbreak }
+
+{ \parindent = 1 em \item{1} 
+Using git / svn / cvs to control your code ; write enough meaningful comment when save each version.
+}
+{ \parindent = 1 em \item{2} 
+Read the specification carefully.
+}
+{ \parindent = 1 em \item{3} 
+Write the testbench and generated the objective data; double check the specification before start to write RTL codes.
+}
+{ \parindent = 1 em \item{4} 
+The manpower is expensive. Using more script to compare the data automaticlly. 
+}
+{ \parindent = 1 em \item{5} 
+Prefer using more scripts than using wave debuger to find the bug 
+unless in the critical module(s).
+}
+
+\bye
