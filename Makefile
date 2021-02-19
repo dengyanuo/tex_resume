@@ -7,11 +7,13 @@ clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex)
+F8books:=$(wildcard books/*.pdf)
 Fs:=$(F1latex) $(F2tex)
 
 PDF1latex:=$(foreach aa1,$(basename $(notdir $(F1latex))),pdf/$(aa1).pdf)
 PDF2tex:=$(foreach   aa1,$(basename $(notdir $(F2tex))),pdf/$(aa1).pdf)
-PDFs:=$(PDF1latex) $(PDF2tex)
+PDF8books:=$(foreach   aa1,$(basename $(notdir $(F8books))),pdf/$(aa1).pdf)
+PDFs:=$(PDF1latex) $(PDF2tex) $(PDF8books)
 
 
 all: $(PDFs)
@@ -19,6 +21,7 @@ all: $(PDFs)
 	# F2tex			$(F2tex)
 	# PDF1latex		$(PDF1latex)
 	# PDF2tex		$(PDF2tex)
+	# F8books		$(PDF8books)
 	@echo
 	@ls -l pdf/*.pdf
 	echo "$${index_html}" > pdf/index.html
@@ -26,12 +29,21 @@ all: $(PDFs)
 #pdf/latex_002_article_1998.pdf:Makefile
 pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
 
+define FUNCbooks8pdf
+$1 : $(wildcard books/$(basename $(notdir $(1))).pdf)
+	@echo
+	# $1 : $$^
+	cp $$^ $1 
+	@ls -l $1 || (echo $1 not found. 1738188 ; exit 28)
+
+endef
+
 define FUNCtex2pdf
 $1 : $(wildcard src*/$(basename $(notdir $(1))).tex)
 	@echo
 	# $1 : $$^
 	cd tmp/ && tex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
-	#@ls -l $1 || (echo $1 not found. 1738181 ; exit 21)
+	#@ls -l $1 || (echo $1 not found. 1738182 ; exit 22)
 
 endef
 
@@ -46,6 +58,7 @@ endef
 
 $(foreach aa3,$(PDF1latex),$(eval $(call FUNClatex2pdf, $(aa3))))
 $(foreach aa3,$(PDF2tex),$(eval   $(call FUNCtex2pdf,   $(aa3))))
+$(foreach aa3,$(PDF8books),$(eval $(call FUNCbooks8pdf, $(aa3))))
 
 c clean:
 	$(if $(clean_dst91),rm -f $(clean_dst91))
