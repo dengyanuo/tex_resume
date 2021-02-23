@@ -31,16 +31,21 @@ pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
 
 
 define FUNCcombine7pdf
-$1 : $(wildcard src*/$(basename $(notdir $(1))).combine)
-	@echo
-	# $1 : $$^
-	rm -f $1 
-	#pdftk \
-		`cat $$^|sed \
+$1 : \
+	$(wildcard src*/$(basename $(notdir $(1))).combine) \
+	$(shell cat \
+	$(wildcard src*/$(basename $(notdir $(1))).combine) \
+	|sed \
 		-e 's;^ *;;g' \
-		-e '/^ *$$$$/d' \
 		-e '/^#/d' \
-		-e 's;^;pdf/;g'` \
+		-e '/^ *$$/d' \
+		-e 's;^;pdf/;g' \
+		)
+
+	@echo
+	# $1 : $$^ 
+	pdftk \
+		$$(word 2,9,$$^) \
 		cat output $1
 	@ls -l $1 || (echo $1 not found. 1738188 ; exit 28)
 
