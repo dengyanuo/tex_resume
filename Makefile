@@ -45,7 +45,7 @@ $1 : \
 	@echo
 	# $1 : $$^ 
 	pdftk \
-		$$(word 2,9,$$^) \
+		$$(wordlist 2,9,$$^) \
 		cat output $1
 	@ls -l $1 || (echo $1 not found. 1738188 ; exit 28)
 
