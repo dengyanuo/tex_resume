@@ -35,7 +35,7 @@ $1 : $(wildcard src*/$(basename $(notdir $(1))).combine)
 	@echo
 	# $1 : $$^
 	rm -f $1 
-	pdftk \
+	#pdftk \
 		`cat $$^|sed \
 		-e 's;^ *;;g' \
 		-e '/^ *$$$$/d' \
