@@ -29,6 +29,9 @@ all: $(PDFs)
 #pdf/latex_002_article_1998.pdf:Makefile
 pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
 
+# pdftk cv_02231010am_common_2021_dengyanuo_cover_letter.pdf rs_02181536pm_2021_dengyanuo_resume.pdf cat output b.pdf
+
+
 define FUNCbooks8pdf
 $1 : $(wildcard books/$(basename $(notdir $(1))).pdf)
 	@echo
