@@ -19,11 +19,6 @@ PDFs:=$(PDF1latex) $(PDF2tex) $(PDF8books) $(PDF7combine)
 
 
 all: $(PDFs)
-	# F1latex		$(F1latex)
-	# F2tex			$(F2tex)
-	# PDF1latex		$(PDF1latex)
-	# PDF2tex		$(PDF2tex)
-	# F8books		$(PDF8books)
 	@echo
 	@ls -l pdf/*.pdf
 	echo "$${index_html}" > pdf/index.html
@@ -32,7 +27,24 @@ all: $(PDFs)
 pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
 
 # pdftk cv_02231010am_common_2021_dengyanuo_cover_letter.pdf rs_02181536pm_2021_dengyanuo_resume.pdf cat output b.pdf
+# PDF7combine:=$(foreach   aa1,$(basename $(notdir $(F7combine))),pdf/$(aa1).pdf) FUNCbooks8pdf FUNCcombine7pdf,
 
+
+define FUNCcombine7pdf
+$1 : $(wildcard src*/$(basename $(notdir $(1))).combine)
+	@echo
+	# $1 : $$^
+	rm -f $1 
+	pdftk \
+		`cat $$^|sed \
+		-e 's;^ *;;g' \
+		-e '/^ *$$$$/d' \
+		-e '/^#/d' \
+		-e 's;^;pdf/;g'` \
+		cat output $1
+	@ls -l $1 || (echo $1 not found. 1738188 ; exit 28)
+
+endef
 
 define FUNCbooks8pdf
 $1 : $(wildcard books/$(basename $(notdir $(1))).pdf)
@@ -52,7 +64,7 @@ $1 : $(wildcard src*/$(basename $(notdir $(1))).tex)
 
 endef
 
-define FUNClatex2pdf
+define FUNClatex1pdf
 $1 : $(wildcard src*/$(basename $(notdir $(1))).latex)
 	@echo
 	# $1 : $$^
@@ -61,9 +73,10 @@ $1 : $(wildcard src*/$(basename $(notdir $(1))).latex)
 
 endef
 
-$(foreach aa3,$(PDF1latex),$(eval $(call FUNClatex2pdf, $(aa3))))
-$(foreach aa3,$(PDF2tex),$(eval   $(call FUNCtex2pdf,   $(aa3))))
-$(foreach aa3,$(PDF8books),$(eval $(call FUNCbooks8pdf, $(aa3))))
+$(foreach aa3,$(PDF1latex),$(eval       $(call FUNClatex1pdf, $(aa3))))
+$(foreach aa3,$(PDF2tex),$(eval         $(call FUNCtex2pdf,   $(aa3))))
+$(foreach aa3,$(PDF7combine),$(eval     $(call FUNCcombine7pdf, $(aa3))))
+$(foreach aa3,$(PDF8books),$(eval       $(call FUNCbooks8pdf, $(aa3))))
 
 c clean:
 	$(if $(clean_dst91),rm -f $(clean_dst91))
