@@ -1,1 +1,1 @@
-# texinfo_test
+# tex_resume
