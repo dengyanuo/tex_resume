@@ -16,6 +16,8 @@ PDF2tex:=$(foreach       aa1,$(basename $(notdir $(F2tex))),pdf/$(aa1).pdf)
 PDF7combine:=$(foreach   aa1,$(basename $(notdir $(F7combine))),pdf/$(aa1).pdf)
 PDF8books:=$(foreach     aa1,$(basename $(notdir $(F8books))),pdf/$(aa1).pdf)
 PDFs:=$(PDF1latex) $(PDF2tex) $(PDF8books) $(PDF7combine)
+PDFs_out:=example_tex01.tex
+PDFs:=$(filter-out $(PDFs_out),$(PDFs))
 
 
 all: $(PDFs)
