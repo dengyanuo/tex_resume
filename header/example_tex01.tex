@@ -60,6 +60,16 @@
 % \vskip 10pt
 % { \bigbreak } 
 
+\def\filltospace#1#2{{%
+  \dimen0=#1\relax
+  \dimen0=.5\dimen0
+  \vrule height -3pt depth 3.4pt width \dimen0
+  \raise1pt\hbox to 0pt{\hss#2\hss}%
+  \vrule height -3pt depth 3.4pt width \dimen0
+}}
+% Example \filltospace{5em}{12-25-2014}
+
+
 %  %  https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
 %  %  Remove unwanted empty lines
 % g/^\_$\n\_^$/d
@@ -69,6 +79,10 @@
   \FFre \baselineskip = 13pt
 % \FFrf \baselineskip = 14pt
 % \FFrg \baselineskip = 15pt
-% \FFri \baselineskip = 18pt
 % \FFrh \baselineskip = 16pt
+% \FFri \baselineskip = 18pt
+% \FFrj \baselineskip = 20pt
+% \FFrk \baselineskip = 22pt
+% \FFrl \baselineskip = 24pt
+% \FFrm \baselineskip = 26pt
 
