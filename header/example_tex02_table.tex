@@ -1,0 +1,47 @@
+
+%\xmpheader 8/{A ruled table}% see p. 21
+\bigskip
+\offinterlineskip % So the vertical rules are connected.
+% \tablerule constructs a thin rule across the table.
+\def\tablerule{\noalign{\hrule}}
+% \tableskip creates 9pt of space between entries.
+\def\tableskip{\omit&height 9pt&&&\omit\cr}
+% & separates templates for each column. TeX substitutes
+% the text of the entries for #. We must have a strut
+% present in every row of the table; otherwise, the boxes
+% won’t butt together properly, and the rules won’t join.
+\halign{\tabskip = .7em plus 1em % glue between columns
+% Use \vtop for whole paragraphs in the first column.
+% Typeset the lines ragged right, without hyphenation.
+\vtop{\hsize=6pc\pretolerance = 10000\hbadness = 10000
+\normalbaselines\noindent\it#\strut}%
+&\vrule #&#\hfil &\vrule #% the rules and middle column
+% Use \vtop for whole paragraphs in the last column.
+&\vtop{\hsize=11pc \parindent=0pt \normalbaselineskip=12pt
+\normalbaselines \rightskip=3pt plus2em #}\cr
+% The table rows begin here.
+\noalign{\hrule height2pt depth2pt \vskip3pt}
+% The header row spans all the columns.
+\multispan5\bf Some Choice Edible Mushrooms\hfil\strut\cr
+\noalign{\vskip3pt} \tablerule
+\omit&height 3pt&\omit&&\omit\cr
+\bf Botanical&&\bf Common&&\omit \bf Identifying \hfil\cr
+\noalign{\vskip -2pt}% close up lines of heading
+\bf Name&&\bf Name &&\omit \bf Characteristics \hfil\cr
+\tableskip Pleurotus ostreatus&&Oyster mushroom&&
+Grows in shelf\kern 1pt like clusters on stumps or logs,
+% Without the kern, the ‘f’ and ‘l’ would be a ligature.
+pink-gray oyster-shaped caps, stem short or absent.\cr
+\tableskip Lactarius hygrophoroides&&Milky hygroph&&
+Butterscotch-brown cap and stem, copious white latex,
+often on ground in woods near streams.\cr
+\tableskip Morchella esculenta&&White morel&&Conical cap
+with black pits and white ridges; no gills. Often found
+near old apple trees and dying elms in the spring.\cr
+\tableskip Boletus edulus&&King bolete&&Reddish-brown to
+tan cap with yellow pores (white when young),
+bulbous stem, often near conifers, birch, or~aspen.\cr
+\tableskip \tablerule \noalign{\vskip 2pt} \tablerule
+}
+
+\bye
