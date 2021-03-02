@@ -8,3 +8,6 @@
 /testing/*.latex
 /bak/*
 
+/docs/cv_*.pdf
+/docs/cb_*.pdf
+/docs/job_*.pdf
