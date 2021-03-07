@@ -113,6 +113,33 @@ gc:
 X : ga gc up
 
 
+
+
+
+
+pythonVersion3exist:=$(shell which python3)
+ifeq (,$(pythonVersion3exist))
+pythonVersion:=2
+pyBin:=python2
+else
+pythonVersion:=3
+pyBin:=python3
+endif
+
+pyHttp2:=SimpleHTTPServer
+pyHttp3:=http.server
+pyHttP:=$(pyHttp$(pythonVersion))
+s2: server2
+server2:
+	[ -f docs/index.html ] || ( echo "why_no_51 file <docs/index.html> exist ?" ; exit 51 )
+	cd docs/ && $(pyBin) -m $(pyHttP) 33221
+
+
+
+
+
+
+
 index_html_idx:=1
 
 define index_html
@@ -141,7 +168,7 @@ table, th, td {
                 <th>Name</th>
                 <th>FileSize</th>
             </tr>
-$(foreach aa1,$(PDFs), 
+$(foreach aa1,$(sort $(PDFs)),$(if $(wildcard $(aa1)),
 <tr>
 <td> $(index_html_idx) </td>
 <td> 
@@ -150,7 +177,8 @@ $(foreach aa1,$(PDFs),
 <td> $(shell cat $(aa1)|wc -c) </td>
 </tr>
 $(eval index_html_idx:=$(shell expr $(index_html_idx) + 1))
-)
+))
+$(eval index_html_idx:=0)
         </table>
 
     </body>
