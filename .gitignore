@@ -17,3 +17,4 @@
 /docs/tex_*.pdf
 /docs/latex_*.pdf
 /docs/bible_*.pdf
+/[0-9]/
