@@ -196,8 +196,10 @@ bibleS_list:=1+peter
 bb : bible 
 bible :
 	cd bible01/ && \
+		for bb1 in NIV CUV ; do \
+		export bibleVsion=$${bb1} ; \
 		for aa1 in $(bibleS_list) ; do \
-		aa2=`echo bible__$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
+		aa2=`echo bible__$${bb1}_$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
 		|| ( ../script/bible_get_01_niv.sh $${aa1} ) || exit 44 ; \
-		done
+		done ; done
