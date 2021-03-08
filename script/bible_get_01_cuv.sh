@@ -102,6 +102,13 @@ if [ "${b_delete_space}" = "1" ] ; then
                 > 17_${bibleVsion}.txt 
 fi
 
+cat   12_${bibleVsion}.txt \
+    |grep og:title \
+    |head -n 1 \
+    |sed \
+    -e '1s,^.*Bible Gateway passage: *,,g' \
+    -e '1s,"/>, }\n,g' \
+    >> ${target_file} 
 
 cat   17_${bibleVsion}.txt \
     \
@@ -109,8 +116,6 @@ cat   17_${bibleVsion}.txt \
     -e 's,^ *,,g' \
     -e 's, *$,,g' \
     -e '/^$/d' \
-    -e '1s,^.*Bible Gateway passage: *,,g' \
-    -e '1s,"/>, }\n,g' \
     \
     \
     >> ${target_file} 
