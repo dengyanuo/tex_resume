@@ -6,7 +6,7 @@ clean_dst91:=$(wildcard $(clean_dst21) )
 clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
-F2tex:=$(wildcard src*/*.tex)
+F2tex:=$(wildcard src*/*.tex bible*/*.tex)
 F7combine:=$(wildcard src*/*.combine)
 F8books:=$(wildcard books/*.pdf)
 Fs:=$(F1latex) $(F2tex)
@@ -63,7 +63,10 @@ $1 : $(wildcard books/$(basename $(notdir $(1))).pdf)
 endef
 
 define FUNCtex2pdf
-$1 : $(wildcard src*/$(basename $(notdir $(1))).tex)
+$1 : $(wildcard \
+	src*/$(basename $(notdir $(1))).tex \
+	bible*/$(basename $(notdir $(1))).tex \
+	)
 	@echo
 	# $1 : $$^
 	cd tmp/ && tex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
@@ -194,7 +197,7 @@ bb : bible
 bible :
 	cd bible01/ && \
 		for aa1 in $(bibleS_list) ; do \
-		aa2=`echo $${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
+		aa2=`echo bible__$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
 		|| ( ../script/bible_get_01_niv.sh $${aa1} ) || exit 44 ; \
 		done

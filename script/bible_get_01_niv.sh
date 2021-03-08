@@ -6,7 +6,7 @@ version=NIV
 
 test -z "$1" && target_name='1+peter' || target_name=$1
 
-target_file=$(echo $target_name|sed -e 's;[+ -];_;g').tex
+target_file=bible__$(echo $target_name|sed -e 's;[+ -];_;g').tex
 
 #echo " target_file         = ${target_file}"
 #echo " target_name         = ${target_name}"
