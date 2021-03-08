@@ -93,7 +93,17 @@ cat   15_${bibleVsion}.txt \
     \
     > 16_${bibleVsion}.txt 
 
-cat   16_${bibleVsion}.txt \
+if [ "${b_delete_space}" = "1" ] ; then
+    cat   16_${bibleVsion}.txt \
+        |sed -e 's, *,,g' \
+        > 17_${bibleVsion}.txt 
+        else
+            cat   16_${bibleVsion}.txt \
+                > 17_${bibleVsion}.txt 
+fi
+
+
+cat   17_${bibleVsion}.txt \
     \
     | sed \
     -e 's,^ *,,g' \

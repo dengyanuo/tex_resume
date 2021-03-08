@@ -362,7 +362,7 @@ BG.renderBGA('sidetall');
                   <div class="sys-announce-content">
                     <div class='sys-announce-body'>
                         <div class='sys-announce-body-inner'>
-                              <a href="https://www.biblegateway.com/plus?utm_source=bg&utm_medium=alert&utm_campaign=bgplus_alert_best0304">Upgrade to the best Bible learning experience! Try it free for 30 days.</a>
+                              <a href="https://www.biblegateway.com/plus?utm_source=bg&utm_medium=alert&utm_campaign=bgplus_alert_easier0304">Bible Gateway Plus makes studying Scripture easier than ever.</a>
 </div>
                     </div>
                     <div class='close'>
@@ -2399,39 +2399,39 @@ BG.renderBGA('sidetall');
 <h4>Bible Gateway Recommends</h4>
 </div>
 <div class="row recommendations-products-row">
-<div class="product" data-pos="1" data-sku="9780310450405">
+<div class="product" data-pos="1" data-sku="9781401680114">
 <div class="product-info">
 <figure class="product-img">
-<a href="https://store.faithgateway.com/products/niv-biblical-theology-study-bible-comfort-print-follow-god-s-redemptive-plan-as-it-unfolds-throughout-scripture?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310450405" data-cbdm_sku="9780310450405">
-<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310450405_0fa4ab0a-0d9f-4cc8-bf78-5bde654915ff.jpg?v=1600270978" alt="NIV, Biblical Theology Study Bible, Comfort Print: Follow God’s Redemptive Plan as It Unfolds throughout Scripture" />
+<a href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">
+<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9781401680114_0acaa035-7d6b-4ea8-b767-e2fd7d50189a.jpg?v=1596527528" alt="NIV, Chronological Study Bible: Holy Bible, New International Version" />
 </a>
 </figure>
-<a class="product-title" href="https://store.faithgateway.com/products/niv-biblical-theology-study-bible-comfort-print-follow-god-s-redemptive-plan-as-it-unfolds-throughout-scripture?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310450405" data-cbdm_sku="9780310450405">NIV, Biblical Theology Study Bible, Comfort Print: Follow God’s Redemptive Plan as It Unfolds throughout Scripture</a>
-<div class="product-our-price">Our Price: $54.99</div>
-<div class="product-you-save">
-</div>
+<a class="product-title" href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">NIV, Chronological Study Bible: Holy Bible, New International Version</a>
+<div class="product-retail-price">Retail: $49.99</div>
+<div class="product-our-price">Our Price: $29.99</div>
+<div class="product-you-save">Save: $20.00 (40%)</div>
 </div>
 <!-- .product-info -->
 <div>
-<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-biblical-theology-study-bible-comfort-print-follow-god-s-redemptive-plan-as-it-unfolds-throughout-scripture?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310450405" data-cbdm_sku="9780310450405">Buy Now</a>
+<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">Buy Now</a>
 </div>
 </div>
 <!-- .product -->
-<div class="product" data-pos="2" data-sku="9780310455189">
+<div class="product" data-pos="2" data-sku="9780310440840">
 <div class="product-info">
 <figure class="product-img">
-<a href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-acts-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455189" data-cbdm_sku="9780310455189">
-<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310455189_9fa71eaf-d574-47cc-a4da-ead8a7ad298f.jpg?v=1592211746" alt="NIV, Beautiful Word Bible Journal, Acts, Comfort Print" />
+<a href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">
+<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310440840.jpg?v=1578563676" alt="NIV, Story of Jesus: Experience the Life of Jesus as One Seamless Story" />
 </a>
 </figure>
-<a class="product-title" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-acts-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455189" data-cbdm_sku="9780310455189">NIV, Beautiful Word Bible Journal, Acts, Comfort Print</a>
-<div class="product-retail-price">Retail: $6.99</div>
-<div class="product-our-price">Our Price: $4.88</div>
-<div class="product-you-save">Save: $2.11 (30%)</div>
+<a class="product-title" href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">NIV, Story of Jesus: Experience the Life of Jesus as One Seamless Story</a>
+<div class="product-retail-price">Retail: $2.99</div>
+<div class="product-our-price">Our Price: $2.09</div>
+<div class="product-you-save">Save: $0.90 (30%)</div>
 </div>
 <!-- .product-info -->
 <div>
-<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-acts-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455189" data-cbdm_sku="9780310455189">Buy Now</a>
+<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">Buy Now</a>
 </div>
 </div>
 <!-- .product -->
@@ -2453,43 +2453,25 @@ BG.renderBGA('sidetall');
 </div>
 </div>
 <!-- .product -->
-<div class="product" data-pos="4" data-sku="9781401680114">
+<div class="product" data-pos="4" data-sku="9780310455301">
 <div class="product-info">
 <figure class="product-img">
-<a href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">
-<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9781401680114_0acaa035-7d6b-4ea8-b767-e2fd7d50189a.jpg?v=1596527528" alt="NIV, Chronological Study Bible: Holy Bible, New International Version" />
+<a href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-luke-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455301" data-cbdm_sku="9780310455301">
+<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310455301_42281613-b949-41e9-acae-f9d320c1223a.jpg?v=1592211749" alt="NIV, Beautiful Word Bible Journal, Luke, Comfort Print" />
 </a>
 </figure>
-<a class="product-title" href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">NIV, Chronological Study Bible: Holy Bible, New International Version</a>
-<div class="product-retail-price">Retail: $49.99</div>
-<div class="product-our-price">Our Price: $29.99</div>
-<div class="product-you-save">Save: $20.00 (40%)</div>
+<a class="product-title" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-luke-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455301" data-cbdm_sku="9780310455301">NIV, Beautiful Word Bible Journal, Luke, Comfort Print</a>
+<div class="product-retail-price">Retail: $6.99</div>
+<div class="product-our-price">Our Price: $4.88</div>
+<div class="product-you-save">Save: $2.11 (30%)</div>
 </div>
 <!-- .product-info -->
 <div>
-<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-chronological-study-bible-holy-bible-new-international-version?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9781401680114" data-cbdm_sku="9781401680114">Buy Now</a>
+<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-luke-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455301" data-cbdm_sku="9780310455301">Buy Now</a>
 </div>
 </div>
 <!-- .product -->
-<div class="product" data-pos="5" data-sku="9780310440840">
-<div class="product-info">
-<figure class="product-img">
-<a href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">
-<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310440840.jpg?v=1578563676" alt="NIV, Story of Jesus: Experience the Life of Jesus as One Seamless Story" />
-</a>
-</figure>
-<a class="product-title" href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">NIV, Story of Jesus: Experience the Life of Jesus as One Seamless Story</a>
-<div class="product-retail-price">Retail: $2.99</div>
-<div class="product-our-price">Our Price: $2.09</div>
-<div class="product-you-save">Save: $0.90 (30%)</div>
-</div>
-<!-- .product-info -->
-<div>
-<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-story-of-jesus-experience-the-life-of-jesus-as-one-seamless-story?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310440840" data-cbdm_sku="9780310440840">Buy Now</a>
-</div>
-</div>
-<!-- .product -->
-<div class="product" data-pos="6" data-sku="9780310447849">
+<div class="product" data-pos="5" data-sku="9780310447849">
 <div class="product-info">
 <figure class="product-img">
 <a href="https://store.faithgateway.com/products/niv-cultural-backgrounds-study-bible-personal-size-red-letter-edition-bringing-to-life-the-ancient-world-of-scripture?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310447849" data-cbdm_sku="9780310447849">
@@ -2504,6 +2486,24 @@ BG.renderBGA('sidetall');
 <!-- .product-info -->
 <div>
 <a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-cultural-backgrounds-study-bible-personal-size-red-letter-edition-bringing-to-life-the-ancient-world-of-scripture?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310447849" data-cbdm_sku="9780310447849">Buy Now</a>
+</div>
+</div>
+<!-- .product -->
+<div class="product" data-pos="6" data-sku="9780310455325">
+<div class="product-info">
+<figure class="product-img">
+<a href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-romans-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455325" data-cbdm_sku="9780310455325">
+<img src="https://cdn.shopify.com/s/files/1/0044/1309/6047/products/9780310455325_08beab15-98df-413b-9c87-f76dafc4250d.jpg?v=1592211812" alt="NIV, Beautiful Word Bible Journal, Romans, Comfort Print" />
+</a>
+</figure>
+<a class="product-title" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-romans-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455325" data-cbdm_sku="9780310455325">NIV, Beautiful Word Bible Journal, Romans, Comfort Print</a>
+<div class="product-retail-price">Retail: $6.99</div>
+<div class="product-our-price">Our Price: $4.88</div>
+<div class="product-you-save">Save: $2.11 (30%)</div>
+</div>
+<!-- .product-info -->
+<div>
+<a class="btn product-btn-buy" href="https://store.faithgateway.com/products/niv-beautiful-word-bible-journal-romans-comfort-print?utm_source=bg&utm_medium=referral&utm_campaign=bgfeed_niv" rel="nofollow" target="_blank" data-cbdm_src="CBD Passage" data-cbdm_isbn="9780310455325" data-cbdm_sku="9780310455325">Buy Now</a>
 </div>
 </div>
 <!-- .product -->

@@ -199,10 +199,9 @@ CUV:=script/bible_get_01_cuv.sh
 bb : bible_NIV bible_CUV
 
 bv_list:=NIV CUV
+b_delete_space:=CUV
 # NIV : $(NIV)
-# CUV : $(CUV)
 # bible_NIV : NIV
-# bible_CUV : CUV
 $(foreach aa1,$(bv_list), $(eval $(aa1) : $($(aa1))))
 $(foreach aa1,$(bv_list), $(eval bible_$(aa1) : $(aa1)))
 
@@ -210,6 +209,7 @@ $(foreach aa1,$(bv_list), $(eval bible_$(aa1) : $(aa1)))
 $(foreach aa1,$(bv_list), bible_$(aa1) ):
 	cd bible01/ && \
 		export bibleVsion=$< ; \
+		$(if $(findstring $<,$(b_delete_space)), export b_delete_space=1; , export b_delete_space=0; )  \
 		for aa1 in $(bibleS_list) ; do \
 		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
