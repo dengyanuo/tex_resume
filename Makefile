@@ -193,13 +193,25 @@ export index_html
 
 
 bibleS_list:=1+peter
-bb : bible 
-bible :
+NIV:=script/bible_get_01_niv.sh
+CUV:=script/bible_get_01_cuv.sh
+
+bb : bible_NIV bible_CUV
+
+bv_list:=NIV CUV
+# NIV : $(NIV)
+# CUV : $(CUV)
+# bible_NIV : NIV
+# bible_CUV : CUV
+$(foreach aa1,$(bv_list), $(eval $(aa1) : $($(aa1))))
+$(foreach aa1,$(bv_list), $(eval bible_$(aa1) : $(aa1)))
+
+#bible_NIV , bible_CUV : 
+$(foreach aa1,$(bv_list), bible_$(aa1) ):
 	cd bible01/ && \
-		for bb1 in NIV CUV ; do \
-		export bibleVsion=$${bb1} ; \
+		export bibleVsion=$< ; \
 		for aa1 in $(bibleS_list) ; do \
-		aa2=`echo bible__$${bb1}_$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
+		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
-		|| ( ../script/bible_get_01_niv.sh $${aa1} ) || exit 44 ; \
-		done ; done
+		|| ( ../${$<} $${aa1} ) || exit 44 ; \
+		done

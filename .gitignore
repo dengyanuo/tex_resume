@@ -18,3 +18,5 @@
 /docs/latex_*.pdf
 /docs/bible_*.pdf
 /[0-9]/
+11_*.txt
+[0-9].txt
