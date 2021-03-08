@@ -188,3 +188,13 @@ $(eval index_html_idx:=0)
 endef
 export index_html
 
+
+bibleS_list:=1+peter
+bb : bible 
+bible :
+	cd bible01/ && \
+		for aa1 in $(bibleS_list) ; do \
+		aa2=`echo $${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
+		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
+		|| ( ../script/bible_get_01_niv.sh $${aa1} ) || exit 44 ; \
+		done
