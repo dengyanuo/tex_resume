@@ -21,7 +21,7 @@ fi
 
 cat > ${target_file}  << EOF0
 \input ../header/example_tex01.tex
-\FFrh \baselineskip = 14pt
+\FFrh \baselineskip = 13pt
 \parskip 0.3 em
 
 
@@ -77,6 +77,7 @@ cat   14_${bibleVsion}.txt \
     -e '/^<\/span>$/d' \
     -e '/^<\/p>$/d' \
     -e '/^<\/div>$/d' \
+    -e '/^<\/h[0-9]>$/d' \
     > 15_${bibleVsion}.txt 
 
 cat   15_${bibleVsion}.txt \

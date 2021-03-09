@@ -215,3 +215,7 @@ $(foreach aa1,$(bv_list), bible_$(aa1) ):
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
 		|| ( ../${$<} $${aa1} ) || exit 44 ; \
 		done
+
+font : font_list.txt 
+font_list.txt :
+	fc-list  | cut -d\  -f2-99 | cut -d: -f1 | sort -u > font_list.txt
