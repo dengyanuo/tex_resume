@@ -9,10 +9,13 @@ AlYarmook
 Amiri
 Amiri Quran
 Amiri Quran Colored
+Andale Mono
 Andika
 Ani,à¦…à¦¨à¦¿  Dvf
 AnjaliOldLipi
 Arab
+Arial
+Arial Black
 AR PL KaitiM Big5,文鼎ＰＬ中楷
 AR PL KaitiM GB,文鼎ＰＬ简中楷
 AR PL Mingti2L Big5,文鼎ＰＬ細上海宋
@@ -68,9 +71,11 @@ Carlito
 Century Schoolbook L
 Chandas
 Chilanka
+Comic Sans MS
 Cortoba
 Courier
 Courier 10 Pitch
+Courier New
 David CLM
 DejaVu Math TeX Gyre
 DejaVu Sans
@@ -106,6 +111,7 @@ Gentium
 GentiumAlt
 Gentium Basic
 Gentium Book Basic
+Georgia
 GFS Baskerville
 GFS Porson
 Granada
@@ -115,6 +121,7 @@ Hani
 Haramain
 Homa
 Hor
+Impact
 IPAexGothic,IPAexゴシック
 IPAexMincho,IPAex明朝
 IPAGothic,IPAゴシック
@@ -232,6 +239,7 @@ Mashq
 Mashq,Mashq\-Bold
 Meera
 Metal
+Microsoft YaHei,微软雅黑
 Miriam CLM,מרים
 Miriam Mono CLM
 Mitra Mono,\\u09ae\\u09bf\\u09a4\\u09cd\\u09b0
@@ -1809,6 +1817,7 @@ Noto Serif Tibetan,Noto Serif Tibetan Light
 Noto Serif Tibetan,Noto Serif Tibetan Medium
 Noto Serif Tibetan,Noto Serif Tibetan SemiBold
 Noto Serif Tibetan,Noto Serif Tibetan Thin
+NSimSun,新宋体
 OpenSymbol
 Ostorah
 Ouhod,Ouhod\-Bold
@@ -1842,14 +1851,19 @@ Samyak Tamil
 Sarai
 Sawasdee
 Scheherazade
+SF Mono
 Shado
 Sharjah
 Shofar
+SimHei,黑体
 Simple CLM
+SimSun,宋体
 Sindbad
 Stam Ashkenaz CLM
 Stam Sefarad CLM
 Standard Symbols L
+STHeiti
+STSong,华文宋体
 Suruma
 Tarablus
 Teams
@@ -1872,11 +1886,14 @@ Thabit,Thabit\-Bold,ثابت
 Thabit,Thabit\-Oblique,ثابت
 Thabit,ثابت
 Tholoth
+Times New Roman
 Titr
 Tlwg Mono
 Tlwg Typewriter
 Tlwg Typist
 Tlwg Typo
+Trebuchet MS
+Ubuntu
 UKIJ 3D
 UKIJ Basma
 UKIJ Bom
@@ -1975,9 +1992,17 @@ URW Gothic L
 URW Palladio L
 Utopia
 Vemana2000
+Verdana
 VL Gothic,VL ゴシック
 VL PGothic,VL Pゴシック
 Waree
+Webdings
+WenQuanYi Bitmap Song
+WenQuanYi Micro Hei Mono,文泉驛等寬微米黑,文泉驿等宽微米黑
+WenQuanYi Micro Hei,文泉驛微米黑,文泉驿微米黑
+WenQuanYi Zen Hei Mono,文泉驛等寬正黑,文泉驿等宽正黑
+WenQuanYi Zen Hei Sharp,文泉驛點陣正黑,文泉驿点阵正黑
+WenQuanYi Zen Hei,文泉驛正黑,文泉驿正黑
 Yehuda CLM
 Yrsa
 Yrsa,Yrsa Light

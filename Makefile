@@ -216,6 +216,11 @@ $(foreach aa1,$(bv_list), bible_$(aa1) ):
 		|| ( ../${$<} $${aa1} ) || exit 44 ; \
 		done
 
-font : font_list.txt 
+font : font_list.txt font_zhcn.txt 
+	ls -l $^
 font_list.txt :
-	fc-list  | cut -d\  -f2-99 | cut -d: -f1 | sort -u > font_list.txt
+	fc-list  | cut -d\  -f2-99 | cut -d: -f1     \
+		|sort -u > $@
+font_zhcn.txt :
+	fc-list :lang=zh-cn       \
+		|sort -u > $@
