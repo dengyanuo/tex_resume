@@ -98,7 +98,7 @@ m vim_makefile:
 	vim Makefile
 
 gu up push :
-	@echo git push -u origin main
+	@echo git push -u origin master --force
 	git push 
 
 gd:
