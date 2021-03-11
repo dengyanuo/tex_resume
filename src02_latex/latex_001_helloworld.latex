@@ -1,0 +1,6 @@
+\documentclass[a4paper]{book}
+\begin{document}
+\section{ ... a title }
+\subsection{ ... a subtitle}
+%% Text goes here
+\end{document}

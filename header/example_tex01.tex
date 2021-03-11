@@ -1,0 +1,102 @@
+\special{papersize=8.5in,11.5in}
+
+% #$%&\^_{}~
+
+% 0.7 padding
+\hsize 7.1 in     % 8.5  - 0.7 * 2
+\vsize 10.1 in    % 11.5 - 0.7 * 2
+\voffset -0.3 in  % 1 - 0.7
+\hoffset -0.3 in  % 1 - 0.7
+
+\nopagenumbers
+
+\parindent = 0 pt
+\emergencystretch = 800 em
+
+\font\FFba=      cmb10           at 5pt
+\font\FFbb=      cmb10           at 8.5pt
+\font\FFbc=      cmb10           at  9pt
+\font\FFbd=      cmb10           at 10pt
+\font\FFbe=      cmb10           at 11pt
+\font\FFbf=      cmb10           at 12pt
+\font\FFbg=      cmb10           at 13pt
+\font\FFbh=      cmb10           at 14pt
+\font\FFbi=      cmb10           at 16pt
+\font\FFbj=      cmb10           at 18pt
+\font\FFbk=      cmb10           at 20pt
+\font\FFbl=      cmb10           at 22pt
+\font\FFbm=      cmb10           at 24pt
+
+\font\FFra=      cmr10           at 5pt
+\font\FFrb=      cmr10           at 8.5pt
+\font\FFrc=      cmr10           at  9pt
+\font\FFrd=      cmr10           at 10pt
+\font\FFre=      cmr10           at 11pt
+\font\FFrf=      cmr10           at 12pt
+\font\FFrg=      cmr10           at 13pt
+\font\FFrh=      cmr10           at 14pt
+\font\FFri=      cmr10           at 16pt
+\font\FFrj=      cmr10           at 18pt
+\font\FFrk=      cmr10           at 20pt
+\font\FFrl=      cmr10           at 22pt
+\font\FFrm=      cmr10           at 24pt
+
+\font\FFta=      cmti10           at 5pt
+\font\FFtb=      cmti10           at 8.5pt
+\font\FFtc=      cmti10           at  9pt
+\font\FFtd=      cmti10           at 10pt
+\font\FFte=      cmti10           at 11pt
+\font\FFtf=      cmti10           at 12pt
+\font\FFtg=      cmti10           at 13pt
+\font\FFth=      cmti10           at 14pt
+\font\FFti=      cmti10           at 16pt
+\font\FFtj=      cmti10           at 18pt
+\font\FFtk=      cmti10           at 20pt
+\font\FFtl=      cmti10           at 22pt
+\font\FFtm=      cmti10           at 24pt
+
+% { \smallbreak } 
+% { \medbreak } 
+% \vskip 10pt
+% { \bigbreak } 
+
+\def\filltospace#1#2{{%
+  \dimen0=#1\relax
+  \dimen0=.5\dimen0
+  \vrule height -3pt depth 3.4pt width \dimen0
+  \raise1pt\hbox to 0pt{\hss#2\hss}%
+  \vrule height -3pt depth 3.4pt width \dimen0
+}}
+% Example \filltospace{5em}{12-25-2014}
+% \char124
+% \char254
+
+\def\tablerule{\noalign{\hrule}}
+% \def\tableskip{\omit&height 9pt&&&\omit\cr}
+% \def\tableskip{\cr}
+% \def\tableskip{\vskip 1em \cr}
+% \def\tableskip{ --- \cr === \cr }
+% \def\tableskip{\omit&height 9pt&&&\omit\cr}
+% \def\tableskip{ --- & === \cr }
+% \def\tableskip{\vskip 1em \cr}
+% \def\tableskip{~\cr}
+  \def\tableskip{~\cr}
+
+
+%  %  https://vim.fandom.com/wiki/Remove_unwanted_empty_lines
+%  %  Remove unwanted empty lines
+% g/^\_$\n\_^$/d
+% %s;\n\{3,};\r\r;g
+% v/\S/,/\S/-j
+
+  \FFre \baselineskip = 13pt
+% \FFrf \baselineskip = 14pt
+% \FFrg \baselineskip = 15pt
+% \FFrh \baselineskip = 16pt
+% \FFri \baselineskip = 18pt
+% \FFrj \baselineskip = 20pt
+% \FFrk \baselineskip = 22pt
+% \FFrl \baselineskip = 24pt
+% \FFrm \baselineskip = 26pt
+
+% \parskip 1.5 em

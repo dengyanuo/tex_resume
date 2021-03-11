@@ -1,0 +1,19 @@
+\documentclass{article}
+\title{Cartesian closed categories and the price of eggs}
+\author{Jane Doe}
+\date{September 1994}
+
+\usepackage{hyperref}
+\hypersetup{
+  pdfinfo={
+    Author={Tizio Sempronio},
+    Title={Creating a PDF document using PDFLaTeX},
+    CreationDate={D:20040502195600},
+    ModDate={D:20040502195600},
+    Keywords={PDF;LaTeX},
+  }
+}
+\begin{document}
+   \maketitle
+   Hello world!
+\end{document}
