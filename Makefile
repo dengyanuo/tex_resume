@@ -181,7 +181,7 @@ $(foreach aa1,$(sort $(PDFs)),$(if $(wildcard $(aa1)),
 </tr>
 $(eval index_html_idx:=$(shell expr $(index_html_idx) + 1))
 ))
-$(eval index_html_idx:=0)
+$(eval index_html_idx:=1)
         </table>
 
     </body>
