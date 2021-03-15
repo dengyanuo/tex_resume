@@ -192,7 +192,7 @@ endef
 export index_html
 
 
-bibleS_list:=1+peter
+bibleS_list:=1+peter+1 hebrews+11
 NIV:=script/bible_get_01_niv.sh
 CUV:=script/bible_get_01_cuv.sh
 
