@@ -1,0 +1,51 @@
+% https://jdhao.github.io/2018/03/29/latex-chinese/
+% this file can be compiled with xelatex command
+\documentclass[12pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage[slantfont, boldfont]{xeCJK}
+
+% set up English font
+%\setmainfont{Microsoft YaHei}
+%\setmainfont{SimSun}
+\setmainfont{Arial}
+\setsansfont{Comic Sans MS}
+\setmonofont{Courier New}
+
+% set up Chinese font, the font must be valid on your system
+\setCJKmainfont{Microsoft YaHei}
+% \setCJKmainfont{SimSun}
+%\setCJKmonofont{Source Code Pro}
+\setCJKmonofont{SimSun}
+%\setCJKsansfont{YouYuan}
+\setCJKsansfont{Noto Sans Mono CJK JP}
+%\setCJKsansfont{SimSun}
+
+% correct line break for chinese
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+
+\title{测试}
+\author{东}
+\date{2016年6月6日}
+\begin{document}
+\maketitle
+\begin{center}
+满纸荒唐言\\
+一把辛酸泪\\
+都云作者痴\\
+谁解其中味\\
+\end{center}
+\begin{verse}
+\texttt{Stray birds of summer come to my window to sing and fly away}. \\
+\textsf{And yellow leaves of autumn, which have no songs}, \\
+\textrm{flutter and fall there with a sign}.\\
+\hfill \emph{RabindranathTagore}
+\end{verse}
+\begin{verse}
+\texttt{夏天的飞鸟}，
+    \textsf{飞到我的窗前唱歌}，
+    \textrm{又飞去了}。\\
+秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。\\
+\hfill \emph{罗宾德拉纳特·泰戈尔}
+\end{verse}
+\end{document}

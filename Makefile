@@ -7,7 +7,7 @@ clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex bible*/*.tex)
-F3xelatex:=$(wildcard xelatex*/*.tex xelatex*/*.latex)
+F3xelatex:=$(wildcard xelatex*/*.tex xelatex*/*.latex xelatex*/*.xelatex )
 F7combine:=$(wildcard src*/*.combine)
 F8books:=$(wildcard books/*.pdf)
 Fs:=$(F1latex) $(F2tex)
