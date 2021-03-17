@@ -7,7 +7,7 @@ clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex bible*/*.tex)
-F3xelatex:=$(wildcard xelatex*/*.tex xelatex*/*.latex xelatex*/*.xelatex )
+F3xelatex:=$(wildcard xelatex*/*.xelatex src*/*.xelatex )
 F7combine:=$(wildcard src*/*.combine)
 F8books:=$(wildcard books/*.pdf)
 Fs:=$(F1latex) $(F2tex)
@@ -66,8 +66,7 @@ endef
 
 define FUNCxelatex2pdf
 $1 : $(wildcard \
-	xelatex*/$(basename $(notdir $(1))).tex \
-	xelatex*/$(basename $(notdir $(1))).latex \
+	src*/$(basename $(notdir $(1))).xelatex \
 	xelatex*/$(basename $(notdir $(1))).xelatex \
 	)
 	@echo
