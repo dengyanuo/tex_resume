@@ -1,6 +1,6 @@
 
 clean_dst11:=*.log *.ps *.dvi *.aux *.out *.toc
-clean_dst21:=$(foreach aa1,$(clean_dst11), tmp/$(aa1))
+clean_dst21:=$(foreach aa1,$(clean_dst11), tmp/$(aa1)) tmp/*.pdf
 clean_dst22:=$(foreach aa1,$(clean_dst11), */$(aa1))
 clean_dst91:=$(wildcard $(clean_dst21) )
 clean_dst92:=$(wildcard $(clean_dst22) )
@@ -69,7 +69,8 @@ $1 : $(wildcard \
 	)
 	@echo
 	# $1 : $$^
-	cd tmp/ && tex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
+	#cd tmp/ &&  tex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
+	cd tmp/ && xetex ../$$^ && mv     $$(notdir $$(basename $$^)).pdf ../pdf/$$(notdir $$(basename $$^)).pdf 
 	#@ls -l $1 || (echo $1 not found. 1738182 ; exit 22)
 
 endef
@@ -78,7 +79,8 @@ define FUNClatex1pdf
 $1 : $(wildcard src*/$(basename $(notdir $(1))).latex)
 	@echo
 	# $1 : $$^
-	cd tmp/ && latex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
+	#cd tmp/ &&  latex ../$$^ && dvipdf $$(notdir $$(basename $$^)).dvi ../pdf/$$(notdir $$(basename $$^)).pdf 
+	cd tmp/ && xelatex ../$$^ && mv     $$(notdir $$(basename $$^)).pdf ../pdf/$$(notdir $$(basename $$^)).pdf 
 	#@ls -l $1 || (echo $1 not found. 1738181 ; exit 21)
 
 endef
