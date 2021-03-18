@@ -6,7 +6,7 @@ test -z "${bibleVsion}" && bibleVsion=NIV
 
 test -z "$1" && target_name='1+peter' || target_name=$1
 
-target_file=bible__${bibleVsion}_$(echo $target_name|sed -e 's;[+ -];_;g').tex
+target_file=bible__${bibleVsion}_$(echo $target_name|sed -e 's;[+ -];_;g').xeletex
 
 #echo " target_file         = ${target_file}"
 #echo " target_name         = ${target_name}"

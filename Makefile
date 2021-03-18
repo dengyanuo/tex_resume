@@ -212,6 +212,8 @@ export index_html
 bibleS_list:=1+peter+1 hebrews+11 philippians+4
 NIV:=script/bible_get_01_niv.sh
 CUV:=script/bible_get_01_cuv.sh
+NIVext:=tex
+CUVext:=xeletex
 
 bb : bible_NIV bible_CUV
 
@@ -228,8 +230,9 @@ $(foreach aa1,$(bv_list), bible_$(aa1) ):
 		export bibleVsion=$< ; \
 		$(if $(findstring $<,$(b_delete_space)), export b_delete_space=1; , export b_delete_space=0; )  \
 		for aa1 in $(bibleS_list) ; do \
-		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.tex ; \
-		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist." \
+		aa3=$${aa1}ext; \
+		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.$${aa3} ; \
+		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist8381." \
 		|| ( ../${$<} $${aa1} ) || exit 44 ; \
 		done
 
