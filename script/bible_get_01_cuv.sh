@@ -11,6 +11,7 @@ if [ -z "$2" ]; then
         nowEXT=xelatex
     else
         nowEXT=tex
+        nowEXT=xelatex
     fi
     target_file=bible__${bibleVsion}_$(echo $target_name|sed -e 's;[+ -];_;g').${nowEXT}
 else
@@ -152,7 +153,7 @@ gen_XELATEX() {
 echo "
 \\documentclass{article}
 % https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
-\\usepackage[ letterpaper, margin=0.7in, portrait ]{geometry}
+\\usepackage[ letterpaper, margin=0.4in, portrait ]{geometry}
 \\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
 \\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \\setCJKsansfont[AutoFakeSlant=false,
@@ -165,12 +166,18 @@ echo "
 \\begin{document}
 % set font size : https://www.programmersought.com/article/1714865085/
 % \\large
+% \\fontsize{9}{11} \\selectfont
+% \\fontsize{10}{12} \\selectfont
+% \\fontsize{11}{13} \\selectfont
+% \\fontsize{12}{14} \\selectfont
 % \\fontsize{13}{15} \\selectfont
 % \\fontsize{14}{16} \\selectfont
 % \\fontsize{15}{17} \\selectfont
 \\fontsize{16}{18} \\selectfont
 % \\fontsize{17}{19} \\selectfont
 % \\fontsize{18}{20} \\selectfont
+% \\fontsize{19}{21} \\selectfont
+% \\fontsize{20}{22} \\selectfont
 % use \pagenumbering{gobble} to switch off page numbering.
 % To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
 % or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
@@ -198,7 +205,8 @@ echo "
 if [ "${bibleVsion}" = "CUV" ] ; then
     gen_XELATEX
 else
-    gen_TEX
+    # gen_TEX
+    gen_XELATEX
 fi
 
 

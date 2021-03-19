@@ -214,6 +214,7 @@ bibleS_list:=1+peter+1 hebrews+11 philippians+4
 NIV:=script/bible_get_01_niv.sh
 CUV:=script/bible_get_01_cuv.sh
 export NIVext:=tex
+export NIVext:=xelatex
 export CUVext:=xelatex
 
 bb : bible_NIV bible_CUV
