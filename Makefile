@@ -68,6 +68,7 @@ define FUNCxelatex2pdf
 $1 : $(wildcard \
 	src*/$(basename $(notdir $(1))).xelatex \
 	xelatex*/$(basename $(notdir $(1))).xelatex \
+	bible*/$(basename $(notdir $(1))).xelatex \
 	)
 	@echo
 	# $1 : $$^
