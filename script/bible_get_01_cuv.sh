@@ -151,12 +151,33 @@ echo "
 gen_XELATEX() {
 echo "
 \\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\\usepackage[ letterpaper, margin=0.7in, portrait ]{geometry}
 \\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
 \\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \\setCJKsansfont[AutoFakeSlant=false,
   BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\\usepackage{multicol}
+\\usepackage{color}
+\\setlength{\\columnseprule}{2pt}
+\\def\\columnseprulecolor{\\color{red}}
 \\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \\large
+% \\fontsize{13}{15} \\selectfont
+% \\fontsize{14}{16} \\selectfont
+% \\fontsize{15}{17} \\selectfont
+\\fontsize{16}{18} \\selectfont
+% \\fontsize{17}{19} \\selectfont
+% \\fontsize{18}{20} \\selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\\pagenumbering{gobble}
+\\begin{multicols}{3}
+
 { \\centering \
 " > ${target_file}
 
@@ -168,6 +189,7 @@ cat   18_${bibleVsion}.txt \
 
 echo "
 
+\end{multicols}
 \end{document}
 " >> ${target_file}
 }
