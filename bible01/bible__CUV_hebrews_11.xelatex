@@ -1,9 +1,12 @@
-\input ../header/example_tex01.tex
-\FFrh \baselineskip = 13pt
-\parskip 0.3 em
 
-
-\centerline{  \FFbg
+\documentclass{article}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\begin{document}
+{ \centering 
 希 伯 來 書 11 - Chinese Union Version (Traditional) }
 
 \par
@@ -128,5 +131,5 @@
 因為神給我們預備了更美的事，叫他們若不與我們同得，就不能完全。
 
 
-\bye
+\end{document}
 

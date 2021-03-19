@@ -1,10 +1,12 @@
 
-\input ../header/example_tex01.tex
-\FFrh \baselineskip = 13pt
-\parskip 0.3 em
-
-
-\centerline{  \FFbg
+\documentclass{article}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\begin{document}
+{ \centering 
 彼 得 前 書 1 - Chinese Union Version (Traditional) }
 
 \par
@@ -84,6 +86,5 @@
 惟有主的道是永存的。所傳給你們的福音就是這道。
 
 
-
-\bye
+\end{document}
 

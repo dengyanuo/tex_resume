@@ -1,9 +1,12 @@
-\input ../header/example_tex01.tex
-\FFrh \baselineskip = 13pt
-\parskip 0.3 em
 
-
-\centerline{  \FFbg
+\documentclass{article}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\begin{document}
+{ \centering 
 腓 立 比 書 4 - Chinese Union Version (Traditional) }
 
 \par
@@ -77,5 +80,5 @@
 願主耶穌基督的恩常在你們心裡！
 
 
-\bye
+\end{document}
 

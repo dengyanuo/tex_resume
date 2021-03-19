@@ -125,6 +125,7 @@ cat   12_${bibleVsion}.txt \
 
 
 
+gen_TEX() {
 echo "
 \input ../header/example_tex01.tex
 \FFrh \baselineskip = 13pt
@@ -145,8 +146,38 @@ echo "
 
 \bye
 " >> ${target_file}
+}
+
+gen_XELATEX() {
+echo "
+\\documentclass{article}
+\\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\\begin{document}
+{ \\centering \
+" > ${target_file}
+
+cat 19_${bibleVsion}.txt  \
+    >> ${target_file} 
+
+cat   18_${bibleVsion}.txt \
+    >> ${target_file} 
+
+echo "
+
+\end{document}
+" >> ${target_file}
+}
 
 
+if [ "${bibleVsion}" = "CUV" ] ; then
+    gen_XELATEX
+else
+    gen_TEX
+fi
 
 
 
