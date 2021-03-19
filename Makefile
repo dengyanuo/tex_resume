@@ -7,7 +7,7 @@ clean_dst92:=$(wildcard $(clean_dst22) )
 
 F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex bible*/*.tex)
-F3xelatex:=$(wildcard xelatex*/*.xelatex src*/*.xelatex )
+F3xelatex:=$(wildcard xelatex*/*.xelatex bible*/*.xelatex src*/*.xelatex )
 F7combine:=$(wildcard src*/*.combine)
 F8books:=$(wildcard books/*.pdf)
 Fs:=$(F1latex) $(F2tex)
@@ -212,8 +212,8 @@ export index_html
 bibleS_list:=1+peter+1 hebrews+11 philippians+4
 NIV:=script/bible_get_01_niv.sh
 CUV:=script/bible_get_01_cuv.sh
-NIVext:=tex
-CUVext:=xeletex
+export NIVext:=tex
+export CUVext:=xelatex
 
 bb : bible_NIV bible_CUV
 
@@ -230,10 +230,10 @@ $(foreach aa1,$(bv_list), bible_$(aa1) ):
 		export bibleVsion=$< ; \
 		$(if $(findstring $<,$(b_delete_space)), export b_delete_space=1; , export b_delete_space=0; )  \
 		for aa1 in $(bibleS_list) ; do \
-		aa3=$${aa1}ext; \
-		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.$${aa3} ; \
+		aa3=$<ext; \
+		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.$${!aa3} ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist8381." \
-		|| ( ../${$<} $${aa1} ) || exit 44 ; \
+		|| ( ../${$<} $${aa1} $${aa2}) || exit 44 ; \
 		done
 
 font : font_list.txt font_zhcn.txt 
