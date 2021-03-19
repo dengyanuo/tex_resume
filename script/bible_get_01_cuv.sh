@@ -28,14 +28,6 @@ if [ -f "${target_file}" ] ; then
     exit 
 fi
 
-cat > ${target_file}  << EOF0
-\input ../header/example_tex01.tex
-\FFrh \baselineskip = 13pt
-\parskip 0.3 em
-
-
-\centerline{  \FFbg
-EOF0
 
 rm -f 1.txt
 wget \
@@ -112,14 +104,6 @@ if [ "${b_delete_space}" = "1" ] ; then
                 > 17_${bibleVsion}.txt 
 fi
 
-cat   12_${bibleVsion}.txt \
-    |grep og:title \
-    |head -n 1 \
-    |sed \
-    -e '1s,^.*Bible Gateway passage: *,,g' \
-    -e '1s,"/>, }\n,g' \
-    >> ${target_file} 
-
 cat   17_${bibleVsion}.txt \
     \
     | sed \
@@ -127,14 +111,43 @@ cat   17_${bibleVsion}.txt \
     -e 's, *$,,g' \
     -e '/^$/d' \
     \
-    \
+    > 18_${bibleVsion}.txt 
+
+cat   12_${bibleVsion}.txt \
+    |grep og:title \
+    |head -n 1 \
+    |sed \
+    -e '1s,^.*Bible Gateway passage: *,,g' \
+    -e '1s,"/>, }\n,g' \
+    > 19_${bibleVsion}.txt 
+
+
+
+
+
+echo "
+\input ../header/example_tex01.tex
+\FFrh \baselineskip = 13pt
+\parskip 0.3 em
+
+
+\centerline{  \FFbg\
+" > ${target_file}
+
+cat 19_${bibleVsion}.txt  \
     >> ${target_file} 
 
-cat >> ${target_file}  << EOF2
+cat   18_${bibleVsion}.txt \
+    >> ${target_file} 
+
+echo "
 
 
 \bye
+" >> ${target_file}
 
-EOF2
+
+
+
 
 echo "`ls -l ${target_file} ` .... generated"

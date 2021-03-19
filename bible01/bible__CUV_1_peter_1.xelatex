@@ -1,3 +1,4 @@
+
 \input ../header/example_tex01.tex
 \FFrh \baselineskip = 13pt
 \parskip 0.3 em
@@ -81,6 +82,7 @@
 \par
 25 
 惟有主的道是永存的。所傳給你們的福音就是這道。
+
 
 
 \bye
