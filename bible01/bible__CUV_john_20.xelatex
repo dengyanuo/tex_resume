@@ -1,0 +1,136 @@
+
+\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\usepackage[ letterpaper, margin=0.4in, portrait ]{geometry}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{2pt}
+\def\columnseprulecolor{\color{red}}
+\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \large
+% \fontsize{9}{11} \selectfont
+% \fontsize{10}{12} \selectfont
+% \fontsize{11}{13} \selectfont
+% \fontsize{12}{14} \selectfont
+% \fontsize{13}{15} \selectfont
+% \fontsize{14}{16} \selectfont
+% \fontsize{15}{17} \selectfont
+\fontsize{16}{18} \selectfont
+% \fontsize{17}{19} \selectfont
+% \fontsize{18}{20} \selectfont
+% \fontsize{19}{21} \selectfont
+% \fontsize{20}{22} \selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\pagenumbering{gobble}
+\begin{multicols}{3}
+
+{ \centering 
+約 翰 福 音 20 - Chinese Union Version (Traditional) }
+
+\par
+20 
+七日的第一日清早，天還黑的時候，抹大拉的馬利亞來到墳墓那裡，看見石頭從墳墓挪開了，
+\par
+2 
+就跑來見西門彼得和耶穌所愛的那個門徒，對他們說：有人把主從墳墓裡挪了去，我們不知道放在那裡。
+\par
+3 
+彼得和那門徒就出來，往墳墓那裡去。
+\par
+4 
+兩個人同跑，那門徒比彼得跑的更快，先到了墳墓，
+\par
+5 
+低頭往裡看，就見細麻布還放在那裡，只是沒有進去。
+\par
+6 
+西門彼得隨後也到了，進墳墓裡去，就看見細麻布還放在那裡，
+\par
+7 
+又看見耶穌的裹頭巾沒有和細麻布放在一處，是另在一處捲著。
+\par
+8 
+先到墳墓的那門徒也進去，看見就信了。
+\par
+9 
+因為他們還不明白聖經的意思，就是耶穌必要從死裡復活。
+\par
+10 
+於是兩個門徒回自己的住處去了。
+\par
+11 
+馬利亞卻站在墳墓外面哭。哭的時候，低頭往墳墓裡看，
+\par
+12 
+就見兩個天使，穿著白衣，在安放耶穌身體的地方坐著，一個在頭，一個在腳。
+\par
+13 
+天使對他說：婦人，你為甚麼哭？他說：因為有人把我主挪了去，我不知道放在那裡。
+\par
+14 
+說了這話，就轉過身來，看見耶穌站在那裡，卻不知道是耶穌。
+\par
+15 
+耶穌問他說：婦人，為甚麼哭？你找誰呢？馬利亞以為是看園的，就對他說：先生，若是你把他移了去，請告訴我，你把他放在那裡，我便去取他。
+\par
+16 
+耶穌說：馬利亞。馬利亞就轉過來，用希伯來話對他說：拉波尼！（拉波尼就是夫子的意思。）
+\par
+17 
+耶穌說：不要摸我，因我還沒有升上去見我的父。你往我弟兄那裡去，告訴他們說，我要升上去見我的父，也是你們的父，見我的神，也是你們的神。
+\par
+18 
+抹大拉的馬利亞就去告訴門徒說：我已經看見了主。他又將主對他說的這話告訴他們。
+\par
+19 
+那日（就是七日的第一日）晚上，門徒所在的地方，因怕猶太人，門都關了。耶穌來，站在當中，對他們說：願你們平安！
+\par
+20 
+說了這話，就把手和肋旁指給他們看。門徒看見主，就喜樂了。
+\par
+21 
+耶穌又對他們說：願你們平安！父怎樣差遣了我，我也照樣差遣你們。
+\par
+22 
+說了這話，就向他們吹一口氣，說：你們受聖靈！
+\par
+23 
+你們赦免誰的罪，誰的罪就赦免了；你們留下誰的罪，誰的罪就留下了。
+\par
+24 
+那十二個門徒中，有稱為低土馬的多馬；耶穌來的時候，他沒有和他們同在。
+\par
+25 
+那些門徒就對他說：我們已經看見主了。多馬卻說：我非看見他手上的釘痕，用指頭探入那釘痕，又用手探入他的肋旁，我總不信。
+\par
+26 
+過了八日，門徒又在屋裡，多馬也和他們同在，門都關了。耶穌來，站在當中說：願你們平安！
+\par
+27 
+就對多馬說：伸過你的指頭來，摸（原文是看）我的手；伸出你的手來，探入我的肋旁。不要疑惑，總要信。
+\par
+28 
+多馬說：我的主！我的神！
+\par
+29 
+耶穌對他說：你因看見了我才信；那沒有看見就信的有福了。
+\par
+30 
+耶穌在門徒面前另外行了許多神蹟，沒有記在這書上。
+\par
+31 
+但記這些事要叫你們信耶穌是基督，是神的兒子，並且叫你們信了他，就可以因他的名得生命。
+
+
+\end{multicols}
+\end{document}
+
