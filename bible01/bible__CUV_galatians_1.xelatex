@@ -1,0 +1,115 @@
+
+\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\usepackage[ letterpaper, margin=0.4in, portrait ]{geometry}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{2pt}
+\def\columnseprulecolor{\color{red}}
+\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \large
+% \fontsize{9}{11} \selectfont
+% \fontsize{10}{12} \selectfont
+% \fontsize{11}{13} \selectfont
+% \fontsize{12}{14} \selectfont
+% \fontsize{13}{15} \selectfont
+% \fontsize{14}{16} \selectfont
+% \fontsize{15}{17} \selectfont
+% \fontsize{16}{18} \selectfont
+% \fontsize{17}{19} \selectfont
+% \fontsize{18}{20} \selectfont
+% \fontsize{19}{21} \selectfont
+\fontsize{20}{22} \selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\pagenumbering{gobble}
+\begin{multicols}{3}
+
+{ \centering 
+加 拉 太 書 1 - Chinese Union Version (Traditional) }
+
+\par
+1 
+作使徒的保羅（不是由於人，也不是藉著人，乃是藉著耶穌基督，與叫他從死裡復活的父神）
+\par
+2 
+和一切與我同在的眾弟兄，寫信給加拉太的各教會。
+\par
+3 
+願恩惠、平安從父神與我們的主耶穌基督歸與你們！
+\par
+4 
+基督照我們父神的旨意，為我們的罪捨己，要救我們脫離這罪惡的世代。
+\par
+5 
+但願榮耀歸於神，直到永永遠遠。阿們！
+\par
+6 
+我希奇你們這麼快離開那藉著基督之恩召你們的，去從別的福音。
+\par
+7 
+那並不是福音，不過有些人攪擾你們，要把基督的福音更改了。
+\par
+8 
+但無論是我們，是天上來的使者，若傳福音給你們，與我們所傳給你們的不同，他就應當被咒詛。
+\par
+9 
+我們已經說了，現在又說，若有人傳福音給你們，與你們所領受的不同，他就應當被咒詛。
+\par
+10 
+我現在是要得人的心呢？還是要得神的心呢？我豈是討人的喜歡麼？若仍舊討人的喜歡，我就不是基督的僕人了。
+\par
+11 
+弟兄們，我告訴你們，我素來所傳的福音不是出於人的意思。
+\par
+12 
+因為我不是從人領受的，也不是人教導我的，乃是從耶穌基督啟示來的。
+\par
+13 
+你們聽見我從前在猶太教中所行的事，怎樣極力逼迫殘害神的教會。
+\par
+14 
+我又在猶太教中，比我本國許多同歲的人更有長進，為我祖宗的遺傳更加熱心。
+\par
+15 
+然而，那把我從母腹裡分別出來、又施恩召我的神，
+\par
+16 
+既然樂意將他兒子啟示在我心裡，叫我把他傳在外邦人中，我就沒有與屬血氣的人商量，
+\par
+17 
+也沒有上耶路撒冷去見那些比我先作使徒的，惟獨往亞拉伯去，後又回到大馬色。
+\par
+18 
+過了三年，才上耶路撒冷去見磯法，和他同住了十五天。
+\par
+19 
+至於別的使徒，除了主的兄弟雅各，我都沒有看見。
+\par
+20 
+我寫給你們的不是謊話，這是我在神面前說的。
+\par
+21 
+以後我到了敘利亞和基利家境內。
+\par
+22 
+那時，猶太信基督的各教會都沒有見過我的面。
+\par
+23 
+不過聽說那從前逼迫我們的，現在傳揚他原先所殘害的真道。
+\par
+24 
+他們就為我的緣故，歸榮耀給神。
+
+
+\end{multicols}
+\end{document}
+
