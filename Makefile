@@ -213,7 +213,10 @@ export index_html
 bibleS_list:=\
 	john+20 \
 	galatians+1 \
-	1+peter+1 hebrews+11 philippians+4 \
+	1+peter+1 \
+	1+corinthians+15 \
+	hebrews+11 \
+	philippians+4 \
 
 NIV:=script/bible_get_01_niv.sh
 CUV:=script/bible_get_01_cuv.sh
