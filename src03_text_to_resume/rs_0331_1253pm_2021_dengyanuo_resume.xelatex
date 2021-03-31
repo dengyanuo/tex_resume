@@ -1,0 +1,112 @@
+
+\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\usepackage[ letterpaper, margin=0.7in, portrait ]{geometry}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{2pt}
+\def\columnseprulecolor{\color{red}}
+\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \large
+% \fontsize{9}{11} \selectfont
+% \fontsize{10}{12} \selectfont
+% \fontsize{11}{13} \selectfont
+% \fontsize{12}{14} \selectfont
+% \fontsize{13}{15} \selectfont
+% \fontsize{14}{16} \selectfont
+% \fontsize{15}{17} \selectfont
+%\fontsize{16}{18} \selectfont
+\fontsize{16}{24} \selectfont
+% \fontsize{17}{19} \selectfont
+% \fontsize{18}{20} \selectfont
+% \fontsize{19}{21} \selectfont
+% \fontsize{20}{22} \selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\pagenumbering{gobble}
+% \begin{multicols}{3}
+\parindent = 0 em
+\parskip 0.1 em
+
+{ \centering 
+}
+
+\fontsize{16}{17} \selectfont
+\par From:
+\par Yanuo Deng
+\par 1565 Cress Way, Olivehurst, CA, 95961
+
+\vskip 0.3 em
+
+\par To:
+\par US Social Security Administration (SSA)
+\par 355 Percy Ave, Yuba City, CA 95991
+
+\parskip 0.3 em
+\fontsize{16}{20} \selectfont
+
+\par 
+===================
+===================
+\par
+Dear sirs,
+
+\parindent = 2 em
+\par
+I , Yanuo Deng, is a refugee from China. My A-number is A-216-813-042.
+
+
+\par
+Early March, 2021, I got an Employment authorization document (EAD card, I766, a copy attached). 
+When I filled I765 form, I selected ``Yes'' to the questions 14 and 15, to ask the SSA to issue an SSN to me.
+
+\par
+After 3 weeks, I found no SSN received. Then I wrote email to the headquarter of SSA.
+They gave me answer, as attached copy.
+
+\par According to their answer, I wrote to the local SSA, to ask the following questions :
+
+\par 1. Has a SSN is assigned to me ?
+
+\par 2. If there is a SSN assigned to me , please give me the number by mail. 
+{
+    \parindent = 3 em
+    \par If not , could you do me a favor to assigned a SSN to me ?
+}
+
+\par 3. What's the status of the SSN I asking from USCIS ? 
+{
+    \parindent = 3 em
+    \par Being produced ? Already mailed ? or ?
+}
+
+\par 4. Do I need to ask for a replace of the SSN ?
+
+\par 5.  If possible , I want to get the SSN ASAP. What should I do ?
+
+\parindent = 3 em
+\parskip 0.05 em
+\fontsize{16}{18} \selectfont
+
+\par 5.1. SS-5 form.
+\par 5.2. my Employment authorization document (EAD card)
+\par 5.3. my DMV AB-60 driver license.
+%\par 5.4. my China Passport.
+%\par 5.5. A USPS address change confirm letter.
+%\par 5.6. A medical letter from Yuba County HHS.
+
+\vskip 3 em
+\par
+Thank you very much.
+
+% \end{multicols}
+\end{document}
+
