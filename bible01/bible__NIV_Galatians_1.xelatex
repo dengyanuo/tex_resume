@@ -1,0 +1,139 @@
+
+\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\usepackage[ letterpaper, margin=0.4in, portrait ]{geometry}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{2pt}
+\def\columnseprulecolor{\color{red}}
+\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \large
+% \fontsize{9}{11} \selectfont
+% \fontsize{10}{12} \selectfont
+% \fontsize{11}{13} \selectfont
+% \fontsize{12}{14} \selectfont
+% \fontsize{13}{15} \selectfont
+% \fontsize{14}{16} \selectfont
+% \fontsize{15}{17} \selectfont
+% \fontsize{16}{18} \selectfont
+\fontsize{17}{19} \selectfont
+% \fontsize{18}{20} \selectfont
+% \fontsize{19}{21} \selectfont
+% \fontsize{20}{22} \selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\pagenumbering{gobble}
+\begin{multicols}{3}
+
+{ \centering 
+Galatians 1 - New International Version }
+
+\par
+1 
+Paul, an apostle
+—sent not from men nor by a man,
+but by Jesus Christ
+and God the Father,
+who raised him from the dead
+—
+2 
+and all the brothers and sisters
+with me,
+\par
+To the churches in Galatia:
+\par
+3 
+Grace and peace to you from God our Father and the Lord Jesus Christ,
+4 
+who gave himself for our sins
+to rescue us from the present evil age,
+according to the will of our God and Father,
+5 
+to whom be glory for ever and ever. Amen.
+\par
+No Other Gospel
+\par
+6 
+I am astonished that you are so quickly deserting the one who called
+you to live in the grace of Christ and are turning to a different gospel
+—
+7 
+which is really no gospel at all. Evidently some people are throwing you into confusion
+and are trying to pervert
+the gospel of Christ.
+8 
+But even if we or an angel from heaven should preach a gospel other than the one we preached to you,
+let them be under God’s curse!
+9 
+As we have already said, so now I say again: If anybody is preaching to you a gospel other than what you accepted,
+let them be under God’s curse!
+\par
+10 
+Am I now trying to win the approval of human beings, or of God? Or am I trying to please people?
+If I were still trying to please people, I would not be a servant of Christ.
+\par
+Paul Called by God
+\par
+11 
+I want you to know, brothers and sisters,
+that the gospel I preached
+is not of human origin.
+12 
+I did not receive it from any man,
+nor was I taught it; rather, I received it by revelation
+from Jesus Christ.
+\par
+13 
+For you have heard of my previous way of life in Judaism,
+how intensely I persecuted the church of God
+and tried to destroy it.
+14 
+I was advancing in Judaism beyond many of my own age among my people and was extremely zealous
+for the traditions of my fathers.
+15 
+But when God, who set me apart from my mother’s womb
+and called me
+by his grace, was pleased
+16 
+to reveal his Son in me so that I might preach him among the Gentiles,
+my immediate response was not to consult any human being.
+17 
+I did not go up to Jerusalem to see those who were apostles before I was, but I went into Arabia. Later I returned to Damascus.
+\par
+18 
+Then after three years,
+I went up to Jerusalem
+to get acquainted with Cephas
+and stayed with him fifteen days.
+19 
+I saw none of the other apostles—only James,
+the Lord’s brother.
+20 
+I assure you before God
+that what I am writing you is no lie.
+\par
+21 
+Then I went to Syria
+and Cilicia.
+22 
+I was personally unknown to the churches of Judea
+that are in Christ.
+23 
+They only heard the report: “The man who formerly persecuted us is now preaching the faith
+he once tried to destroy.”
+24 
+And they praised God
+because of me.
+
+
+\end{multicols}
+\end{document}
+
