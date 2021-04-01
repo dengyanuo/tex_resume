@@ -48,7 +48,7 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \def \FFbg { \rmfamily\bfseries\upshape \setfont [13][15] }
 \def \FFrb { \rmfamily\mdseries\upshape \setfont [8.5][10.5] }
 \def \FFte { \rmfamily\mdseries\itshape \setfont [11][13] }
-\def \FFre { \rmfamily\mdseries\upshape \setfont [12][13] }
+\def \FFre { \rmfamily\mdseries\upshape \setfont [11][13] }
 \FFre 
 \baselineskip = 12pt
 
