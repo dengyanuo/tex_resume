@@ -7,6 +7,14 @@
 \setCJKsansfont[AutoFakeSlant=false,
 BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=lightblue,
+    filecolor=magenta,
+    %urlcolor=cyan,
+    urlcolor=blue,
+}
 \usepackage{multicol}
 \usepackage{color}
 \setlength{\columnseprule}{2pt}
@@ -34,26 +42,30 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \pagenumbering{gobble}
 % \begin{multicols}{3}
 \parindent = 0 em
-\parskip 0.1 em
+\parskip 0.01 em
 
 \def \setfont [#1][#2]{ \fontsize{#1}{#2} \selectfont }
-\def \FFbg { \setfont [13][15] }
-\def \FFbb { \setfont [8.5][10.5] }
-\def \FFte { \setfont [11][13] }
-\def \FFre { \setfont [11][13] }
+\def \FFbg { \rmfamily\bfseries\upshape \setfont [13][15] }
+\def \FFrb { \rmfamily\mdseries\upshape \setfont [8.5][10.5] }
+\def \FFte { \rmfamily\mdseries\itshape \setfont [11][13] }
+\def \FFre { \rmfamily\mdseries\upshape \setfont [11][13] }
 \FFre 
-\baselineskip = 13pt
+\baselineskip = 12pt
 
 \centerline{ \FFbg
 Resume of Yanuo Deng (James)
 }
 
-\centerline{ \FFbb
+\centerline{ \FFrb
 1565 Cress Way, Olivehurst,CA,95961
 *
 (408)444-5520
 *
-deng.ya.nuo@gmail.com
+\href{
+    mailto:deng.ya.nuo@gmail.com
+}{
+    deng.ya.nuo@gmail.com
+}
 }
 
 { \medbreak } { \FFbg
@@ -83,14 +95,14 @@ C-MATRIXTECH CO.LTD., Zhuhai, China
 Integrated Circuit Engineer, Dec 2017 - Feb 2019
 }
 
-{ \parindent = 1 em *
+{ \par *
 Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.
 }
 
-{ \parindent = 1 em *
+{ \par *
 MCU debug; Port C from Assembly for the 13-bits MCU (PIC); Mixed (Analog) circuit design.
 }
-{ \parindent = 1 em *
+{ \par *
 Xilinx autobuild \& remote download firmware platform for remote team work.
 }
 
@@ -102,10 +114,10 @@ VIOMI CO.LTD., Foshan, China
 Software (Firmware) Engineer, May 2017 - Oct 2017
 }
 
-{ \parindent = 1 em *
+{ \par *
 Linux driver for the WiFi chip; Speech Recognition \& synthesis App for Linux.
 }
-{ \parindent = 1 em *
+{ \par *
 UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi debug. Buildroot.
 }
 
@@ -116,10 +128,10 @@ BLUEWAY CO.LTD., Huizhou, China
 { \FFte
 Software (Firmware) Engineer, May 2016 - Apr 2017
 }
-{ \parindent = 1 em *
+{ \par *
 FreeRTOS port to STM32 for for electric mowers. Ingenic X1000E USB OnTheGo (OTG).
 }
-{ \parindent = 1 em *
+{ \par *
 Mathematica to optimize the walking path of the mowers (AI path planning).
 }
 
@@ -130,10 +142,10 @@ ADON CO.LTD., Foshan, China
 { \FFte
 Software (Firmware) Engineer, Oct 2013 - Dec 2015
 }
-{ \parindent = 1 em *
+{ \par *
 Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). Bootloader porting.
 }
-{ \parindent = 1 em *
+{ \par *
 Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.
 }
 
@@ -144,7 +156,7 @@ SKYIT SOFTWARE CO.LTD., Shunde, China
 { \FFte
 Software Engineer, Dec 2011 - Jul 2013
 }
-{ \parindent = 1 em *
+{ \par *
 Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.
 }
 
@@ -155,18 +167,18 @@ VBRIDGE MICROSYSTEM INC, San Jose, CA, U.S.A.
 { \FFte
 Digital Integrated Circuit Engineer, Apr 2005 - May 2008
 }
-{ \parindent = 1 em *
+{ \par *
 IP cores of security engineer (TLS) :
 AES, DES, 3DES, MD5, SHA1, CRC ;
 5-bits MCU core.
 }
-{ \parindent = 1 em *
+{ \par *
 All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.
 }
-{ \parindent = 1 em *
+{ \par *
 UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.
 }
-{ \parindent = 1 em *
+{ \par *
 Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.
 }
 
@@ -188,10 +200,10 @@ Bachelor degree : Microelectronics Technology (July 2002).
 ADDITIONAL SKILLS
 }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
-{ \parindent = 1 em *
+{ \par *
 C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git.
 }
-{ \parindent = 1 em *
+{ \par *
 Linux / FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant.
 }
 
@@ -222,18 +234,30 @@ Referrals
 Dan Teuthorn, 
 Teledyne microwave solutions, VP engineer,
 408-421-7303,
-Den.Teuthorn@teledyne.com
+\href{
+    mailto:Den.Teuthorn@teledyne.com
+}{
+    Den.Teuthorn@teledyne.com
+}
 
 Tang Shanqiang,
 Cadence,
 Principal Application Engineer,
 +65-90546301,
-ansent@cadence.com
+\href{
+    mailto:ansent@cadence.com
+}{
+    ansent@cadence.com
+}
 
 Stephen Fung,
 Atheros/Qualcomm , semicondutor engineer,
 408-338-5175,
-stephen@thepoint.church
+\href{
+    mailto:stephen@thepoint.church
+}{
+    stephen@thepoint.church
+}
 
 % Arsenia Harrison,
 % One More Chance Company, CEO,
@@ -247,8 +271,10 @@ stephen@thepoint.church
 
 { \medbreak } 
 { % \FFbg
-    USA Employment Authorization Document(EAD) valided from 2021 to 2023.
-    No work sponsor is needed.
+    \href
+    {https://en.wikipedia.org/wiki/Employment_authorization_document}
+    {Valid Employment Authorization Document(EAD) in USA.}
+    No extra work sponsor is needed. 
     }
 
     % \end{multicols}
