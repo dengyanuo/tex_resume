@@ -36,77 +36,221 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \parindent = 0 em
 \parskip 0.1 em
 
-{ \centering 
+\def \setfont [#1][#2]{ \fontsize{#1}{#2} \selectfont }
+\def \FFbg { \setfont [13][15] }
+\def \FFbb { \setfont [8.5][10.5] }
+\def \FFte { \setfont [11][13] }
+\def \FFre { \setfont [11][13] }
+\FFre 
+\baselineskip = 13pt
+
+\centerline{ \FFbg
+Resume of Yanuo Deng (James)
 }
 
-\fontsize{16}{17} \selectfont
-\par From:
-\par Yanuo Deng
-\par 1565 Cress Way, Olivehurst, CA, 95961
-
-\vskip 0.3 em
-
-\par To:
-\par US Social Security Administration (SSA)
-\par 355 Percy Ave, Yuba City, CA 95991
-
-\parskip 0.3 em
-\fontsize{16}{20} \selectfont
-
-\par 
-===================
-===================
-\par
-Dear sirs,
-
-\parindent = 2 em
-\par
-I , Yanuo Deng, is a refugee from China. My A-number is A-216-813-042.
-
-
-\par
-Early March, 2021, I got an Employment authorization document (EAD card, I766, a copy attached). 
-When I filled I765 form, I selected ``Yes'' to the questions 14 and 15, to ask the SSA to issue an SSN to me.
-
-\par
-After 3 weeks, I found no SSN received. Then I wrote email to the headquarter of SSA.
-They gave me answer, as attached copy.
-
-\par According to their answer, I wrote to the local SSA, to ask the following questions :
-
-\par 1. Has a SSN is assigned to me ?
-
-\par 2. If there is a SSN assigned to me , please give me the number by mail. 
-{
-    \parindent = 3 em
-    \par If not , could you do me a favor to assigned a SSN to me ?
+\centerline{ \FFbb
+1565 Cress Way, Olivehurst,CA,95961
+*
+(408)444-5520
+*
+deng.ya.nuo@gmail.com
 }
 
-\par 3. What's the status of the SSN I asking from USCIS ? 
-{
-    \parindent = 3 em
-    \par Being produced ? Already mailed ? or ?
+{ \medbreak } { \FFbg
+CAREER OBJECTIVE
 }
 
-\par 4. Do I need to ask for a replace of the SSN ?
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
-\par 5.  If possible , I want to get the SSN ASAP. What should I do ?
+Focused professional with 15+ years of experience
+and a proven knowledge of embedded system (linux/RTOS),
+and digital \& analogy circuit design.
+Aiming to leverage my skills to be a successfully
+Integrated Circuit Engineer,
+Software Engineer,
+or Network Security Engineer.
 
-\parindent = 3 em
-\parskip 0.05 em
-\fontsize{16}{18} \selectfont
+{ \medbreak } { \FFbg
+EXPERIENCE
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
-\par 5.1. SS-5 form.
-\par 5.2. my Employment authorization document (EAD card)
-\par 5.3. my DMV AB-60 driver license.
-%\par 5.4. my China Passport.
-%\par 5.5. A USPS address change confirm letter.
-%\par 5.6. A medical letter from Yuba County HHS.
+{ \medbreak } { \FFbg
+C-MATRIXTECH CO.LTD., Zhuhai, China
+}
 
-\vskip 3 em
-\par
-Thank you very much.
+{ \FFte
+Integrated Circuit Engineer, Dec 2017 - Feb 2019
+}
 
-% \end{multicols}
+{ \parindent = 1 em *
+Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.
+}
+
+{ \parindent = 1 em *
+MCU debug; Port C from Assembly for the 13-bits MCU (PIC); Mixed (Analog) circuit design.
+}
+{ \parindent = 1 em *
+Xilinx autobuild \& remote download firmware platform for remote team work.
+}
+
+{ \medbreak } { \FFbg
+VIOMI CO.LTD., Foshan, China
+}
+
+{ \FFte
+Software (Firmware) Engineer, May 2017 - Oct 2017
+}
+
+{ \parindent = 1 em *
+Linux driver for the WiFi chip; Speech Recognition \& synthesis App for Linux.
+}
+{ \parindent = 1 em *
+UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi debug. Buildroot.
+}
+
+{ \medbreak } { \FFbg
+BLUEWAY CO.LTD., Huizhou, China
+}
+
+{ \FFte
+Software (Firmware) Engineer, May 2016 - Apr 2017
+}
+{ \parindent = 1 em *
+FreeRTOS port to STM32 for for electric mowers. Ingenic X1000E USB OnTheGo (OTG).
+}
+{ \parindent = 1 em *
+Mathematica to optimize the walking path of the mowers (AI path planning).
+}
+
+{ \medbreak } { \FFbg
+ADON CO.LTD., Foshan, China
+}
+
+{ \FFte
+Software (Firmware) Engineer, Oct 2013 - Dec 2015
+}
+{ \parindent = 1 em *
+Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). Bootloader porting.
+}
+{ \parindent = 1 em *
+Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.
+}
+
+{ \medbreak } { \FFbg
+SKYIT SOFTWARE CO.LTD., Shunde, China
+}
+
+{ \FFte
+Software Engineer, Dec 2011 - Jul 2013
+}
+{ \parindent = 1 em *
+Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.
+}
+
+{ \medbreak } { \FFbg
+VBRIDGE MICROSYSTEM INC, San Jose, CA, U.S.A.
+}
+
+{ \FFte
+Digital Integrated Circuit Engineer, Apr 2005 - May 2008
+}
+{ \parindent = 1 em *
+IP cores of security engineer (TLS) :
+AES, DES, 3DES, MD5, SHA1, CRC ;
+5-bits MCU core.
+}
+{ \parindent = 1 em *
+All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.
+}
+{ \parindent = 1 em *
+UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.
+}
+{ \parindent = 1 em *
+Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.
+}
+
+{ \medbreak } { \FFbg
+EDUCATION
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+XI'AN university of technology, Xi'an city, Shannxi, China
+
+{ \FFte
+Master degree : Microelectronics \& Solid State Electronics (Apr 2005).
+}
+
+{ \FFte
+Bachelor degree : Microelectronics Technology (July 2002).
+}
+
+{ \medbreak } { \FFbg
+ADDITIONAL SKILLS
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+{ \parindent = 1 em *
+C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git.
+}
+{ \parindent = 1 em *
+Linux / FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant.
+}
+
+{ \medbreak } { \FFbg
+Certifications
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+Electronics Engineer Certification, Foshan , China , Aug 2008.
+
+{ \medbreak } { \FFbg
+Personal Characteristics
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+%I am a experienced software engineer in digital \& analog circuit design, and embedded system design.
+%Usually I take care of the base framework coding in the teamwork group. When discussing, I am aggressive and creative, trying to find the best solution together. When coding, I am stable and firm. I prefer to provide long term service to the company.
+I work well within teams, and I am assertive and creative
+in finding the best solutions for the team.
+I am known to be stable and firm when coding.
+I am committed to achieving goals set for me.
+I speak and write
+Cantonese/Mandarin.
+
+{ \medbreak } { \FFbg
+Referrals
+}
+{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+
+Dan Teuthorn, 
+Teledyne microwave solutions, VP engineer,
+408-421-7303,
+Den.Teuthorn@teledyne.com
+
+Tang Shanqiang,
+Cadence,
+Principal Application Engineer,
++65-90546301,
+ansent@cadence.com
+
+Stephen Fung,
+Atheros/Qualcomm , semicondutor engineer,
+408-338-5175,
+stephen@thepoint.church
+
+% Arsenia Harrison,
+% One More Chance Company, CEO,
+% 916-271-3054,
+% Arseniaharrison@aol.com
+
+% Khinmien Chong, 
+% STATS ChipPAC Ltd.,
+% 408-819-8676,
+% khinmienchong@gmail.com
+
+{ \medbreak } 
+{ % \FFbg
+    USA Employment Authorization Document(EAD) valided from 2021 to 2023.
+    No work sponsor is needed.
+    }
+
+    % \end{multicols}
 \end{document}
 
