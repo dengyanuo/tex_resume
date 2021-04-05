@@ -10,34 +10,72 @@
 
 
 \begin{flushleft}
-misjudge, type, walk, fix, finish, consider, rescue, finalize, lie, cut, rush, cook, question, cough, crash, amaze, dress, dream, catch, love, beg, kiss, run, fight, grab, 
+    misjudge, type, walk, fix, finish, consider, 
+    rescue, finalize, lie, cut, rush, cook, question, 
+    cough, crash, amaze, dress, dream, catch, 
+    love, beg, kiss, run, fight, grab, 
 \end{flushleft}
 
 \begin{flushleft}
-misjudges, types, walks, fixes, finishes, considers, 
-rescues, finalizes, lies, cuts, rushes, cooks, questions, 
-coughes, crashes, amazes, dresses, dreams, catches, 
-loves, begs, kisses, runs, fights, grabs, 
+    misjudges, types, walks, fixes, finishes, considers, 
+    rescues, finalizes, lies, cuts, rushes, cooks, questions, 
+    coughs, crashes, amazes, dresses, dreams, catches, 
+    loves, begs, kisses, runs, fights, grabs, 
 \end{flushleft}
 
-\begin{tabular}{ |l|l|l|l|l| }
+
+\begin{tabular}{ |l|l|l| }
     \hline
-    "S"\\
+    "S" & &\\
+    \hline
+    types & 
+    walks & 
+    cuts \\
+    \hline
+    cooks & 
+    coughs & 
+    fights \\
     \hline
 \end{tabular}
 
 \vskip 1em
-\begin{tabular}{ |l|l|l|l|l| }
+\begin{tabular}{ |l|l|l| }
     \hline
-    "Z"\\
-    \hline
+    "Z" & &
+    \\ \hline
+    considers & 
+    rescues & 
+    questions 
+    \\ \hline
+    dreams & 
+    loves & 
+    begs 
+    \\ \hline
+    grabs  &
+    lies & 
+    runs 
+    \\ \hline
 \end{tabular}
 
 \vskip 1em
-\begin{tabular}{ |l|l|l|l|l| }
+\begin{tabular}{ |l|l|l| }
     \hline
-    "IZ/EZ"(extra syllable)\\
-    \hline
+    "IZ/EZ"& (extra & syllable)
+    \\ \hline
+    misjudges & 
+    fixes & 
+    finishes 
+    \\ \hline
+    finalizes & 
+    rushes & 
+    crashes 
+    \\ \hline
+    amazes & 
+    dresses & 
+    catches 
+    \\ \hline
+    kisses & &
+    \\ \hline
 \end{tabular}
 
 \end{document}
