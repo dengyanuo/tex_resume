@@ -216,6 +216,7 @@ bibleS_list:=\
 	  galatians+1 \
 	  hebrews+11 \
 	  john+20 \
+	  luke+12 \
 	1+peter+1 \
 	  philippians+4 \
 

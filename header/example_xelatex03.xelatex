@@ -19,7 +19,7 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{color}
 \setlength{\columnseprule}{2pt}
 \def\columnseprulecolor{\color{red}}
-\begin{document}
+%\begin{document}
 % set font size : https://www.programmersought.com/article/1714865085/
 % \large
 % \fontsize{9}{11} \selectfont

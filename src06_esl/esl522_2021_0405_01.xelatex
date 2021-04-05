@@ -1,0 +1,43 @@
+\input ../header/example_xelatex03.xelatex
+\begin{document}
+
+\vskip 1em
+
+%\def \FFFF { \ttfamily\bfseries\upshape \setfont [18][22] }
+%\def \FFFF { \rmfamily\mdseries\upshape \setfont [18][22] }
+\def \FFFF { \ttfamily\mdseries\upshape \setfont [18][26] }
+\FFFF 
+
+
+\begin{flushleft}
+misjudge, type, walk, fix, finish, consider, rescue, finalize, lie, cut, rush, cook, question, cough, crash, amaze, dress, dream, catch, love, beg, kiss, run, fight, grab, 
+\end{flushleft}
+
+\begin{flushleft}
+misjudges, types, walks, fixes, finishes, considers, 
+rescues, finalizes, lies, cuts, rushes, cooks, questions, 
+coughes, crashes, amazes, dresses, dreams, catches, 
+loves, begs, kisses, runs, fights, grabs, 
+\end{flushleft}
+
+\begin{tabular}{ |l|l|l|l|l| }
+    \hline
+    "S"\\
+    \hline
+\end{tabular}
+
+\vskip 1em
+\begin{tabular}{ |l|l|l|l|l| }
+    \hline
+    "Z"\\
+    \hline
+\end{tabular}
+
+\vskip 1em
+\begin{tabular}{ |l|l|l|l|l| }
+    \hline
+    "IZ/EZ"(extra syllable)\\
+    \hline
+\end{tabular}
+
+\end{document}
