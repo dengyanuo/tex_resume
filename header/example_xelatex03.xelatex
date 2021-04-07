@@ -44,12 +44,25 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \def \setfont [#1][#2]{ \fontsize{#1}{#2} \selectfont }
 \def \FFbj { \ttfamily\bfseries\upshape \setfont [15][17] }
 \def \FFbg { \ttfamily\bfseries\upshape \setfont [13][15] }
-\def \FFrb { \rmfamily\mdseries\upshape \setfont [8.5][10.5] }
 \def \FFte { \rmfamily\mdseries\itshape \setfont [11][13] }
-\def \FFre { \rmfamily\mdseries\upshape \setfont [11][13] }
 
-%\begin{document}
-%\FFre 
-%\baselineskip = 12pt
-%\parindent = 0 em
-%\parskip 0.01 em
+
+\def \FFrb { \rmfamily\mdseries\upshape \setfont [8.5][10.5] }
+\def \FFrc { \rmfamily\mdseries\upshape \setfont [9][11] }
+\def \FFrd { \rmfamily\mdseries\upshape \setfont [10][12] }
+\def \FFre { \rmfamily\mdseries\upshape \setfont [11][13] }
+\def \FFrf { \rmfamily\mdseries\upshape \setfont [12][14] }
+\def \FFrg { \rmfamily\mdseries\upshape \setfont [13][15] }
+\def \FFrh { \rmfamily\mdseries\upshape \setfont [14][16] }
+\def \FFrj { \rmfamily\mdseries\upshape \setfont [15][17] }
+\def \FFrk { \rmfamily\mdseries\upshape \setfont [16][18] }
+\def \FFrl { \rmfamily\mdseries\upshape \setfont [17][19] }
+\def \FFrm { \rmfamily\mdseries\upshape \setfont [18][20] }
+\def \FFrn { \rmfamily\mdseries\upshape \setfont [19][21] }
+
+\begin{document}
+\FFrj 
+\baselineskip = 12pt
+\parindent = 0 em
+\parskip 0.01 em
+

@@ -1,6 +1,5 @@
 \input ../header/example_xelatex03.xelatex
 
-\vskip 5em
 
 %\def \FFFF { \ttfamily\bfseries\upshape \setfont [18][22] }
 %\def \FFFF { \rmfamily\mdseries\upshape \setfont [18][22] }
