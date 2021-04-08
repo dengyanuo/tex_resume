@@ -242,7 +242,7 @@ $(foreach aa1,$(bv_list), bible_$(aa1) ):
 		$(if $(findstring $<,$(b_delete_space)), export b_delete_space=1; , export b_delete_space=0; )  \
 		for aa1 in $(bibleS_list) ; do \
 		aa3=$<ext; \
-		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'`.$${!aa3} ; \
+		aa2=`echo bible__$<_$${aa1}|sed -e 's;[+ -]\+;_;g'|tr 'A-Z' 'a-z'`.$${!aa3} ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist8381." \
 		|| ( ../${$<} $${aa1} $${aa2}) || exit 44 ; \
 		done
@@ -277,7 +277,28 @@ b2x:
 		|tr -d :|tr ' ' '+'                          \
 		> b09.txt
 
-b3:
-	cd tmp/ && make -f ../Makefile b3x
-b3x:
-	cat b09.txt
+b3: tmp/b09.txt
+	cd bible01/ && \
+		for bb1 in CUV ESV NIV ; do \
+		export bibleVsion=$${bb1} ; \
+		test $${bb1} = "CUV" && b_delete_space=1 || b_delete_space=0 ;  \
+		export b_delete_space ; \
+		for aa1 in `cat ../$<`; do \
+		aa3=xelatex ; \
+		aa4=`echo -n $${aa1}|awk -F, '{printf $$1}'` ; \
+		aa5=`echo -n $${aa1}|awk -F, '{printf $$2}'` ; \
+		aa6=`echo -n $${aa1}|awk -F, '{printf $$3}'` ; \
+		kk1=1 ; \
+		while [ $${kk1} -le $${aa6} ] ; do \
+		aa2=`echo bible__$${aa5}_$${kk1}_$${aa4}_$${kk1}|sed -e 's;[+ -]\+;_;g'|tr 'A-Z' 'a-z'`.$${aa3} ; \
+		echo === $${aa2} === begin ; \
+		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist8381." \
+		|| ( ../script/bible_get_01_cuv.sh $${aa4} $${aa2}) || exit 44 ; \
+		break ; \
+		echo === $${aa2} === end ; \
+		kk1=$$(( $${kk1} + 1 )) ; \
+		done ; \
+		break ; \
+		done ; \
+		break ; \
+		done
