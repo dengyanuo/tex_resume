@@ -29,10 +29,11 @@ if [ -f "${target_file}" ] ; then
     exit 
 fi
 
+down_url="https://www.biblegateway.com/passage/?search=${target_name}&version=${bibleVsion}"
 
 rm -f 1.txt
 wget \
-    -q "https://www.biblegateway.com/passage/?search=${target_name}&version=${bibleVsion}" \
+    -q "${down_url}" \
     -O - > 11_${bibleVsion}.txt
 
 cat        11_${bibleVsion}.txt \
@@ -199,7 +200,11 @@ echo "
 \end{multicols}
 \end{document}
 " >> ${target_file}
+
+echo "% down_url : ${down_url}" >> ${target_file}
+
 }
+# end of gen_XELATEX
 
 
 if [ "${bibleVsion}" = "CUV" ] ; then
