@@ -277,7 +277,7 @@ b2x:
 		|tr -d :|tr ' ' '+'                          \
 		> b09.txt
 
-b3: tmp/b09.txt
+b3: $(firstword $(wildcard bible01/b09.txt tmp/b09.txt))
 	cd bible01/ && \
 		for bb1 in CUV ESV NIV ; do \
 		export bibleVsion=$${bb1} ; \
