@@ -290,15 +290,13 @@ b3: $(firstword $(wildcard script/b09.txt tmp/b09.txt))
 		aa6=`echo -n $${aa1}|awk -F, '{printf $$3}'` ; \
 		kk1=1 ; \
 		while [ $${kk1} -le $${aa6} ] ; do \
-		aa2=`echo bible__$${aa5}_$${kk1}_$${aa4}_$${kk1}|sed -e 's;[+ -]\+;_;g'|tr 'A-Z' 'a-z'`.$${aa3} ; \
+		aa2=`echo bible__$${aa5}_$${bb1}_$${aa4}_$${kk1}|sed -e 's;[+ -]\+;_;g'|tr 'A-Z' 'a-z'`.$${aa3} ; \
 		echo === $${aa2} === begin ; \
 		test -f $${aa2} && echo "`ls -l $${aa2}` ... alread exist8381." \
 		|| ( ../script/bible_get_01_cuv.sh $${aa4} $${aa2}) || exit 44 ; \
-		break ; \
 		echo === $${aa2} === end ; \
+		sleep 2 ;
 		kk1=$$(( $${kk1} + 1 )) ; \
 		done ; \
-		break ; \
 		done ; \
-		break ; \
 		done
