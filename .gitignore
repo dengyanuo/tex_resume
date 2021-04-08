@@ -4,6 +4,7 @@
 /tmp/*.out
 /tmp/*.log
 /tmp/*.aux
+/tmp/*.txt
 /testing/*.tex
 /testing/*.latex
 /bak/*

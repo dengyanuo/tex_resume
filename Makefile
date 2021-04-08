@@ -255,3 +255,29 @@ font_list.txt :
 font_zhcn.txt :
 	fc-list :lang=zh-cn       \
 		|sort -u > $@
+
+b2:
+	cd tmp/ && make -f ../Makefile b2x
+b2x:
+	rm -f b??.txt
+	wget \
+		-O b01.txt \
+		https://www.biblegateway.com/passage/
+	cat b01.txt \
+		|sed \
+		-e 's;{;\n{;g' \
+		> b02.txt
+	cat b02.txt \
+		| grep \
+		^'{"display":' \
+		> b03.txt
+	cat b03.txt                                      \
+		|awk -F\"                                    \
+		'{print $$4 "," $$12 "," $$15 }'             \
+		|tr -d :|tr ' ' '+'                          \
+		> b09.txt
+
+b3:
+	cd tmp/ && make -f ../Makefile b3x
+b3x:
+	cat b09.txt
