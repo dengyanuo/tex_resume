@@ -212,8 +212,8 @@ export index_html
 
 bibleS_list:=\
 	1+corinthians+15 \
-	  Galatians+1 \
 	  galatians+1 \
+	  galatians+2 \
 	  hebrews+11 \
 	  john+20 \
 	  luke+12 \
