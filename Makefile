@@ -24,7 +24,7 @@ PDFs:=$(filter-out $(PDFs_out),$(PDFs))
 
 all: $(PDFs)
 	@echo
-	@ls -l pdf/*.pdf
+	@ls -l pdf/*.pdf |head -n 20
 	echo "$${index_html}" > pdf/index.html
 
 #pdf/latex_002_article_1998.pdf:Makefile
@@ -73,7 +73,6 @@ $1 : $(wildcard \
 	@echo
 	# $1 : $$^
 	cd tmp/ && xelatex ../$$^ && mv     $$(notdir $$(basename $$^)).pdf ../pdf/$$(notdir $$(basename $$^)).pdf 
-	#@ls -l $1 || (echo $1 not found. 1738182 ; exit 22)
 
 endef
 
