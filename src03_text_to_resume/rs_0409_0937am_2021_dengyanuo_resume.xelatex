@@ -1,7 +1,7 @@
 \input ../header/example_xelatex03.xelatex
 
 \FFre 
-\baselineskip = 11.5pt
+\baselineskip = 10.0pt
 
 
 
@@ -33,6 +33,9 @@ or Network Security Engineer.
 EXPERIENCE
 }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
+
+{ \medbreak } { \FFbf Self-employed, California, USA }
+{ \par \FFte Website Designer, Jul 2019 - Now}
 
 { \medbreak } { \FFbf C-MATRIXTECH CO.LTD., Zhuhai, China }
 { \par \FFte Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
