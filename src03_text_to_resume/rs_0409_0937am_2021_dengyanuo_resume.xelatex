@@ -1,7 +1,7 @@
 \input ../header/example_xelatex03.xelatex
 
-\FFrf 
-\baselineskip = 10pt
+\FFre 
+\baselineskip = 11.5pt
 
 
 
@@ -69,10 +69,17 @@ EXPERIENCE
 
 { \medbreak } { \FFbf EDUCATION }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
-{\FFte East Side Independence Adult Center, ESL class, level 5, Jul-Dec, 2019}
-{\par \FFte XI'AN university of technology, Xi'an city, Shannxi, China }
-{\par Master degree : Microelectronics \& Solid State Electronics (Apr 2005).}
-{\par Bachelor degree : Microelectronics Technology (July 2002).}
+{ % \FFte 
+Yuba College, ESL class, 2021
+\par Evergreen Valley College, ESL class, 2020
+\par East Side Independence Adult Center, ESL class, Jul-Dec, 2019
+\par Xi'an university of technology, Xi'an city, Shannxi, China 
+}
+{
+\par
+     \hskip 1em Master degree : Microelectronics \& Solid State Electronics (Apr 2005).
+\par \hskip 1em Bachelor degree : Microelectronics Technology (July 2002).
+}
 
 { \medbreak } { \FFbf ADDITIONAL SKILLS }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
@@ -96,6 +103,7 @@ Cantonese/Mandarin.
 
 { \medbreak } { \FFbf Referrals }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
+
 
 Dan Teuthorn, 
 Teledyne microwave solutions, VP engineer,
