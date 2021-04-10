@@ -15,7 +15,7 @@ Yanuo Deng,
 }{deng.ya.nuo@gmail.com }
 }
 
-{ \medbreak } { \FFbf
+{ \smallbreak } { \FFbf
 CAREER OBJECTIVE
 }
 
@@ -29,51 +29,51 @@ Integrated Circuit Engineer,
 Software Engineer,
 or Network Security Engineer.
 
-{ \medbreak } { \FFbf
+{ \smallbreak } { \FFbf
 EXPERIENCE
 }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
-{ \medbreak } { \FFbf Self-employed, California, USA }
+{ \smallbreak } { \FFbf Self-employed, California, USA }
 { \par \FFte Website Designer, Jul 2019 - Now}
 
-{ \medbreak } { \FFbf C-MATRIXTECH CO.LTD., Zhuhai, China }
+{ \smallbreak } { \FFbf C-MATRIXTECH CO.LTD., Zhuhai, China }
 { \par \FFte Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
 { \par * Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.  }
 { \par * MCU debug; Port C from Assembly for the 13-bits MCU (PIC); Mixed (Analog) circuit design.  }
 { \par * Xilinx autobuild \& remote download firmware platform for remote team work.  }
 
-{ \medbreak } { \FFbf VIOMI CO.LTD., Foshan, China }
+{ \smallbreak } { \FFbf VIOMI CO.LTD., Foshan, China }
 { \par \FFte Software (Firmware) Engineer, May 2017 - Oct 2017 }
 { \par * Linux driver for the WiFi chip; Speech Recognition \& synthesis App for Linux.  }
 { \par * UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi debug. Buildroot.  }
 
-{ \medbreak } { \FFbf BLUEWAY CO.LTD., Huizhou, China }
+{ \smallbreak } { \FFbf BLUEWAY CO.LTD., Huizhou, China }
 { \par \FFte Software (Firmware) Engineer, May 2016 - Apr 2017 }
 { \par * FreeRTOS port to STM32 for for electric mowers. Ingenic X1000E USB OnTheGo (OTG).  }
 { \par * Mathematica to optimize the walking path of the mowers (AI path planning).  }
 
-{ \medbreak } { \FFbf ADON CO.LTD., Foshan, China }
+{ \smallbreak } { \FFbf ADON CO.LTD., Foshan, China }
 
 { \par \FFte Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
 { \par * Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). Bootloader porting.  }
 { \par * Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
 
-{ \medbreak } { \FFbf SKYIT SOFTWARE CO.LTD., Shunde, China }
+{ \smallbreak } { \FFbf SKYIT SOFTWARE CO.LTD., Shunde, China }
 { \par \FFte Software Engineer, Dec 2011 - Jul 2013 }
 { \par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
 
-{ \medbreak } { \FFbf VBRIDGE MICROSYSTEM INC, San Jose, CA, USA.  }
+{ \smallbreak } { \FFbf VBRIDGE MICROSYSTEM INC, San Jose, CA, USA.  }
 { \par \FFte Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
 { \par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC ; 5-bits MCU core.  }
 { \par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
 { \par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
 { \par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
 
-{ \medbreak } { \FFbf EDUCATION }
+{ \smallbreak } { \FFbf EDUCATION }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 { % \FFte 
-Yuba College, ESL class, 2021
+Yuba College, ESL class, Auto/AC/Bodypaint class, 2021
 \par Evergreen Valley College, ESL class, 2020
 \par East Side Independence Adult Center, ESL class, Jul-Dec, 2019
 \par Xi'an university of technology, Xi'an city, Shannxi, China 
@@ -84,16 +84,16 @@ Yuba College, ESL class, 2021
 \par \hskip 1em Bachelor degree : Microelectronics Technology (July 2002).
 }
 
-{ \medbreak } { \FFbf ADDITIONAL SKILLS }
+{ \smallbreak } { \FFbf ADDITIONAL SKILLS }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 { \par * C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git.  }
 { \par * Linux / FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant.  }
 
-{ \medbreak } { \FFbf Certifications }
+{ \smallbreak } { \FFbf Certifications }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 Electronics Engineer Certification, Foshan , China , Aug 2008.
 
-{ \medbreak } { \FFbf Personal Characteristics }
+{ \smallbreak } { \FFbf Personal Characteristics }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 %I am a experienced software engineer in digital \& analog circuit design, and embedded system design.
 %Usually I take care of the base framework coding in the teamwork group. When discussing, I am aggressive and creative, trying to find the best solution together. When coding, I am stable and firm. I prefer to provide long term service to the company.
@@ -104,7 +104,7 @@ I am committed to achieving goals set for me.
 I speak and write
 Cantonese/Mandarin.
 
-{ \medbreak } { \FFbf Referrals }
+{ \smallbreak } { \FFbf Referrals }
 { \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
 
@@ -146,7 +146,7 @@ Atheros/Qualcomm , semicondutor engineer,
 % 408-819-8676,
 % khinmienchong@gmail.com
 
-{ \medbreak } 
+{ \smallbreak } 
 { % \FFbf
     \href
     {https://en.wikipedia.org/wiki/Employment_authorization_document}
