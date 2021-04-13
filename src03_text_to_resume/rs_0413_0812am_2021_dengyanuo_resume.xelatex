@@ -5,17 +5,19 @@
 
 
 
-\centerline{ \FFbf Resume
-}
-
-\centerline{ \FFrc
-James (Yanuo Deng),
+%\centerline{ \FFbj Resume
+%}
+\FFrc
+\begin{tabular}{ll}
+{James (Yanuo Deng),
 \href{mailto:Yanuo Deng,1565 Cress Way, Olivehurst, CA, 95961}
 {Olivehurst, CA, 95961}
 *
 (408)444-5520
-*
-\href
+}
+    & \multirow{2}{*}{\hskip 18em \FFbm Resume} \\
+%    & \hfill Resume \\
+{\href
 {https://en.wikipedia.org/wiki/Employment_authorization_document}
 {EAD card}
 *
@@ -24,12 +26,15 @@ relocatable
 \href{mailto:deng.ya.nuo@gmail.com
 }{deng.ya.nuo@gmail.com }
 }
+    &{}
+\end{tabular}
 
 \medbreak
 { \smallbreak } { \FFbf
-CAREER OBJECTIVE
+CAREER PATH
 }
 
+\FFrf
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
 ASIC expert with 15+ years of experience
@@ -102,8 +107,8 @@ EXPERIENCE
 }
 {
 \par
-     \hskip 1em Master of Science in Microelectronics \& Solid State Electronics, 2005
-\par \hskip 1em Bachelor of Science in Microelectronics Technology, 2002
+     \hskip 1em MSc in Microelectronics \& Solid State Electronics, 2005
+\par \hskip 1em BSc in Microelectronics Technology, 2002
 }
 
 \medbreak
@@ -117,7 +122,7 @@ EXPERIENCE
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 %I am a experienced software engineer in digital \& analog circuit design, and embedded system design
 %Usually I take care of the base framework coding in the teamwork group. When discussing, I am aggressive and creative, trying to find the best solution together. When coding, I am stable and firm. I prefer to provide long term service to the company
-I work well within teams, and I am assertive and creative
+\par I work well within teams, and I am assertive and creative
 in finding the best solutions for the team
 I am known to be stable and firm when coding
 I am committed to achieving goals set for me

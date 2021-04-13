@@ -8,6 +8,9 @@
 BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
 \usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
 \hypersetup{
     colorlinks=true,
     linkcolor=lightblue,
@@ -41,29 +44,54 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \pagenumbering{gobble}
 % \begin{multicols}{3}
 
-\def \setfont [#1][#2]{ \fontsize{#1}{#2} \selectfont }
+\def \setfont [#1][#2]{\fontsize{#1}{#2} \selectfont}
 
-\def \FFbj { \ttfamily\bfseries\upshape \setfont [15][17] }
+\def \FFbb {\ttfamily\bfseries\upshape \setfont [8.5][10.5]}
+\def \FFbc {\ttfamily\bfseries\upshape \setfont [9][11]}
+\def \FFbd {\ttfamily\bfseries\upshape \setfont [10][12]}
+\def \FFbe {\ttfamily\bfseries\upshape \setfont [11][13]}
+\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
+\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
+\def \FFbh {\ttfamily\bfseries\upshape \setfont [14][16]}
+\def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
+\def \FFbk {\ttfamily\bfseries\upshape \setfont [16][18]}
+\def \FFbl {\ttfamily\bfseries\upshape \setfont [17][19]}
+\def \FFbm {\ttfamily\bfseries\upshape \setfont [18][20]}
+\def \FFbn {\ttfamily\bfseries\upshape \setfont [19][21]}
 
-\def \FFbg { \ttfamily\bfseries\upshape \setfont [13][15] }
-\def \FFbf { \ttfamily\bfseries\upshape \setfont [12][14] }
+%\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
+%\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
+%\def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
 
-\def \FFte { \rmfamily\mdseries\itshape \setfont [11][13] }
-\def \FFtf { \rmfamily\mdseries\itshape \setfont [12][14] }
+%\def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
+%\def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
 
 
-\def \FFrb { \rmfamily\mdseries\upshape \setfont [8.5][10.5] }
-\def \FFrc { \rmfamily\mdseries\upshape \setfont [9][11] }
-\def \FFrd { \rmfamily\mdseries\upshape \setfont [10][12] }
-\def \FFre { \rmfamily\mdseries\upshape \setfont [11][13] }
-\def \FFrf { \rmfamily\mdseries\upshape \setfont [12][14] }
-\def \FFrg { \rmfamily\mdseries\upshape \setfont [13][15] }
-\def \FFrh { \rmfamily\mdseries\upshape \setfont [14][16] }
-\def \FFrj { \rmfamily\mdseries\upshape \setfont [15][17] }
-\def \FFrk { \rmfamily\mdseries\upshape \setfont [16][18] }
-\def \FFrl { \rmfamily\mdseries\upshape \setfont [17][19] }
-\def \FFrm { \rmfamily\mdseries\upshape \setfont [18][20] }
-\def \FFrn { \rmfamily\mdseries\upshape \setfont [19][21] }
+\def \FFtb {\rmfamily\mdseries\itshape \setfont [8.5][10.5]}
+\def \FFtc {\rmfamily\mdseries\itshape \setfont [9][11]}
+\def \FFtd {\rmfamily\mdseries\itshape \setfont [10][12]}
+\def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
+\def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
+\def \FFtg {\rmfamily\mdseries\itshape \setfont [13][15]}
+\def \FFth {\rmfamily\mdseries\itshape \setfont [14][16]}
+\def \FFtj {\rmfamily\mdseries\itshape \setfont [15][17]}
+\def \FFtk {\rmfamily\mdseries\itshape \setfont [16][18]}
+\def \FFtl {\rmfamily\mdseries\itshape \setfont [17][19]}
+\def \FFtm {\rmfamily\mdseries\itshape \setfont [18][20]}
+\def \FFtn {\rmfamily\mdseries\itshape \setfont [19][21]}
+
+\def \FFrb {\rmfamily\mdseries\upshape \setfont [8.5][10.5]}
+\def \FFrc {\rmfamily\mdseries\upshape \setfont [9][11]}
+\def \FFrd {\rmfamily\mdseries\upshape \setfont [10][12]}
+\def \FFre {\rmfamily\mdseries\upshape \setfont [11][13]}
+\def \FFrf {\rmfamily\mdseries\upshape \setfont [12][14]}
+\def \FFrg {\rmfamily\mdseries\upshape \setfont [13][15]}
+\def \FFrh {\rmfamily\mdseries\upshape \setfont [14][16]}
+\def \FFrj {\rmfamily\mdseries\upshape \setfont [15][17]}
+\def \FFrk {\rmfamily\mdseries\upshape \setfont [16][18]}
+\def \FFrl {\rmfamily\mdseries\upshape \setfont [17][19]}
+\def \FFrm {\rmfamily\mdseries\upshape \setfont [18][20]}
+\def \FFrn {\rmfamily\mdseries\upshape \setfont [19][21]}
 
 \begin{document}
 \FFrj 
