@@ -5,13 +5,23 @@
 
 
 
-\centerline{ \FFbf Resume of James }
+\centerline{ \FFbf Resume of James 
+}
 
-\centerline{ \FFrb
+\centerline{ \FFrc
 Yanuo Deng,
-1565 Cress Way, Olivehurst, CA, 95961
+\href{mailto:Yanuo Deng,1565 Cress Way, Olivehurst, CA, 95961}
+{Olivehurst, CA, 95961}
 *
-(408)444-5520 * \href{mailto:deng.ya.nuo@gmail.com
+(408)444-5520 
+* 
+\href
+{https://en.wikipedia.org/wiki/Employment_authorization_document}
+{EAD card}
+*
+relocatable
+*
+\href{mailto:deng.ya.nuo@gmail.com
 }{deng.ya.nuo@gmail.com }
 }
 
