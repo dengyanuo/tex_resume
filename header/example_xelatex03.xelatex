@@ -44,7 +44,7 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \pagenumbering{gobble}
 % \begin{multicols}{3}
 
-\def \setfont [#1][#2]{\fontsize{#1}{#2} \selectfont}
+\def \setfont [#1][#2]{\fontsize{#1}{#2}\selectfont}
 
 \def \FFbb {\ttfamily\bfseries\upshape \setfont [8.5][10.5]}
 \def \FFbc {\ttfamily\bfseries\upshape \setfont [9][11]}
@@ -58,6 +58,18 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \def \FFbl {\ttfamily\bfseries\upshape \setfont [17][19]}
 \def \FFbm {\ttfamily\bfseries\upshape \setfont [18][20]}
 \def \FFbn {\ttfamily\bfseries\upshape \setfont [19][21]}
+\def \FFbo {\ttfamily\bfseries\upshape \setfont [21][23]}
+\def \FFbp {\ttfamily\bfseries\upshape \setfont [23][25]}
+\def \FFbq {\ttfamily\bfseries\upshape \setfont [25][27]}
+\def \FFbr {\ttfamily\bfseries\upshape \setfont [27][29]}
+\def \FFbs {\ttfamily\bfseries\upshape \setfont [29][31]}
+\def \FFbt {\ttfamily\bfseries\upshape \setfont [31][33]}
+\def \FFbu {\ttfamily\bfseries\upshape \setfont [35][37]}
+\def \FFbv {\ttfamily\bfseries\upshape \setfont [39][41]}
+\def \FFbw {\ttfamily\bfseries\upshape \setfont [43][45]}
+\def \FFbx {\ttfamily\bfseries\upshape \setfont [47][49]}
+\def \FFby {\ttfamily\bfseries\upshape \setfont [51][53]}
+\def \FFbz {\ttfamily\bfseries\upshape \setfont [55][57]}
 
 %\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
 %\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
