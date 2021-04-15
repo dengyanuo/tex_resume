@@ -1,0 +1,131 @@
+
+\documentclass{article}
+% https://www.overleaf.com/learn/latex/page_size_and_margins : portrait/landscape
+\usepackage[ letterpaper, margin=0.4in, portrait ]{geometry}
+\usepackage[AutoFakeBold,AutoFakeSlant]{xeCJK}
+\setCJKmainfont[BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKsansfont[AutoFakeSlant=false,
+  BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
+\setCJKmonofont[ItalicFont=simkai.ttf]{simsun.ttc}
+\usepackage{multicol}
+\usepackage{color}
+\setlength{\columnseprule}{2pt}
+\def\columnseprulecolor{\color{red}}
+\begin{document}
+% set font size : https://www.programmersought.com/article/1714865085/
+% \large
+% \fontsize{9}{11} \selectfont
+% \fontsize{10}{12} \selectfont
+% \fontsize{11}{13} \selectfont
+% \fontsize{12}{14} \selectfont
+% \fontsize{13}{15} \selectfont
+% \fontsize{14}{16} \selectfont
+% \fontsize{15}{17} \selectfont
+% \fontsize{16}{18} \selectfont
+\fontsize{17}{19} \selectfont
+% \fontsize{18}{20} \selectfont
+% \fontsize{19}{21} \selectfont
+% \fontsize{20}{22} \selectfont
+% use \pagenumbering{gobble} to switch off page numbering.
+% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+% \thispagestyle{empty} \pagestyle{empty}
+\pagenumbering{gobble}
+\begin{multicols}{3}
+
+{ \centering 
+加 拉 太 書 3 - Chinese Union Version (Traditional) }
+
+\par
+3 
+無知的加拉太人哪，耶穌基督釘十字架，已經活畫在你們眼前，誰又迷惑了你們呢？
+\par
+2 
+我只要問你們這一件：你們受了聖靈，是因行律法呢？是因聽信福音呢？
+\par
+3 
+你們既靠聖靈入門，如今還靠肉身成全麼？你們是這樣的無知麼？
+\par
+4 
+你們受苦如此之多，都是徒然的麼？難道果真是徒然的麼？
+\par
+5 
+那賜給你們聖靈，又在你們中間行異能的，是因你們行律法呢？是因你們聽信福音呢？
+\par
+6 
+正如亞伯拉罕信神，這就算為他的義。
+\par
+7 
+所以，你們要知道：那以信為本的人，就是亞伯拉罕的子孫。
+\par
+8 
+並且聖經既然預先看明，神要叫外邦人因信稱義，就早已傳福音給亞伯拉罕，說：萬國都必因你得福。
+\par
+9 
+可見那以信為本的人和有信心的亞伯拉罕一同得福。
+\par
+10 
+凡以行律法為本的，都是被咒詛的；因為經上記著：凡不常照律法書上所記一切之事去行的，就被咒詛。
+\par
+11 
+沒有一個人靠著律法在神面前稱義，這是明顯的；因為經上說，義人必因信得生。
+\par
+12 
+律法原不本乎信，只說：行這些事的，就必因此活著。
+\par
+13 
+基督既為我們受（原文是成）了咒詛，就贖出我們脫離律法的咒詛；因為經上記著：凡掛在木頭上都是被咒詛的。
+\par
+14 
+這便叫亞伯拉罕的福，因基督耶穌可以臨到外邦人，使我們因信得著所應許的聖靈。
+\par
+15 
+弟兄們，我且照著人的常話說：雖然是人的文約，若已經立定了，就沒有能廢棄或加增的。
+\par
+16 
+所應許的原是向亞伯拉罕和他子孫說的。神並不是說眾子孫，指著許多人，乃是說你那一個子孫，指著一個人，就是基督。
+\par
+17 
+我是這麼說，神預先所立的約，不能被那四百三十年以後的律法廢掉，叫應許歸於虛空。
+\par
+18 
+因為承受產業，若本乎律法，就不本乎應許；但神是憑著應許把產業賜給亞伯拉罕。
+\par
+19 
+這樣說來，律法是為甚麼有的呢？原是為過犯添上的，等候那蒙應許的子孫來到，並且是藉天使經中保之手設立的。
+\par
+20 
+但中保本不是為一面作的；神卻是一位。
+\par
+21 
+這樣，律法是與神的應許反對麼？斷乎不是！若曾傳一個能叫人得生的律法，義就誠然本乎律法了。
+\par
+22 
+但聖經把眾人都圈在罪裡，使所應許的福因信耶穌基督，歸給那信的人。
+\par
+23 
+但這因信得救的理還未來以先，我們被看守在律法之下，直圈到那將來的真道顯明出來。
+\par
+24 
+這樣，律法是我們訓蒙的師傅，引我們到基督那裡，使我們因信稱義。
+\par
+25 
+但這因信得救的理既然來到，我們從此就不在師傅的手下了。
+\par
+26 
+所以，你們因信基督耶穌都是神的兒子。
+\par
+27 
+你們受洗歸入基督的都是披戴基督了。
+\par
+28 
+並不分猶太人、希利尼人，自主的、為奴的，或男或女，因為你們在基督耶穌裡都成為一了。
+\par
+29 
+你們既屬乎基督，就是亞伯拉罕的後裔，是照著應許承受產業的了。
+
+
+\end{multicols}
+\end{document}
+
+% down_url : https://www.biblegateway.com/passage/?search=galatians+3&version=CUV
