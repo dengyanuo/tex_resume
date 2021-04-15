@@ -33,13 +33,15 @@
 % \end{tabular}
 
 \begin{tabular}{llr}
-    \hskip 5pt
+    %\hskip 5pt
+    \hskip -5pt
     \multirow{2}{*}{\FFbo Resume \hskip 12pt } 
     & 
     \hskip 22pt
     James  Yanuo  Deng, (408)444-5520 
     & 
-    \hskip 43pt
+    %\hskip 43pt
+    \hskip 53pt
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD card} (relocatable)
     \\ &
     \hskip 22pt
@@ -47,10 +49,11 @@
     & 
     \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
-    \\   
-    {\hskip -5pt \FFbg CAREER PATH}
 \end{tabular}
 
+{ \smallbreak } {\par\noindent\hrule} { \medbreak }
+
+{\FFbg CAREER PATH}
 \FFrf
 \baselineskip = 10.0pt
 \medbreak
@@ -157,6 +160,7 @@ Developed the first meal order App for Android in China
     %     Cantonese/Mandarin
     \par  I can work well individual or with teams.
     I have been working as a team member or a team leader.
+    I find achievements in completing projects.
 
     \medbreak
     { \smallbreak } { \FFbg Referrals }
