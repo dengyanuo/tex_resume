@@ -5,31 +5,50 @@
 
 
 
-%\centerline{ \FFbj Resume
-%}
-\begin{tabular}{ll}
-    \FFrc
-    {\hskip -5pt James (Yanuo) Deng,
-    \href{mailto:Yanuo Deng,1565 Cress Way, Olivehurst, CA, 95961}
-    {Olivehurst, CA, 95961}
-    *
-    (408)444-5520
-    }
-    & \multirow{4}{*}{\hskip 4em \FFby Resume} \\
-    %    & \hfill Resume \\
-    \hskip -5pt
-    {\href
-    {https://en.wikipedia.org/wiki/Employment_authorization_document}
-    {EAD card}
-    *
-    relocatable
-    *
-    \href{mailto:deng.ya.nuo@gmail.com
-    }{deng.ya.nuo@gmail.com }
-    }
+% %\centerline{ \FFbj Resume
+% %}
+% \begin{tabular}{ll}
+%     \FFrc
+%     {\hskip -5pt James (Yanuo) Deng,
+%     \href{mailto:Yanuo Deng,1565 Cress Way, Olivehurst, CA, 95961}
+%     {Olivehurst, CA, 95961}
+%     *
+%     (408)444-5520
+%     }
+%     & \multirow{4}{*}{\hskip 4em \FFby Resume} \\
+%     %    & \hfill Resume \\
+%     \hskip -5pt
+%     {\href
+%     {https://en.wikipedia.org/wiki/Employment_authorization_document}
+%     {EAD card}
+%     *
+%     relocatable
+%     *
+%     \href{mailto:deng.ya.nuo@gmail.com
+%     }{deng.ya.nuo@gmail.com }
+%     }
+%     \\   
+%     \\   
+%     {\hskip -5pt \FFbg CAREER PATH}
+% \end{tabular}
+
+\begin{tabular}{llr}
+    \hskip 5pt
+    \multirow{2}{*}{\FFbo Resume \hskip 12pt } 
+    & 
+    \hskip 22pt
+    James  Yanuo  Deng, (408)444-5520 
+    & 
+    \hskip 43pt
+    \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD card} (relocatable)
+    \\ &
+    \hskip 22pt
+    1565 Cress Way, Olivehurst, CA, 95961 
+    & 
+    \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
     \\   
-    {\hskip -5pt \FFbf CAREER PATH}
+    {\hskip -5pt \FFbg CAREER PATH}
 \end{tabular}
 
 \FFrf
@@ -45,60 +64,68 @@ and digital \& analogy circuit design
 % Software Engineer,
 % or Network Security Engineer
 
+
 \medbreak
-{ \smallbreak } { \FFbf
+{ \smallbreak } { \FFbg Professional Quarlification }
+%{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
+%\par Electronics Engineer Certification, China, 2008
+\par Licensed and Certificated Electronic Engineer Certification, China, 2008
+
+
+
+
+\medbreak
+{ \smallbreak } { \FFbg
 EXPERIENCE
 }
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
-%{ \smallbreak } { \FFbf Self-employed, California, USA }
+%{ \smallbreak } { \FFbg Self-employed, California, USA }
 %{ \par \FFte Website Designer, Jul 2019 - Now}
 
-{ \smallbreak } { \FFbf C-MATRIXTECH CO.LTD., Zhuhai, China }
+{ \smallbreak } { \FFbg C-MATRIXTECH CO.LTD., Zhuhai, China }
 { \par \FFte Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
 { \par * Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.  }
 { \par * MCU debug; Port C from Assembly for the 13-bits MCU (PIC); Mixed (Analog) circuit design.  }
 { \par * Xilinx autobuild \& remote download firmware platform for remote team work.  }
 
 \medbreak
-{ \smallbreak } { \FFbf VIOMI CO.LTD., Foshan, China }
+{ \smallbreak } { \FFbg VIOMI CO.LTD., Foshan, China }
 { \par \FFte Software (Firmware) Engineer, May 2017 - Oct 2017 }
-{ \par * Linux driver for the WiFi chip; Speech Recognition \& synthesis App for Linux.  }
+{ \par * Linux driver for the WiFi chip; Speech Recognition \& Synthesis App for Linux.  }
 { \par * UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi debug. Buildroot.  }
 
 \medbreak
-{ \smallbreak } { \FFbf BLUEWAY CO.LTD., Huizhou, China }
+{ \smallbreak } { \FFbg BLUEWAY CO.LTD., Huizhou, China }
 { \par \FFte Software (Firmware) Engineer, May 2016 - Apr 2017 }
-{ \par * FreeRTOS port to STM32 for for electric mowers. Ingenic X1000E USB OnTheGo (OTG).  }
+{ \par * FreeRTOS port to STM32 for for AI mowers. Ingenic X1000E USB OnTheGo (OTG).  }
 { \par * Mathematica to optimize the walking path of the mowers (AI path planning).  }
 
 \medbreak
-{ \smallbreak } { \FFbf ADON CO.LTD., Foshan, China }
+{ \smallbreak } { \FFbg ADON CO.LTD., Foshan, China }
 { \par \FFte Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
 { \par * Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). Bootloader porting.  }
 { \par * Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
 
 \medbreak
-{ \smallbreak } { \FFbf SKYIT SOFTWARE CO.LTD., Shunde, China }
+{ \smallbreak } { \FFbg SKYIT SOFTWARE CO.LTD., Shunde, China }
 { \par \FFte Software Engineer, Dec 2011 - Jul 2013 }
-{ \par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
+%{ \par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
+{ \par * 
+Developed the first meal order App for Android in China  
+\par * Windows App by C\#; MySQL API by C }
 
 \medbreak
-{ \smallbreak } { \FFbf VBRIDGE MICROSYSTEM INC, San Jose, CA, USA.  }
+{ \smallbreak } { \FFbg VBRIDGE MICROSYSTEM INC, San Jose, CA, USA.  }
 { \par \FFte Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
 { \par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC ; 5-bits MCU core.  }
 { \par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
 { \par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
 { \par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
 
-\medbreak
-{ \smallbreak } { \FFbf Professional Certifications }
-%{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
-\par Electronics Engineer Certification, China, 2008
-
 
 \medbreak
-{ \smallbreak } { \FFbf EDUCATION }
+{ \smallbreak } { \FFbg EDUCATION }
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 { % \FFte
     \par Yuba College, ESL Class, 2021
@@ -112,34 +139,37 @@ EXPERIENCE
     }
 
     \medbreak
-    { \smallbreak } { \FFbf ADDITIONAL SKILLS }
+    { \smallbreak } { \FFbg ADDITIONAL SKILLS }
     %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
     { \par * C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git  }
     { \par * Linux / FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant  }
 
     \medbreak
-    { \smallbreak } { \FFbf Personal Characteristics }
+    { \smallbreak } { \FFbg Personal Characteristics }
     %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
     %I am a experienced software engineer in digital \& analog circuit design, and embedded system design
     %Usually I take care of the base framework coding in the teamwork group. When discussing, I am aggressive and creative, trying to find the best solution together. When coding, I am stable and firm. I prefer to provide long term service to the company
-    \par I work well within teams, and I am assertive and creative
-    in finding the best solutions for the team
-    I am known to be stable and firm when coding
-    I am committed to achieving goals set for me
-    I speak and write
-    Cantonese/Mandarin
+    %     \par I work well within teams, and I am assertive and creative
+    %     in finding the best solutions for the team
+    %     I am known to be stable and firm when coding
+    %     I am committed to achieving goals set for me
+    %     I speak and write
+    %     Cantonese/Mandarin
+    \par  I can work well individual or with teams.
+    I have been working as a team member or a team leader.
 
     \medbreak
-    { \smallbreak } { \FFbf Referrals }
+    { \smallbreak } { \FFbg Referrals }
     %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
 
     Dan Teuthorn,
-    Teledyne microwave,
+    Teledyne Microwave,
     %solutions,
-    VP engineer,
+    VP Engineer,
     %408-421-7303,
-    4084217303,
+    %4084217303,
+    (408)421-7303,
     \href{
         mailto:Den.Teuthorn@teledyne.com
     }{
@@ -149,7 +179,7 @@ EXPERIENCE
     Tang Shanqiang,
     Cadence,
     Principal Application Engineer,
-    +65-90546301,
+    +65-9054-6301,
     \href{
         mailto:ansent@cadence.com
     }{
@@ -159,9 +189,10 @@ EXPERIENCE
     Stephen Fung,
     %Atheros/Qualcomm,
     Qualcomm,
-    semicondutor engineer,
+    Semicondutor Engineer,
     %408-338-5175,
-    4083385175,
+    %4083385175,
+    (408)338-5175,
     \href{
         mailto:stephen@thepoint.church
     }{
@@ -179,7 +210,7 @@ EXPERIENCE
     % khinmienchong@gmail.com
 
     % { \smallbreak }
-    % { % \FFbf
+    % { % \FFbg
     %     \href
     %     {https://en.wikipedia.org/wiki/Employment_authorization_document}
     %     {Valid Employment Authorization Document(EAD) in USA.}
