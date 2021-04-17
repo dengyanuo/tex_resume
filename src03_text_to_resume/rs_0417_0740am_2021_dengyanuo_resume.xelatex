@@ -42,17 +42,17 @@
     & 
     \hskip 22pt
     {\FFbU
-    James  Yanuo  Deng, (408)444-5520
+    James Yanuo Deng,(408)444-5520
     }
     & 
     \hskip 38pt
     %\hskip 40pt
     %\hskip 43pt
     %\hskip 53pt
-    \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD card} (relocatable)
+    \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD \hskip 1pt card}\hskip 5pt (relocatable)
     \\ &
     \hskip 22pt
-    1565 Cress Way, Olivehurst, CA, 95961 
+    1565 Cress Way, Olivehurst,\hskip 5pt CA,\hskip 5pt 95961 
     & 
     \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
@@ -90,12 +90,7 @@ WORKING EXPERIENCE
 }
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
-%{ \smallbreak } { \FFbL Self-employed, California, USA }
-%{ \par \FFte Website Designer, Jul 2019 - Now}
-{ \medbreak } { \FFbL Self-employed, California, USA }
-{ \par \FFte Website Designer, Network Security Admin, Feb 2021 - Now}
-
-\medbreak
+%\medbreak
 { \smallbreak } { \FFbL Vbridge Microsystem Inc, San Jose, CA, USA.  }
 { \par \FFte Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
 { \par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC ; 5-bits MCU core.  }
@@ -104,37 +99,44 @@ WORKING EXPERIENCE
 { \par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
 
 
+%\medbreak
 { \smallbreak } { \FFbL C-Matrixtech CO.LTD., Zhuhai, China }
 { \par \FFte Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
 { \par * Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.  }
 { \par * MCU debug; Port C from Assembly for the 13-bits MCU (PIC); Mixed (Analog) circuit design.  }
 { \par * Xilinx autobuild \& remote download firmware platform for remote team work.  }
 
-\medbreak
+%\medbreak
 { \smallbreak } { \FFbL Viomi CO.LTD., Foshan, China }
 { \par \FFte Software (Firmware) Engineer, May 2017 - Oct 2017 }
 { \par * Linux driver for the WiFi chip; Speech Recognition \& Synthesis App for Linux.  }
 { \par * UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi debug. Buildroot.  }
 
-\medbreak
+%\medbreak
 { \smallbreak } { \FFbL Blueway CO.LTD., Huizhou, China }
 { \par \FFte Software (Firmware) Engineer, May 2016 - Apr 2017 }
 { \par * FreeRTOS port to STM32 for AI mowers. Ingenic X1000E USB OnTheGo (OTG).  }
 { \par * Mathematica to optimize the walking path of the mowers (AI path planning).  }
 
-\medbreak
+%\medbreak
 { \smallbreak } { \FFbL Adon CO.LTD., Foshan, China }
 { \par \FFte Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
 { \par * Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). Bootloader porting.  }
 { \par * Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
 
-\medbreak
+%\medbreak
 { \smallbreak } { \FFbL Skyit Software CO.LTD., Shunde, China }
 { \par \FFte Software Engineer, Dec 2011 - Jul 2013 }
 %{ \par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
 { \par * 
 Developed the first meal order App for Android in China.
 \par * Windows App by C\#; MySQL API by C.}
+
+%\medbreak
+%{ \smallbreak } { \FFbL Self-employed, California, USA }
+%{ \par \FFte Website Designer, Jul 2019 - Now}
+{ \smallbreak } { \FFbL Self-employed, California, USA }
+{ \par \FFte Website Designer, Network Security Admin, Feb 2021 - Now}
 
 
 \medbreak
