@@ -53,7 +53,7 @@
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD \hskip 1pt card}\hskip 5pt (relocatable)
     \\ &
     \hskip 22pt
-    1565 Cress Way, Olivehurst,\hskip 5pt CA,\hskip 5pt 95961 
+    1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
     & 
     \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
@@ -68,7 +68,7 @@
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
 ASIC expert with 15+ years of experience
-and a proven record working with embedded system (linux/RTOS),
+and a proven record working with embedded system (Linux/RTOS),
 and digital \& analogy circuit design.
 % Aiming to leverage my skills to be a successfully
 % Integrated Circuit Engineer,
@@ -92,12 +92,10 @@ WORKING EXPERIENCE
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 
 %\medbreak
-{ \smallbreak } { \FFbL Vbridge Microsystem Inc, San Jose, CA, USA.  }
-{ \par \FFte Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
-{ \par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC ; 5-bits MCU core.  }
-{ \par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
-{ \par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
-{ \par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
+%{ \smallbreak } { \FFbL Self-employed, California, USA }
+%{ \par \FFte Website Designer, Jul 2019 - Now}
+{ \smallbreak } { \FFbL Self-employed, California, USA }
+{ \par \FFte Network Security Admin, Website Designer, Feb 2021 - Now}
 
 
 %\medbreak
@@ -134,17 +132,21 @@ Developed the first meal order App for Android in China.
 \par * Windows App by C\#; MySQL API by C.}
 
 %\medbreak
-%{ \smallbreak } { \FFbL Self-employed, California, USA }
-%{ \par \FFte Website Designer, Jul 2019 - Now}
-{ \smallbreak } { \FFbL Self-employed, California, USA }
-{ \par \FFte Website Designer, Network Security Admin, Feb 2021 - Now}
+{ \smallbreak } { \FFbL Vbridge Microsystem Inc, San Jose, California, USA.  }
+{ \par \FFte Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
+{ \par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC ; 5-bits MCU core.  }
+{ \par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
+{ \par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
+{ \par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
+
 
 
 \medbreak
 { \smallbreak } { \FFbU EDUCATION }
 %{ \smallbreak } {\par\noindent\hrule} { \smallbreak }
 { % \FFte
-    \par Yuba College, ESL Class, 2021; Evergreen Valley College, ESL Class, 2020
+    \par Yuba College, ESL Class, 2021
+    \par Evergreen Valley College, ESL Class, 2020
     \par Xi'an university of technology, China
     }
     {
@@ -172,7 +174,7 @@ Developed the first meal order App for Android in China.
     %     Cantonese/Mandarin
     \par  I can work well individually and/or with team members.
     I have been working as a team member or a team leader.
-    I find satifications in seeing projects completed.
+    I find satifications in seeing projects completed and perfected.
 
     \medbreak
     { \smallbreak } { \FFbU REFERRALS }
