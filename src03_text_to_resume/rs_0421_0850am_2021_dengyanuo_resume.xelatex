@@ -4,10 +4,10 @@
 %\def \FFbase {\FFre \baselineskip 10.0pt}
 %\def \FFbase {\FFrd \baselineskip 10.0pt}
 %
-%\def \FFbU {\FFbf}
-%\def \FFbL {\FFbe}
-\def \FFbU {\FFbe}
-\def \FFbL {\FFbd}
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
 %
 \def \FFss {\FFte}
 %
@@ -20,7 +20,9 @@
 %\def \addtionbreak {\vskip 2.2pt}
 %\def \addtionbreak {\vskip 2.4pt}
 %\def \addtionbreak {\vskip 3pt}
-\def \addtionbreak {\vskip 5.3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
 %\def \addtionbreak {\vskip 6pt}
 %
 %
@@ -44,21 +46,23 @@
 \begin{tabular}{llr}
     %\hskip 5pt
     \hskip -5pt
-    \multirow{2}{*}{\FFbo R\'{e}sum\'{e} \hskip 12pt } 
+    %\multirow{2}{*}{\FFbo R\'{e}sum\'{e} \hskip 12pt } 
+    \multirow{2}{*}{\FFbo R\'{e}sum\'{e} \hskip 42pt } 
     & 
-    \hskip 22pt
     {\FFbU
-    James Yanuo Deng,(408)444-5520
+    %James Yanuo Deng,(408)444-5520
+    James Yanuo Deng,\hskip 9pt(408)444-5520
     }
     & 
-    \hskip 38pt
+    \hskip 35pt
+    %\hskip 38pt
     %\hskip 40pt
     %\hskip 43pt
     %\hskip 53pt
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}{EAD \hskip 1pt card}\hskip 5pt (relocatable)
     \\ &
-    \hskip 22pt
-    1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
+    %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
+    1565 Cress Way, Olivehurst, CA 95961 
     & 
     \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
