@@ -1,36 +1,46 @@
 \input ../header/example_xelatex03.xelatex
-
-\def \FFbase {\FFre}
-%\def \FFbase {\FFrd}
-
+%
+\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%
 %\def \FFbU {\FFbf}
 %\def \FFbL {\FFbe}
 \def \FFbU {\FFbe}
 \def \FFbL {\FFbd}
-
+%
 \def \FFss {\FFte}
-
+%
 %\def \addtionbreak {\medbreak}
 %\def \addtionbreak {\vskip 0.1pt}
 %\def \addtionbreak {\vskip 1pt}
 %\def \addtionbreak {\vskip 1.2pt}
 %\def \addtionbreak {\vskip 1.3pt}
 %\def \addtionbreak {\vskip 2pt}
-\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.2pt}
 %\def \addtionbreak {\vskip 2.4pt}
 %\def \addtionbreak {\vskip 3pt}
-%\def \addtionbreak {\vskip 5.3pt}
+\def \addtionbreak {\vskip 5.3pt}
 %\def \addtionbreak {\vskip 6pt}
-
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
 \def \beforebreak {\vskip 1.2pt}
-
-
-
-
-
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
 \FFbase
-\baselineskip = 10.0pt
-
 \begin{tabular}{llr}
     %\hskip 5pt
     \hskip -5pt
@@ -55,95 +65,83 @@
 \end{tabular}
 %{\beforebreak } 
 {\par\noindent\hrule} 
-
+%
+%
 {\addtionbreak }
 {\FFbU CAREER PATH}
 \FFbase
-\baselineskip = 10.0pt
-\addtionbreak
-%{\beforebreak } {\par\noindent\hrule} {\beforebreak }
-
+\beforebreak
 ASIC expert with 15+ years of experience
 and a proven record working with embedded system (Linux/RTOS),
 and digital and analogy circuit design with AI companies in China and USA.
-% Aiming to leverage my skills to be a successfully
-% Integrated Circuit Engineer,
-% Software Engineer,
-% or Network Security Engineer
-
-
+%
+%
+%
+%
 \addtionbreak
-{\beforebreak } {\FFbU PROFESSIONAL QUALIFICATION }
-%{\beforebreak } {\par\noindent\hrule} {\beforebreak }
-%\par Electronics Engineer Certification, China, 2008
-\par Licensed and Certified Electronic Engineer, China, 2008
-
-
-
-
+{\FFbU PROFESSIONAL QUALIFICATION }
+\beforebreak
+Licensed and Certified Electronic Engineer, China, 2008
+%
+%
+%
+%
 \addtionbreak
 {\beforebreak } 
 {\FFbU
 WORKING EXPERIENCE
 }
-%{\beforebreak } {\par\noindent\hrule} {\beforebreak }
-
-%\addtionbreak
-%{\beforebreak } {\FFbL Self-employed, California, USA }
-%{\par \FFss Website Designer, Jul 2019 - Now}
 {\beforebreak } {\FFbL Self-employed, California, USA }
 {\par \FFss Network Security Admin, Website Designer, Feb 2021 - Now}
-
-
-%\addtionbreak
+%
+%
 {\beforebreak } {\FFbL C-Matrixtech CO.LTD., Zhuhai, China }
 {\par \FFss Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
-{\par * Verilog + FPGA for self-powered MCU SOC chips for iPhone Lightning cables.  }
+{\par * Verilog + FPGA for self-powered and low-power MCU SOC chips for iPhone Lightning cables.  }
 {\par * Mixed (Analog) Low-power Circuit design.  }
 {\par * Xilinx autobuild \& remote download firmware platform for remote team work.  }
-{\par * Port C from Assembly for the 13-bits MCU (PIC).}
-{\par * MCU debug. }
-
-%\addtionbreak
+{\par * Port C from Assembly for the 13-bits MCU (PIC); MCU debug. }
+%
+%
 {\beforebreak } {\FFbL Viomi CO.LTD., Foshan, China }
 {\par \FFss Software (Firmware) Engineer, May 2017 - Oct 2017 }
-{\par * Linux driver for the WiFi chip; Speech Recognition \& Synthesis App for Linux.  }
+{\par * Buildroot; Linux driver for the WiFi chip; Speech Recognition \& Synthesis App for Linux.  }
 {\par * UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi driver debug. }
-{\par * Buildroot.  }
-
-%\addtionbreak
+%
+%
+%
 {\beforebreak } {\FFbL Blueway CO.LTD., Huizhou, China }
 {\par \FFss Software (Firmware) Engineer, May 2016 - Apr 2017 }
 {\par * FreeRTOS port to STM32 for AI mowers. Ingenic X1000E USB OnTheGo (OTG).  }
 {\par * Mathematica to optimize the walking path of the mowers (AI path planning).  }
-
-%\addtionbreak
+%
+%
+%
 {\beforebreak } {\FFbL Adon CO.LTD., Foshan, China }
 {\par \FFss Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
 {\par * Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). }
-{\par * Das U-Boot (Bootloader) porting.  }
-{\par * Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
-
-%\addtionbreak
+{\par * Das U-Boot (Bootloader) porting; Qualcomm AR9331 : WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
+%
+%
+%
 {\beforebreak } {\FFbL Skyit Software CO.LTD., Shunde, China }
 {\par \FFss Software Engineer, Dec 2011 - Jul 2013 }
 %{\par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
 {\par * 
-Developed the first meal order App for Android in China.
-\par * Windows App by C\#; MySQL API by C.}
-
-%\addtionbreak
+Developed the first meal order App for Android in China; Windows C\#; MySQL API by C.}
+%
+%
 {\beforebreak } {\FFbL Vbridge Microsystem Inc, San Jose, California, USA.  }
 {\par \FFss Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
 {\par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC + 5-bits MCU core.  }
 {\par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
 {\par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
 {\par * Linux/VxWorks board support package(BSP): UART, I2C, SPI, SDIO. OpenOCD for jtag.  }
-
-
-
+%
+%
+%
 \addtionbreak
-{\beforebreak } {\FFbU EDUCATION }
+{\FFbU EDUCATION }
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
 \par Yuba College, ESL Class, 2021
 \par Evergreen Valley College, ESL Class, 2020
@@ -153,23 +151,23 @@ Developed the first meal order App for Android in China.
     \hskip 1em MSc in Microelectronics \& Solid State Electronics, 2005
     \par \hskip 1em BSc in Microelectronics Technology, 2002
 }
-
-
+%
+%
 \addtionbreak
 %{\beforebreak } {\FFbU ADDITIONAL TRAINING }
-{\beforebreak } {\FFbU ADDITIONAL TRAINING AND RELATED SKILLS }
+{\FFbU ADDITIONAL TRAINING AND RELATED SKILLS }
 \par Cadence, Layout and verification, March, 2002
 \par Mentor Graphics, Calibre DRC/LVS \& xRC Trining, April, 2007
 \par Mentor Graphics, Eldo Simulation \& ADMS Training, April, 2007
-
-
+%
+%
 %\addtionbreak
 %{\beforebreak } {\FFbU ADDITIONAL RELATED SKILLS }
 {\par * C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git.}
 {\par * Linux / FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant.}
-
+%
 \addtionbreak
-{\beforebreak } {\FFbU PERSONAL CHARACTERISTICS }
+{\FFbU PERSONAL CHARACTERISTICS }
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
 %I am a experienced software engineer in digital \& analog circuit design, and embedded system design
 %Usually I take care of the base framework coding in the teamwork group. When discussing, I am aggressive and creative, trying to find the best solution together. When coding, I am stable and firm. I prefer to provide long term service to the company
@@ -182,17 +180,17 @@ Developed the first meal order App for Android in China.
 \par  I can work well individually and/or with team members.
 I have been working as a team member or a team leader.
 I find satifications in seeing projects completed and perfected.
-
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\break    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
 \addtionbreak
-{\beforebreak } {\FFbU REFERRALS }
+{\FFbU REFERRALS }
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
-
-
-Dan Teuthorn,
+%
+%
+\par Dan Teuthorn,
 Teledyne Microwave,
 %solutions,
 VP Engineer,
@@ -204,7 +202,7 @@ VP Engineer,
 }{
     dan.teuthorn@teledyne.com
 }
-
+%
 Tang Shanqiang,
 Cadence,
 Principal Application Engineer,
@@ -214,7 +212,7 @@ Principal Application Engineer,
 }{
     ansent@cadence.com
 }
-
+%
 Stephen Fung,
 %Atheros/Qualcomm,
 Qualcomm,
@@ -227,17 +225,17 @@ Semicondutor Engineer,
 }{
     stephen@thepoint.church
 }
-
+%
 % Arsenia Harrison,
 % One More Chance Company, CEO,
 % 916-271-3054,
 % Arseniaharrison@aol.com
-
+%
 % Khinmien Chong,
 % STATS ChipPAC Ltd.,
 % 408-819-8676,
 % khinmienchong@gmail.com
-
+%
 % {\beforebreak }
 % {% \FFbg
 %     \href
@@ -247,7 +245,7 @@ Semicondutor Engineer,
 %     }
 %
 %     % \end{multicols}
-
-
+%
+%
 \end{document}
-
+%
