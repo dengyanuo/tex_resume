@@ -11,6 +11,8 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{ragged2e}
 \hypersetup{
     colorlinks=true,
     linkcolor=lightblue,

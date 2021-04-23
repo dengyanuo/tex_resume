@@ -1,8 +1,9 @@
 \input ../header/example_xelatex03.xelatex
 %
-\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFrf \baselineskip 10.0pt}
 %\def \FFbase {\FFre \baselineskip 10.0pt}
 %\def \FFbase {\FFrd \baselineskip 10.0pt}
+\def \FFbase {\FFrb \baselineskip 8.0pt}
 %
 \def \FFbU {\FFbf}
 \def \FFbL {\FFbe}
@@ -43,9 +44,36 @@
 %
 %
 \FFbase
-1565 Cress Way Olivehurst, CA 95961
+%\begin{justify}
+\begin{tabular}{l}
+1565 Cress Way Olivehurst, CA \\
+James Yanuo Deng, 408-444-5520  \\
+deng.ya.nuo@gmail.com Y5755914 \\
+WDBUF70J05A663912 A216-813-042 \\
+5VDN943 9533-6846G 530-216-6446 \\
+916-271-3054 916-968-5364 95961 \\
+\end{tabular}
+%\end{justify}
 %
 %
+\vskip 3em
+\begin{tabular}{l}
+75 * 2080 == 156 \\
+70 * 2080 == 145 \\
+65 * 2080 == 135 \\
+\hline
+60 * 2080 == 124 *\\
+55 * 2080 == 114 \\
+50 * 2080 == 104 \\
+\hline
+45 * 2080 == 93.6 * \\
+40 * 2080 == 83.2 \\
+35 * 2080 == 72.8 \\
+\hline
+30 * 2080 == 62.4 \\
+15 * 2080 == 29.1 \\
+14 * 2080 == 31.2 \\
+\end{tabular}
 %
 %
 %
