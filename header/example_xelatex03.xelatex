@@ -13,6 +13,17 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{ragged2e}
+%
+\usepackage{textcomp}
+\usepackage{fontawesome}
+%
+\usepackage{pifont}
+\DeclareFontFamily{U}{hands}{}
+\DeclareFontShape{U}{hands}{m}{n}{<-> hands}{}
+%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,decorations.pathmorphing}
+%
 \hypersetup{
     colorlinks=true,
     linkcolor=lightblue,
@@ -24,92 +35,100 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{color}
 \setlength{\columnseprule}{2pt}
 \def\columnseprulecolor{\color{red}}
-% set font size : https://www.programmersought.com/article/1714865085/
-% \large
-% \fontsize{9}{11} \selectfont
-% \fontsize{10}{12} \selectfont
-% \fontsize{11}{13} \selectfont
-% \fontsize{12}{14} \selectfont
-% \fontsize{13}{15} \selectfont
-% \fontsize{14}{16} \selectfont
-% \fontsize{15}{17} \selectfont
-%\fontsize{16}{18} \selectfont
-\fontsize{16}{24} \selectfont
-% \fontsize{17}{19} \selectfont
-% \fontsize{18}{20} \selectfont
-% \fontsize{19}{21} \selectfont
-% \fontsize{20}{22} \selectfont
-% use \pagenumbering{gobble} to switch off page numbering.
-% To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
-% or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
-% \thispagestyle{empty} \pagestyle{empty}
-\pagenumbering{gobble}
-% \begin{multicols}{3}
+%
+\newcommand{\mouseA}{%
+    \begin{tikzpicture}[scale=1.4, line join=round]
+        \draw [rotate=20.9245] (-1.5pt, 0pt) -- ++(up:5pt) -- ++(-5pt, -2pt) -- ++(6.5pt, 17pt)
+        -- ++(6.5pt, -17pt) -- ++(-5pt, 2pt) -- ++(down:5pt) -- cycle;
+    \end{tikzpicture}%
+    }
+    %
+    % set font size : https://www.programmersought.com/article/1714865085/
+    % \large
+    % \fontsize{9}{11} \selectfont
+    % \fontsize{10}{12} \selectfont
+    % \fontsize{11}{13} \selectfont
+    % \fontsize{12}{14} \selectfont
+    % \fontsize{13}{15} \selectfont
+    % \fontsize{14}{16} \selectfont
+    % \fontsize{15}{17} \selectfont
+    %\fontsize{16}{18} \selectfont
+    \fontsize{16}{24} \selectfont
+    % \fontsize{17}{19} \selectfont
+    % \fontsize{18}{20} \selectfont
+    % \fontsize{19}{21} \selectfont
+    % \fontsize{20}{22} \selectfont
+    % use \pagenumbering{gobble} to switch off page numbering.
+    % To switch it on afterwards, use \pagenumbering{arabic} for arabic numbers 
+    % or alph, Alph, roman, or Roman for lowercase resp. uppercase alphabetic resp. Roman numbering.
+    % \thispagestyle{empty} \pagestyle{empty}
+    \pagenumbering{gobble}
+    % \begin{multicols}{3}
 
-\def \setfont [#1][#2]{\fontsize{#1}{#2}\selectfont}
+    \def \setfont [#1][#2]{\fontsize{#1}{#2}\selectfont}
 
-\def \FFbb {\ttfamily\bfseries\upshape \setfont [8.5][10.5]}
-\def \FFbc {\ttfamily\bfseries\upshape \setfont [9][11]}
-\def \FFbd {\ttfamily\bfseries\upshape \setfont [10][12]}
-\def \FFbe {\ttfamily\bfseries\upshape \setfont [11][13]}
-\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
-\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
-\def \FFbh {\ttfamily\bfseries\upshape \setfont [14][16]}
-\def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
-\def \FFbk {\ttfamily\bfseries\upshape \setfont [16][18]}
-\def \FFbl {\ttfamily\bfseries\upshape \setfont [17][19]}
-\def \FFbm {\ttfamily\bfseries\upshape \setfont [18][20]}
-\def \FFbn {\ttfamily\bfseries\upshape \setfont [19][21]}
-\def \FFbo {\ttfamily\bfseries\upshape \setfont [21][23]}
-\def \FFbp {\ttfamily\bfseries\upshape \setfont [23][25]}
-\def \FFbq {\ttfamily\bfseries\upshape \setfont [25][27]}
-\def \FFbr {\ttfamily\bfseries\upshape \setfont [27][29]}
-\def \FFbs {\ttfamily\bfseries\upshape \setfont [29][31]}
-\def \FFbt {\ttfamily\bfseries\upshape \setfont [31][33]}
-\def \FFbu {\ttfamily\bfseries\upshape \setfont [35][37]}
-\def \FFbv {\ttfamily\bfseries\upshape \setfont [39][41]}
-\def \FFbw {\ttfamily\bfseries\upshape \setfont [43][45]}
-\def \FFbx {\ttfamily\bfseries\upshape \setfont [47][49]}
-\def \FFby {\ttfamily\bfseries\upshape \setfont [51][53]}
-\def \FFbz {\ttfamily\bfseries\upshape \setfont [55][57]}
+    \def \FFbb {\ttfamily\bfseries\upshape \setfont [8.5][10.5]}
+    \def \FFbc {\ttfamily\bfseries\upshape \setfont [9][11]}
+    \def \FFbd {\ttfamily\bfseries\upshape \setfont [10][12]}
+    \def \FFbe {\ttfamily\bfseries\upshape \setfont [11][13]}
+    \def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
+    \def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
+    \def \FFbh {\ttfamily\bfseries\upshape \setfont [14][16]}
+    \def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
+    \def \FFbk {\ttfamily\bfseries\upshape \setfont [16][18]}
+    \def \FFbl {\ttfamily\bfseries\upshape \setfont [17][19]}
+    \def \FFbm {\ttfamily\bfseries\upshape \setfont [18][20]}
+    \def \FFbn {\ttfamily\bfseries\upshape \setfont [19][21]}
+    \def \FFbo {\ttfamily\bfseries\upshape \setfont [21][23]}
+    \def \FFbp {\ttfamily\bfseries\upshape \setfont [23][25]}
+    \def \FFbq {\ttfamily\bfseries\upshape \setfont [25][27]}
+    \def \FFbr {\ttfamily\bfseries\upshape \setfont [27][29]}
+    \def \FFbs {\ttfamily\bfseries\upshape \setfont [29][31]}
+    \def \FFbt {\ttfamily\bfseries\upshape \setfont [31][33]}
+    \def \FFbu {\ttfamily\bfseries\upshape \setfont [35][37]}
+    \def \FFbv {\ttfamily\bfseries\upshape \setfont [39][41]}
+    \def \FFbw {\ttfamily\bfseries\upshape \setfont [43][45]}
+    \def \FFbx {\ttfamily\bfseries\upshape \setfont [47][49]}
+    \def \FFby {\ttfamily\bfseries\upshape \setfont [51][53]}
+    \def \FFbz {\ttfamily\bfseries\upshape \setfont [55][57]}
 
-%\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
-%\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
-%\def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
+    %\def \FFbf {\ttfamily\bfseries\upshape \setfont [12][14]}
+    %\def \FFbg {\ttfamily\bfseries\upshape \setfont [13][15]}
+    %\def \FFbj {\ttfamily\bfseries\upshape \setfont [15][17]}
 
-%\def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
-%\def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
+    %\def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
+    %\def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
 
 
-\def \FFtb {\rmfamily\mdseries\itshape \setfont [8.5][10.5]}
-\def \FFtc {\rmfamily\mdseries\itshape \setfont [9][11]}
-\def \FFtd {\rmfamily\mdseries\itshape \setfont [10][12]}
-\def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
-\def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
-\def \FFtg {\rmfamily\mdseries\itshape \setfont [13][15]}
-\def \FFth {\rmfamily\mdseries\itshape \setfont [14][16]}
-\def \FFtj {\rmfamily\mdseries\itshape \setfont [15][17]}
-\def \FFtk {\rmfamily\mdseries\itshape \setfont [16][18]}
-\def \FFtl {\rmfamily\mdseries\itshape \setfont [17][19]}
-\def \FFtm {\rmfamily\mdseries\itshape \setfont [18][20]}
-\def \FFtn {\rmfamily\mdseries\itshape \setfont [19][21]}
+    \def \FFtb {\rmfamily\mdseries\itshape \setfont [8.5][10.5]}
+    \def \FFtc {\rmfamily\mdseries\itshape \setfont [9][11]}
+    \def \FFtd {\rmfamily\mdseries\itshape \setfont [10][12]}
+    \def \FFte {\rmfamily\mdseries\itshape \setfont [11][13]}
+    \def \FFtf {\rmfamily\mdseries\itshape \setfont [12][14]}
+    \def \FFtg {\rmfamily\mdseries\itshape \setfont [13][15]}
+    \def \FFth {\rmfamily\mdseries\itshape \setfont [14][16]}
+    \def \FFtj {\rmfamily\mdseries\itshape \setfont [15][17]}
+    \def \FFtk {\rmfamily\mdseries\itshape \setfont [16][18]}
+    \def \FFtl {\rmfamily\mdseries\itshape \setfont [17][19]}
+    \def \FFtm {\rmfamily\mdseries\itshape \setfont [18][20]}
+    \def \FFtn {\rmfamily\mdseries\itshape \setfont [19][21]}
 
-\def \FFrb {\rmfamily\mdseries\upshape \setfont [8.5][10.5]}
-\def \FFrc {\rmfamily\mdseries\upshape \setfont [9][11]}
-\def \FFrd {\rmfamily\mdseries\upshape \setfont [10][12]}
-\def \FFre {\rmfamily\mdseries\upshape \setfont [11][13]}
-\def \FFrf {\rmfamily\mdseries\upshape \setfont [12][14]}
-\def \FFrg {\rmfamily\mdseries\upshape \setfont [13][15]}
-\def \FFrh {\rmfamily\mdseries\upshape \setfont [14][16]}
-\def \FFrj {\rmfamily\mdseries\upshape \setfont [15][17]}
-\def \FFrk {\rmfamily\mdseries\upshape \setfont [16][18]}
-\def \FFrl {\rmfamily\mdseries\upshape \setfont [17][19]}
-\def \FFrm {\rmfamily\mdseries\upshape \setfont [18][20]}
-\def \FFrn {\rmfamily\mdseries\upshape \setfont [19][21]}
+    \def \FFrb {\rmfamily\mdseries\upshape \setfont [8.5][10.5]}
+    \def \FFrc {\rmfamily\mdseries\upshape \setfont [9][11]}
+    \def \FFrd {\rmfamily\mdseries\upshape \setfont [10][12]}
+    \def \FFre {\rmfamily\mdseries\upshape \setfont [11][13]}
+    \def \FFrf {\rmfamily\mdseries\upshape \setfont [12][14]}
+    \def \FFrg {\rmfamily\mdseries\upshape \setfont [13][15]}
+    \def \FFrh {\rmfamily\mdseries\upshape \setfont [14][16]}
+    \def \FFrj {\rmfamily\mdseries\upshape \setfont [15][17]}
+    \def \FFrk {\rmfamily\mdseries\upshape \setfont [16][18]}
+    \def \FFrl {\rmfamily\mdseries\upshape \setfont [17][19]}
+    \def \FFrm {\rmfamily\mdseries\upshape \setfont [18][20]}
+    \def \FFrn {\rmfamily\mdseries\upshape \setfont [19][21]}
 
-\begin{document}
-\FFrj 
-\baselineskip = 12pt
-\parindent = 0 em
-\parskip 0.01 em
+    \begin{document}
+    \FFrj 
+    \baselineskip = 12pt
+    \parindent = 0 em
+    \parskip 0.01 em
 
