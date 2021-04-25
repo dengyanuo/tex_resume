@@ -211,6 +211,7 @@ export index_html
 
 bibleS_list:=\
 	  galatians+3 \
+	2+timothy+2 \
 
 bibleS_list_bak01:=\
 	1+corinthians+15 \
