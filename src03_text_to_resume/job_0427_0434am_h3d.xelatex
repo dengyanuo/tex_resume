@@ -1,0 +1,71 @@
+\input ../header/example_xelatex03.xelatex
+%
+%\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%\def \FFbase {\FFrk \baselineskip 30.0pt}
+\def \FFbase {\FFrm \baselineskip 25.0pt}
+\parskip 0.3 em
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\FFbase
+\par H3D Interview
+\par Thursday, April 29⋅11:00am – 12:00pm
+\par Location:
+\par GoToMeeting
+\par 4 guests
+\par 1 yes, 3 awaiting
+\par deng.ya.nuo@gmail.com
+\par Feng Zhang
+\par Hao Yang
+\par Zhong He
+\par Description:Michael will host the interview, but the majority of it can commence in Mandarin between Feng, Hao, and James.
+\par ----------------------------
+\par Michael Streicher's Meeting
+\par Please join my meeting from your computer, tablet or smartphone.
+\par https://www.gotomeet.me/MStreicher
+\par You can also dial in using your phone.
+\par United States: +1 (646) 749-3122
+\par <tel:+16467493122,,188521301>
+\par Access Code: 188-521-301
+%
+%
+\end{document}
+%
