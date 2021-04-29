@@ -45,21 +45,86 @@
 %
 %
 %
+\parskip 0.8em
 \FFbase
 Clark Meets Clare
 
-The first time /
-I ever met Clare, 
-she was working /
-in a clothing store /
-in Chicago. 
-I was feeling pretty embarrassed because I had gone in to buy a scarf for my sister and there were 20 or 30 women in there and I was the only man. I was standing in the scarves, hats and gloves section feeling sorry for myself when Clare walked up to me and asked me if there was anything I needed.
+The \underline{first} time /
+I ever met \underline{Clare}, 
+she was \underline{working} /
+in a \underline{clothing} store /
+in \underline{Chicago}. 
+I was feeling pretty \underline{embarrassed} 
+because I had gone in to buy a \underline{scarf} / 
+for my \underline{sister} /
+and there were 20 or 30 \underline{women} in there /
+and I was the only \underline{man}. 
+I was \underline{standing} /
+in the scarves, hats and gloves \underline{section} /
+feeling \underline{sorry} for myself /
+when \underline{Clare} walked up to me / 
+and \underline{asked} me  /
+if there was \underline{anything} /
+I \underline{needed}.
 
-She looked very beautiful and was dressed elegantly. I must admit that for a couple of seconds, I wasn't able to say anything. I just looked at her. Finally, I said, "What size scarves do you have?" and then realized that it was quite a stupid question. I left the store a few seconds later without buying anything.
+She looked very \underline{beautiful} /
+and was dressed \underline{elegantly.} 
+I must \underline{admit} /
+that for a couple of \underline{seconds,} 
+I wasn't able to say \underline{anything.} 
+I just looked at \underline{her}. 
+Finally, 
+I said, 
+"What size \underline{scarves} /
+do you have?" /
+and then \underline{realized} /
+that it was quite a \underline{stupid} question. 
+I \underline{left} the store /
+a few seconds \underline{later} /
+without buying \underline{anything}.
 
-Two days later, I was sitting in a coffee bar around the corner when I heard a voice behind me say, "Did you ever find the scarf you were looking for?" I turned around and was amazed to see the same pretty girl from the clothes store. We laughed about it and shared a coffee together.
+\underline{Two} days later, 
+I was sitting in a coffee \underline{bar} /
+around the \underline{corner} /
+when I heard a \underline{voice} / 
+\underline{behind} me /
+say, 
+"Did you ever find the \underline{scarf} /
+you were \underline{looking} for?" 
+I turned \underline{around} /
+and was \underline{amazed} /
+to see the same pretty \underline{girl} /
+from the \underline{clothes} store. 
+We \underline{laughed} about it /
+and \underline{shared} a coffee /
+\underline{together}.
 
-Two weeks later, I was brave enough to ask Clare to go to see a movie with me. You can imagine how unhappy I was when she said that she couldn't go with me. She promised to call me another time, but I didn't believe her. The next morning, my cell phone rang and I recognized her number on the screen. She said she was free and asked if I still wanted to go to the cinema. That was seven years ago and now we've been married for nearly 5 years.
+Two \underline{weeks} later, 
+I was \underline{brave} enough /
+to ask \underline{Clare} /
+to go to see a \underline{movie} /
+with \underline{me.} 
+You can \underline{imagine} /
+how \underline{unhappy} I was 
+when she \underline{said} /
+that she \underline{couldn't} /
+go with \underline{me.} 
+She \underline{promised} /
+to call me \underline{another} time, 
+but I didn't \underline{believe} her. 
+The next \underline{morning,} 
+my cell phone \underline{rang} /
+and I \underline{recognized} /
+her \underline{number} /
+on the \underline{screen.} 
+She \underline{said} /
+she was \underline{free} /
+and \underline{asked} /
+if I still wanted to go to the \underline{cinema.} 
+That was \underline{seven} years ago /
+and \underline{now} /
+we've been \underline{married} /
+for nearly \underline{5} years.
 %
 %
 \end{document}

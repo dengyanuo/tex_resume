@@ -67,5 +67,37 @@
 \par Access Code: 188-521-301
 %
 %
+%
+%
+\pagebreak
+\def \FFbasA {\FFrh \baselineskip 19.0pt}
+\FFbasA
+%
+\par Prof. Zhong He
+\par Founder and Chairman
+\par hezhong@h3dgamma.com
+\par (734) 661-6416 x110
+\par Zhong earned his undergraduate degree from Tsinghua University and his PhD from Southampton University. He is currently a professor in the Department of Nuclear Engineering and Radiological Sciences at the University of Michigan. Prof. He invented the 3D-readout technique for semiconductor detectors which forms the foundation of all H3D technology, enabling our excellent energy resolution and our ability to perform gamma-ray imaging with a single CdZnTe crystal.
+\par %
+\par Dr. Feng Zhang
+\par Founder and CTO
+\par zhangf@h3dgamma.com
+\par (734) 661-6416 x108
+\par Feng earned his undergraduate degree from Tsinghua University and his PhD from the University of Michigan. He works on the readout systems for H3D detectors, with a proven record of achieving the best energy resolution ever at room temperature.
+\par %
+\par Dr. Hao Yang
+\par Engineer
+\par hao@h3dgamma.com
+\par (734) 661 6416 x128
+\par Hao earned his undergraduate degree from Tsinghua University and his PhD from the University of Michigan. He has worked on pixelated CZT since 2008, with a focus on detector readout. At H3D, Hao works on detector readout and processing.
+\par %
+\par Dr. Michael Streicher
+\par EE/CZT Director
+\par michael@h3dgamma.com
+\par (734) 661 6416 x121
+\par Michael earned his undergraduate degree from Purdue University and his PhD from the University of Michigan. His doctoral work focused on digital readout of CZT detectors for national-security applications. At H3D, Michael works on detector testing, readout, and processing.
+%
+%
+%
 \end{document}
 %
