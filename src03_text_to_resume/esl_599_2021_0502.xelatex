@@ -1,0 +1,100 @@
+\input ../header/example_xelatex03.xelatex
+%
+%\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%\def \FFbase {\FFrk \baselineskip 30.0pt}
+%\def \FFbase {\FFrm \baselineskip 25.0pt}
+\def \FFbase {\FFrk \baselineskip 18.0pt}
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\parskip 0.3em
+\FFbase
+\par 1.
+What is the median salary or salary range for this position?
+\par The starting salary should be 120k/year.
+\hrule
+\par 2.
+What are the education requirements for this job? (Bachelors, Associates?)
+\par BSc degree with 10+ years or MSc degree with 5+ years.
+\hrule
+\par 3.
+How important are grades/GPA for obtaining a job in this field?
+\par The grades/GPA  is not very important in this field, but the working experiences are important.
+\hrule
+\par 4.
+How well did your high school or college experiences prepare you for this job?
+\par Both my education on BSc and MSc are semiconductor, which are good fit to this job.
+\hrule
+\par 5.
+What courses do you wish you had taken that would have prepared you?
+\par The computer language of C, pure C.
+\hrule
+\par 6.
+What are your duties/functions/responsibilities of your job?
+\par From firmware coding , FPGA coding to ASIC designing, all levels are my duties.
+\hrule
+\par 7.
+Is your work primarily individual or predominately in groups or teams?
+\par Because there are too much tasks in my working flow, so they should be finished by a team in a meanableful time.
+\hrule
+\par 8.
+Why did this type of work interest you and how did you get started in this career?
+\par I like physic and electronics since younghood.
+\hrule
+\par 9.
+What do you like most about this job?
+\par To achieve an ASIC SOC chip. That's a wonderful achievement.
+\hrule
+\par 10.
+What particular skill or talents are most essential to be effective in your job?
+\par Physical thinking. It should not be coding only, but be complete taking care all the status of the whole system.
+\hrule
+\par 11.
+What are the opportunities in this career in California?
+\par There are too many companies , which is trying to make an AI vehicle in the recent years.
+\hrule
+\par 12.
+What is the most important thing that someone planning to enter this career should know?
+\par Most people should consider which one should be choiced : software or hardware. I choice : both.
+%
+%
+\end{document}
+%
