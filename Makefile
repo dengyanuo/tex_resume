@@ -211,6 +211,7 @@ export index_html
 
 bibleS_list:=\
 	  galatians+3 \
+	  galatians+6 \
 	2+timothy+2 \
 
 bibleS_list_bak01:=\
