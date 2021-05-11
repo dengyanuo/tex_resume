@@ -1,0 +1,73 @@
+\input ../header/example_xelatex03.xelatex
+%
+%\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%\def \FFbase {\FFrk \baselineskip 30.0pt}
+%\def \FFbase {\FFrm \baselineskip 25.0pt}
+\def \FFbase {\FFrk \baselineskip 18.0pt}
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\parskip 0.3em
+\FFbase
+\par I am sorry for I misunderstand your questions. 
+I met a lot of questions in the recent days.
+Ok. I see now. 
+But I think they are too professional and don't fit to answer here.
+So I search and reply with the common answers. 
+\vskip 3em
+\par 1. "Your resume is good. But it's difficult to understand all. Could you descript them step by step to help me understand it ? "
+\par 2. "Do you familiar to Linux ?"
+\par 3. "What's your first working language ?"
+\par 4. "Do you familiar to Driver of Linux?"
+\par 5. "Have you working at RTOS ?"
+\par 6. "Which version control software do you used ?"
+\par 7. "What's the means of keywork 'Volatile' in C ?"
+\par 8. "How does the DMA work ?"
+\par 9. "What's the different between I2C and SPI ?"
+\par 10. "Have you use PCIe ?"
+\par 11. "Do you familiar to FPGA ?"
+\par 12. "Why do you quit in 6 month in 2017 ?"
+\par 13. "There are a lot of ip-cores in your resume. Which one do you write by yourself ?"
+\par 14. "Do you have WiFi experiences ?"
+%
+%
+\end{document}
+%
