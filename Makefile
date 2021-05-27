@@ -211,6 +211,7 @@ export index_html
 
 bibleS_list:=\
 	  ephesians+1 \
+	  ephesians+2 \
 	  galatians+3 \
 	  galatians+6 \
 	2+timothy+2 \
