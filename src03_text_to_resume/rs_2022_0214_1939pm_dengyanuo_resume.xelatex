@@ -2,6 +2,9 @@
 %
 %\def \FFbase {\FFrg \baselineskip 10.0pt}
 \def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFrf \baselineskip 9.5pt}
+%\def \FFbase {\FFrf \baselineskip 9.0pt}
+%\def \FFbase {\FFrf \baselineskip 8.0pt}
 %\def \FFbase {\FFre \baselineskip 10.0pt}
 %\def \FFbase {\FFrd \baselineskip 10.0pt}
 %
@@ -73,26 +76,35 @@
     %\hskip 42pt 
     %\hskip 22pt 
     %\hskip 12pt 
-    \hskip 10pt 
+    %\hskip 10pt 
+    \hskip 38pt%space01
     } 
     & 
     {\FFbU
     %James Yanuo Deng,(408)444-5520
-    (James)\hskip 2pt Yanuo Deng,\hskip 2pt (408)444-5520
+    (James)\hskip 2pt Yanuo Deng,\hskip 21pt +1(408)444-5520
     }
     %& 
     %\hskip 12pt 
-    \hskip 61pt 
-    \hskip 33pt%space01
+    %\hskip 27pt 
+    %\hskip 5pt 
+    \hskip 38pt%space01
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}
     {EAD \hskip 0pt card}
     %(relocatable)
     (workpermit)
     \\ &
+    %{
     %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
     %1565 Cress Way, Olivehurst, CA 95961 
-    {2090 Pauline Blvd Apt 2B, Ann Arbor, MI 48103}
-    \hskip 33pt%space01
+        2090 Pauline Blvd,
+        %2090 Pauline Blvd Apt 2B,
+        Ann Arbor, MI 48103
+    %}
+    %\hskip 13pt
+    \hskip 12pt
+    %\hskip 8pt
+    \hskip 38pt%space01
     %& 
     \href{mailto:deng.ya.nuo@gmail.com}{\hskip -5pt deng.ya.nuo@gmail.com}
     \\   
@@ -137,9 +149,8 @@ WORKING EXPERIENCE
 }
 \href {https://h3dgamma.com/}{https://h3dgamma.com/}
 {\par \FFss Seinor Electric Engineer, July 2021 - Now}
-{\par * Verilog + FPGA for self-powered and low-power MCU SOC chips for iPhone Lightning cables.  }
-
-
+{\par * GCC for Msp430 build from source on ARM platform for the nuclear detector system debuging.  }
+{\par * Breakout board schematic/layout/debuging for IAEA's flying nuclear monitor platform.}
 %%333% {\beforebreak } {\FFbL Self-employed, California/Michigan, USA }
 %%333% {\par \FFss Network Security Admin, Website Designer, Feb 2021 - Now}
 %%333% %\href {https://www.isaycakissmyass.com/}
@@ -202,6 +213,7 @@ Developed the first meal order App for Android in China; Windows C\#; MySQL API 
 %
 {\beforebreak } {\FFbL Vbridge Microsystem Inc, San Jose, California, USA.  }
 {\par \FFss Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
+(1st Gen remote SOC team work across Pacific)
 {\par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC + 5-bits MCU core.  }
 {\par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
 {\par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
@@ -213,7 +225,7 @@ Developed the first meal order App for Android in China; Windows C\#; MySQL API 
 {\FFbU EDUCATION }
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
 \par Yuba College, ESL Class, 2021
-\par Evergreen Valley College, ESL Class, 2020
+%\par Evergreen Valley College, ESL Class, 2020
 \par Xi'an University of Technology, China
 {
     \par
@@ -262,14 +274,21 @@ I find satifications in seeing projects completed and perfected.
 \par Michael Streicher,
 H3D Inc.,
 EE/CZT Manager,
-(734)661-6416x121
+\href{tel:+17346616416,,121}{(734)661-6416\hskip 2pt ext\hskip 2pt 121},
+\hskip 15pt
+\href{
+    mailto:michael@h3dgamma.com
+}{
+    michael@h3dgamma.com
+}
 \par Dan Teuthorn,
 Teledyne Microwave,
 %solutions,
 VP Engineer,
 %408-421-7303,
 %4084217303,
-(408)421-7303,
+\href{tel:+14084217303}{(408)421-7303},
+\hskip 27pt
 \href{
     mailto:dan.teuthorn@teledyne.com
 }{
@@ -280,25 +299,26 @@ VP Engineer,
 \par Tang Shanqiang,
 Cadence,
 Principal Application Engineer,
-+65-9054-6301,
+\href{tel:+6590546301}{+65-9054-6301},
+\hskip 15pt
 \href{
     mailto:ansent@cadence.com
 }{
     ansent@cadence.com
 }
-%
-\par Stephen Fung,
-%Atheros/Qualcomm,
-Qualcomm,
-Semicondutor Engineer,
-%408-338-5175,
-%4083385175,
-(408)338-5175,
-\href{
-    mailto:stephen@thepoint.church
-}{
-    stephen@thepoint.church
-}
+%%%222%%% %
+%%%222%%% \par Stephen Fung,
+%%%222%%% %Atheros/Qualcomm,
+%%%222%%% Qualcomm,
+%%%222%%% Semicondutor Engineer,
+%%%222%%% %408-338-5175,
+%%%222%%% %4083385175,
+%%%222%%% (408)338-5175,
+%%%222%%% \href{
+%%%222%%%     mailto:stephen@thepoint.church
+%%%222%%% }{
+%%%222%%%     stephen@thepoint.church
+%%%222%%% }
 %
 % Arsenia Harrison,
 % One More Chance Company, CEO,
