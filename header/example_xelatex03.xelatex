@@ -120,11 +120,12 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
     \def \FFrf {\rmfamily\mdseries\upshape \setfont [12][14]}
     \def \FFrg {\rmfamily\mdseries\upshape \setfont [13][15]}
     \def \FFrh {\rmfamily\mdseries\upshape \setfont [14][16]}
-    \def \FFrj {\rmfamily\mdseries\upshape \setfont [15][17]}
-    \def \FFrk {\rmfamily\mdseries\upshape \setfont [16][18]}
-    \def \FFrl {\rmfamily\mdseries\upshape \setfont [17][19]}
-    \def \FFrm {\rmfamily\mdseries\upshape \setfont [18][20]}
-    \def \FFrn {\rmfamily\mdseries\upshape \setfont [19][21]}
+    \def \FFri {\rmfamily\mdseries\upshape \setfont [15][17]}
+    \def \FFrj {\rmfamily\mdseries\upshape \setfont [16][18]}
+    \def \FFrk {\rmfamily\mdseries\upshape \setfont [17][19]}
+    \def \FFrl {\rmfamily\mdseries\upshape \setfont [18][20]}
+    \def \FFrm {\rmfamily\mdseries\upshape \setfont [19][21]}
+    \def \FFrn {\rmfamily\mdseries\upshape \setfont [20][22]}
 
     \begin{document}
     \FFrj 
