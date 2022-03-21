@@ -1,0 +1,100 @@
+\input ../header/example_xelatex03.xelatex
+%
+%\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%\def \FFbase {\FFrk \baselineskip 30.0pt}
+\def \FFbase {\FFrm \baselineskip 25.0pt}
+\parskip 0.3 em
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+\par  Description:
+\par  The client project is on Automotive domain.
+\par  Requirements:
+\par  >5 years of embedded software development
+\par  >5 years’ experience with OSEK/RTOS
+\par  >5 years of experience on Linux \& Linux build script
+\par  >5 years of experience on C / C++ programming
+\par  > 5 years and above experience in telematics/automotive product development
+\par  > At least 2 years of Agile SW development experience
+\par  > At least 2 years of working experience in VuC/ SoC as per chapter
+\par  * Experience in Telematics Software Development
+\par  * Experience with Qualcomm/SA415/SA515 chipset application development
+\par  * Experience in GOST R 54xxx and/or GOST R 55xxx and European eCall requirements
+\par  * Experience in ERA, PSAP Russia region requirements
+\par  * Experience in Linux programming
+\par  * Network communication programming
+\par  * C/C++ socket application programming
+\par  * Experience in GHS INTEGRITY, QNX or/and Android operating system.
+\par  Preferences:
+\par  Preferred Bachelors in Computer Science or related fields
+\par  Job Responsibilities:
+\par  Provide technical support to SWEs under his/her responsibility
+\par  Responsible to ensure internal and external  interfaces of the module
+\par  Provide support on technical framework, tools and process to SWEs to deliver projects successfully
+\par  Approve work products by SWEs and to ensure its quality
+\par  Tracking of assigned work packages \& status reporting
+\par  Run daily standups and provide status
+\par  Review and ensure activities of SWE are correctly performed Interface with customer
+\par  “If you are a California resident, more details on how we process your personal information can be found in the CCPA Recruitment Privacy Notice (https://www.globallogic.com/privacy/ccpa-recruitment-privacy-notice/)”
+\par  What We Offer
+\par  Exciting Projects:Come take your place at the forefront of digital transformation! With clients across all industries and sectors, we offer an opportunity to work on market-defining products using the latest technologies.
+\par  Collaborative Environment: You can expand your skills by collaborating with a diverse team of highly talented people in an open, laidback environment — or even abroad in one of our global centers or client facilities!
+\par  Work-Life Balance:GlobalLogic prioritizes work-life balance, which is why we offer flexible work schedules and opportunities to work from home.
+\par  Professional Development:We provide continuing education classes, professional certification and training (technical, soft skills, language, and communication skills) to help you realize your professional goals. Being part of a global organization, there are additional learning opportunities through international knowledge exchanges.
+\par  Excellent Benefits:We provide our employees with competitive salaries, health and life insurance, short-term and long-term disability insurance, a matched contribution 401K plan, flexible spending accounts, and PTO and holidays
+\par  About GlobalLogic
+\par  GlobalLogic is a full-lifecycle product development services leader that combines chip-to-cloud software engineering expertise and vertical industry experience to help our customers design, build, and deliver their next-generation products and digital experiences. We expertly integrate design, complex engineering, and agile delivery capabilities to deliver superior business outcomes for global brands in telecom, automotive, healthcare, technology, media and entertainment, manufacturing, and semiconductor industries.
+\par  Headquartered in Silicon Valley, GlobalLogic employs over 18,000 designers and engineers across the globe. Analysts like NASSCOM and Zinnov have recognized us for being a top company in our field, and we are consistently nominated as a preferred employer by both global HR consultative firms and local job boards. By creating a work environment that is exciting and flexible, and by fostering growth through ongoing learning and development programs, we empower our employees to achieve both their professional and personal goals.
+\par  At GlobalLogic, we make amazing products — and careers.
+%
+%
+%
+%
+%
+\FFbase
+%
+%
+%
+%
+\pagebreak
+\def \FFbasA {\FFrh \baselineskip 19.0pt}
+\FFbasA
+%
+%
+%
+%
+\end{document}
+%
