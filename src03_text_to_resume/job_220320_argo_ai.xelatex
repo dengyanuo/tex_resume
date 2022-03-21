@@ -60,90 +60,51 @@
 \FFbaseA
 
 \par Firmware Engineer, FPGA, Argo AI  Detroit, MI
-\par  About the job
-\par  Who We Are
+\par  About the job , Who We Are
 \par  Argo AI is a global self-driving products and services company on a mission to make the world’s streets and roadways safe, accessible, and useful for all. Our technology is built to enable commercial services for autonomous delivery and ridesharing in cities.
 \par  With experienced leaders in the field and collaborative partnerships with some of the world’s top consumer brands, we’re working block by block, city by city to empower people and businesses to be more successful. We’re individuals driven by strong values to solve complex problems together. Come join us to reimagine the human journey.
-
 \par  Meet The Team
-
 \par  We develop custom FPGA designs to drive and receive data from our high bandwidth sensors. As a firmware engineer, you will be responsible for the design and implementation of RTL blocks in the programmable logic on our FPGAs. You will work closely with cross functional teams to bring up and debug new hardware, and provide technical guidance to other teams.
-
 \par  What You’ll Do
-
 \par  Develop RTL blocks for use in our FPGA designs
-
 \par  Deliver safety critical programmable logic for FPGAs in a robotics and automotive environment
-
 \par  Design firmware architecture and guide implementations on embedded systems
-
 \par  Drive the execution of FPGA design, implementation, and testing for applications including sensor processing, sensor control, and system diagnostics and monitoring
-
 \par  Work with hardware and software engineers across Argo AI to integrate FPGA designs into our autonomy and sensor products
-
 \par  What You'll Need To Succeed
-
 \par  Degree in Computer Engineering, Electrical Engineering, Mechanical Engineering, Physics or a related field
-
 \par  Significant product design experience with full FPGA lifecycles including shipping products with FPGAs
-
 \par  Experience with HDL (SystemVerilog, Verilog, VHDL)
-
 \par  Experience with FPGA design and verification flows
-
 \par  Quantitative / analytical mindset to probe, test and decompose challenging system problems into root cause issues with strong, detail oriented skills to solve them
-
 \par  Strong communication skills
-
 \par  Open to occasional travel to remote offices, test facilities, engineering partners, or manufacturing partners
-
 \par  Nice To Haves
-
 \par  Experience with High Level Synthesis (HLS) tools
-
 \par  Experience with verification tools (QuestaSim)
-
 \par  Experience with systems requiring high levels of reliability and functional safety (ISO26262)
-
 \par  Experience with hardware components for robotics / automotive systems including sensing, signal processing, and communication protocols
 
 \pagebreak
 \FFbaseB
 
 \par  What We Offer You
-
 \par  High-quality individual and family medical, dental, and vision insurance
-
 \par  Competitive compensation packages
-
 \par  Employer-matched 401(k) retirement plan with immediate vesting
-
 \par  Employer-paid group term life insurance and the option to elect voluntary life insurance
-
 \par  Paid parental leave
-
 \par  Paid medical leave
-
 \par  Unlimited vacation
-
 \par  Complimentary daily lunches, beverages, and snacks
-
 \par  Pre-tax commuter benefits
-
 \par  Monthly wellness stipend
-
 \par  Professional development reimbursement
-
 \par  Employee assistance program
-
 \par  Discounted programs that include legal services, identity theft protection, pet insurance, and more
-
 \par  Company and team bonding outlets: employee resource groups, quarterly team activity stipend, and wellness initiatives
-
 \par  Our Background
-
 \par  Argo AI was founded in 2016 by industry experts with extensive experience building robotic systems for commercial applications. Our once-small team has since grown into an over 1,700-person strong company with strategic partnerships with some of the world’s leading consumer brands. With global headquarters in Pittsburgh, we operate in eight cities across the U.S. and Germany in areas where self-driving technology can have the biggest impact on improving safety, traffic, and transportation equity.
-
 \par  At Argo AI, we believe that embracing differences delivers superior results. We are an equal opportunity employer that is committed to an inclusive environment for all employees.
 
 %
