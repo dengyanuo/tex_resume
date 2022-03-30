@@ -10,6 +10,7 @@ F2tex:=$(wildcard src*/*.tex bible*/*.tex)
 F3xelatex:=$(wildcard xelatex*/*.xelatex bible*/*.xelatex src*/*.xelatex )
 F7combine:=$(wildcard src*/*.combine)
 F8books:=$(wildcard books/*.pdf)
+F8books+=$(wildcard s_pdf0?/*.pdf)
 Fs:=$(F1latex) $(F2tex)
 
 PDF1latex:=$(foreach     aa1,$(basename $(notdir $(F1latex))),pdf/$(aa1).pdf)
@@ -56,7 +57,8 @@ $1 : \
 endef
 
 define FUNCbooks8pdf
-$1 : $(wildcard books/$(basename $(notdir $(1))).pdf)
+$1 : $(wildcard books/$(basename $(notdir $(1))).pdf) \
+     $(wildcard s_pdf0?/$(basename $(notdir $(1))).pdf)
 	@echo
 	# $1 : $$^
 	cp $$^ $1 
