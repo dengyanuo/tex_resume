@@ -1,0 +1,107 @@
+\input ../header/example_xelatex03.xelatex
+%
+\def \FFbaseAA {\FFra \baselineskip 9.0pt}
+\def \FFbaseBB {\FFrb \baselineskip 9.0pt}
+\def \FFbaseBC {\FFrb \baselineskip 7.0pt}
+\def \FFbaseCC {\FFrc \baselineskip 9.0pt}
+\def \FFbaseDD {\FFrd \baselineskip 10.0pt}
+\def \FFbaseEE {\FFre \baselineskip 10.0pt}
+\def \FFbaseFF {\FFrf \baselineskip 10.0pt}
+\def \FFbaseGG {\FFrg \baselineskip 14.0pt}
+\def \FFbaseHH {\FFrh \baselineskip 19.0pt}
+\def \FFbaseII {\FFri \baselineskip 23.0pt}
+\def \FFbaseJJ {\FFrj \baselineskip 25.0pt}
+\def \FFbaseKK {\FFrk \baselineskip 30.0pt}
+\def \FFbaseMM {\FFrm \baselineskip 25.0pt}
+
+\def \FFbaseA {\FFbaseGG}
+\def \FFbaseB {\FFbaseII}
+
+\parskip 0.3 em
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\FFbaseA
+
+
+Position: Verification Engineer - Senior 
+
+Duration: 12 Months 
+
+Location: Boxborough Massachusetts 01719 
+
+Job Type: Contract 
+
+Work Type: Remote 
+ 
+
+Job Duties: 
+
+Participate in the functional verification of a block(s) of complex ASICs and/or IP cores for a combined CPU/GPU development effort. Be part of a team of design and verification engineers, working closely with other team members to understand and verify the functionality of a given design element within the context of the block, chip and overall system. 
+
+ Be responsible for carefully documenting and executing test plan(s) consisting of directed and constrained-random tests to be run during simulation.  
+
+Be expected to adopt the evolving verification methodologies used in the industry to functionally verify increasingly more complex SoC designs within aggressive, market-driven schedules, and work within the existing verification infrastructure on currently active projects. 
+ 
+
+EXPERIENCE AND EDUCATION: 
+
+5 or more years of proven verification experience on large ASIC development projects or software/firmware experience in a hardware development setting 
+
+Strong background in SV/UVM development in a Linux Environment 
+
+Strong debug skills and experience with industry-standard verification tools such as VCS and Verdi 
+
+Experience in C/C++ preferred; Experience in C/Verilog environment using DPI/PLI preferred 
+
+Strong analytical skills and attention to detail; Excellent written and communication skills 
+
+
+% \pagebreak
+% \FFbaseB
+%
+%
+%
+%
+%
+%
+%
+%
+\end{document}
+%
