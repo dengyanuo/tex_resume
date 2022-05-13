@@ -1,0 +1,134 @@
+\input ../header/example_xelatex03.xelatex
+%
+\def \FFbaseAA {\FFra \baselineskip 9.0pt}
+\def \FFbaseBB {\FFrb \baselineskip 9.0pt}
+\def \FFbaseBC {\FFrb \baselineskip 7.0pt}
+\def \FFbaseCC {\FFrc \baselineskip 9.0pt}
+\def \FFbaseDD {\FFrd \baselineskip 10.0pt}
+\def \FFbaseEE {\FFre \baselineskip 10.0pt}
+\def \FFbaseFF {\FFrf \baselineskip 10.0pt}
+\def \FFbaseGG {\FFrg \baselineskip 14.0pt}
+\def \FFbaseHH {\FFrh \baselineskip 19.0pt}
+\def \FFbaseII {\FFri \baselineskip 23.0pt}
+\def \FFbaseJJ {\FFrj \baselineskip 25.0pt}
+\def \FFbaseKK {\FFrk \baselineskip 30.0pt}
+\def \FFbaseMM {\FFrm \baselineskip 25.0pt}
+
+\def \FFbaseA {\FFbaseHH}
+\def \FFbaseB {\FFbaseII}
+
+\parskip 0.3 em
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\FFbaseA
+
+Job Title           :     Firmware Engineer
+Location           :     Farmington, CT
+
+
+
+
+
+
+
+
+We are looking for a highly motivated, self driven and ambitious senior Software Engineer with good knowledge in Elevator domain.
+
+Job Description : 
+The right person for this job should possess minimum Bachelor’s degree in Engineering in Electronics
+
+Design and develop firmware for products and services
+
+Perform design and code reviews and recommend improvements
+
+Perform testing to validate product architecture and design
+
+Collaborate with other engineers on technical and design issues
+
+Develop firmware algorithms to handle exceptional conditions and errors
+
+Install and verify the firmware on embedded system
+
+Troubleshoot system, performance and functional issues with firmware
+
+Execute projects within defined scope, budget and timelines.
+
+Evaluate technical specification for correctness and completeness
+
+Prepare reports on project status, issues and risks for management
+
+Assist in optimizing firmware to achieve performance standards
+
+Understanding of Functional safety standards like IEC 61508
+
+Ensure in compliance with company policies and procedures
+
+Review codes of other engineers and provide feedbacks
+
+Skills
+
+Well versed with embedded PDLC
+
+Experience in hands-on development and troubleshooting on embedded targets
+
+Solid programming experience in C or C++
+
+Proven experience in embedded systems design with preemptive, multitasking real-time operating systems
+
+Familiarity with software configuration management tools, defect tracking tools, and peer review
+
+Excellent knowledge of OS coding techniques, IP protocols (I2C, SPI, RS422, RS485, RS232, CAN), interfaces and hardware subsystems
+
+Adequate knowledge of reading schematics and data sheets for components
+
+
+
+% \pagebreak
+% \FFbaseB
+%
+%
+%
+%
+%
+%
+%
+%
+\end{document}
+%
