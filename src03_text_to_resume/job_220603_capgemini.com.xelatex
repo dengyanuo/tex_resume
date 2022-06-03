@@ -1,0 +1,130 @@
+\input ../header/example_xelatex03.xelatex
+%
+\def \FFbaseAA {\FFra \baselineskip 9.0pt}
+\def \FFbaseBB {\FFrb \baselineskip 9.0pt}
+\def \FFbaseBC {\FFrb \baselineskip 7.0pt}
+\def \FFbaseCC {\FFrc \baselineskip 9.0pt}
+\def \FFbaseDD {\FFrd \baselineskip 10.0pt}
+\def \FFbaseEE {\FFre \baselineskip 10.0pt}
+\def \FFbaseFF {\FFrf \baselineskip 10.0pt}
+\def \FFbaseGG {\FFrg \baselineskip 14.0pt}
+\def \FFbaseHH {\FFrh \baselineskip 19.0pt}
+\def \FFbaseII {\FFri \baselineskip 23.0pt}
+\def \FFbaseJJ {\FFrj \baselineskip 25.0pt}
+\def \FFbaseKK {\FFrk \baselineskip 30.0pt}
+\def \FFbaseMM {\FFrm \baselineskip 25.0pt}
+
+\def \FFbaseA {\FFbaseHH}
+\def \FFbaseB {\FFbaseII}
+
+\parskip 0.3 em
+%
+\def \FFbU {\FFbf}
+\def \FFbL {\FFbe}
+%\def \FFbU {\FFbe}
+%\def \FFbL {\FFbd}
+%
+\def \FFss {\FFte}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+\FFbaseA
+
+capgemini.com
+
+Position requires candidate’s involvement in all facets of software development- Requirements, design, implementation, verification and release. This opening could also involve
+
+development of a completely new product and one can expect to have great technical challenges and very good scope for individual’s creativity.
+
+ 
+
+Skill set required
+
+ 
+
+1. working experience on embedded processors.
+
+2. Experience with ARM microcontroller (Freescale, Atmel, ST…etc.). Experience with STM32 controller
+
+3. Experience in development of FreeRTOS firmware
+
+4. Good understanding of multi-threaded embedded system concepts
+
+a. Good understanding of priorities, deadlocks…etc.
+
+b. Good understanding of bootloaders
+
+5. Must have experience in coding for basic Embedded technologies like
+
+a. DMAs
+
+b. UART
+
+c. SPI
+
+d. I2C
+
+e. GPIO
+
+6. Must have experience with wide variety of embedded peripherals like
+
+a. Accelerometer
+
+b. Gyro
+
+c. SPI flash
+
+d. eMMC
+
+e. Temperature sensors
+
+f. PWM
+
+g. RTC
+
+7. Added advantage if knowledgeable in Security protocols (SSL, certificates) Bluetooth Experience 4G Modem Experience
+
+
+
+
+% \pagebreak
+% \FFbaseB
+%
+%
+%
+%
+%
+%
+%
+%
+\end{document}
+%
