@@ -24,6 +24,10 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{tikz}
 \usetikzlibrary{tikzmark,decorations.pathmorphing}
 %
+%\usepackage[francais]{babel}
+%\usepackage[yyyymmdd,hhmmss]{datetime}
+\usepackage{datetime}
+%
 \hypersetup{
     colorlinks=true,
     linkcolor=lightblue,
