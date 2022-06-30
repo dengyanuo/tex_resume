@@ -101,7 +101,8 @@
     %1565 Cress Way, Olivehurst, CA 95961 
     2090 Pauline Blvd,
     %2090 Pauline Blvd Apt 2B,
-    {\FFbU Ann Arbor}, MI 48103
+    %\href{https://goo.gl/maps/fjPDExHRpGstxNVi9}{Ann Arbor, MI 48103}
+    \href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
     %}
     %\hskip 13pt
     %\hskip 12pt
