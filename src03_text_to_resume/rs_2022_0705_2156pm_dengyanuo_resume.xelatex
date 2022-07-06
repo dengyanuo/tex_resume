@@ -275,7 +275,7 @@ WORKING EXPERIENCE
         %
         %\addtionbreak
         %{\beforebreak } {\FFbU ADDITIONAL RELATED SKILLS }
-        {\par * C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git. SUN Solaris.}
+        {\par * C, Verilog, Vim, Bash, Awk, Sed, Perl, Golang, Gnumake, Git. Sun Solaris.}
         {\par * Linux/FreeRTOS driver; UART, SPI, I2C, I2S, USB OnTheGo, WiFi hostapd/wpa\_supplicant.}
         %
         \addtionbreak
