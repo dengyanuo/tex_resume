@@ -127,8 +127,8 @@
 %\today
 %\hskip 10pt
 % how to set date&time : https://tools.ietf.org/doc/texlive-doc/latex/datetime/datetime-manual.html
-\ddmmyyyydate
-%\usdate
+%\ddmmyyyydate
+\usdate
 \today
 \hskip 10pt
 \settimeformat{ampmtime}
