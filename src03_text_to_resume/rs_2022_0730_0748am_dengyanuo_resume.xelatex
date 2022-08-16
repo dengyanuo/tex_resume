@@ -92,9 +92,20 @@
     %\hskip 38pt%space01
     \hfill
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}
-    {EAD \hskip 0pt C08}
-    %(relocatable)
-    (workpermit)
+    {
+        {
+            \color{red}
+            \ding{234}
+            \ding{43}
+        }
+        %EAD \hskip 0pt C08}
+        %(relocatable)
+        %(workpermit)
+        \hskip 3pt 
+        \color{blue}
+        %no sponsership is needed
+        work permit:
+        C08 EAD}
     \\ &
     %{
     %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
