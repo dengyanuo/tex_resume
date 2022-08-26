@@ -79,7 +79,8 @@
         {\color{red}  \ding{184}} &
         {\color{gray} \ding{175}} &
         {\color{gray} \ding{176}} &
-        flashing : Error / initialing 
+        flashing : Battery less than 3\%, {\color{blue} \faBatteryEmpty}
+        \\ &&&&&& MUST charge ASAP {\color{red} \FiveFlowerOpen \FiveFlowerOpen \FiveFlowerOpen}
         \\ &&&&&& battery only
         \\
         \hline
@@ -89,8 +90,10 @@
         {\color{red}  \ding{184}} {\color{green}  \ding{183}} &
         {\color{gray} \ding{175}} &
         {\color{gray} \ding{176}} &
-        flashing : Error / initialing 
-        \\ &&&&&& charger inserted
+        flashing : Battery less than 3\%, {\color{blue} \faBatteryEmpty}
+        \\ &&&&&& EMERGENCY chargeing Now {\color{red} \FiveFlowerPetal \FiveFlowerPetal}
+        \\ &&&&&& If in this state for a long time, Battery may be damaged. 
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         \hline
@@ -101,7 +104,8 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         flashing 5 second, wait 30 senconds, repeat
-        \\ &&&&&& battery volumn less than 10\%, suggest chargeing ASAP
+        \\ &&&&&& battery volumn between 3\% and 10\%, {\color{blue} \faBatteryEmpty}
+        \\ &&&&&& suggest chargeing ASAP {\color{red} \FiveFlowerOpen \FiveFlowerOpen}
         \\ &&&&&& battery only
         \\
         \hline
@@ -112,7 +116,7 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         flashing only after key being pressed 5 second
-        \\ &&&&&& battery volumn between 10\% and 20\%
+        \\ &&&&&& battery volumn between 10\% and 20\%, {\color{blue} \faBatteryEmpty}
         \\ &&&&&& battery only
         \\
         \hline
@@ -123,7 +127,7 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         flashing only after key being pressed 5 second
-        \\ &&&&&& battery volumn between 20\% and 40\%
+        \\ &&&&&& battery volumn between 20\% and 40\%, {\color{blue} \faBatteryQuarter}
         \\ &&&&&& battery only
         \\
         \hline
@@ -134,7 +138,7 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         flashing only after key being pressed 5 second
-        \\ &&&&&& battery volumn between 40\% and 60\%
+        \\ &&&&&& battery volumn between 40\% and 60\%, {\color{blue} \faBatteryHalf}
         \\ &&&&&& battery only
         \\
         \hline
@@ -145,7 +149,7 @@
         {\color{red}   \ding{185}} &
         {\color{gray}  \ding{176}} &
         flashing only after key being pressed 5 second
-        \\ &&&&&& battery volumn between 60\% and 80\%
+        \\ &&&&&& battery volumn between 60\% and 80\%, {\color{blue} \faBatteryThreeQuarters}
         \\ &&&&&& battery only
         \\
         \hline
@@ -156,7 +160,7 @@
         {\color{red}   \ding{185}} &
         {\color{red}   \ding{186}} &
         flashing only after key being pressed 5 second
-        \\ &&&&&& battery volumn between 80\% and 100\%
+        \\ &&&&&& battery volumn between 80\% and 100\%, {\color{blue} \faBatteryFull}
         \\ &&&&&& battery only
         \\
         \hline
@@ -168,8 +172,8 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         always flashing 
-        \\ &&&&&& battery volumn less than 0\% to 20\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn between 3\% and 20\%, {\color{blue} \faBatteryEmpty}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         302 &
@@ -179,8 +183,8 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         always flashing 
-        \\ &&&&&& battery volumn less than 20\% to 40\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn less than 20\% to 40\%, {\color{blue} \faBatteryQuarter}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         303 &
@@ -190,8 +194,8 @@
         {\color{gray}  \ding{175}} &
         {\color{gray}  \ding{176}} &
         always flashing 
-        \\ &&&&&& battery volumn less than 40\% to 60\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn less than 40\% to 60\%, {\color{blue} \faBatteryHalf}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         304 &
@@ -201,8 +205,8 @@
         {\color{red}   \ding{182}} {\color{green}   \ding{182}} &
         {\color{gray}  \ding{176}} &
         always flashing 
-        \\ &&&&&& battery volumn less than 60\% to 80\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn less than 60\% to 80\%, {\color{blue} \faBatteryThreeQuarters}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         305 &
@@ -212,8 +216,8 @@
         {\color{red}   \ding{182}} {\color{green}   \ding{182}} &
         {\color{red}   \ding{182}} {\color{green}   \ding{182}} &
         always flashing 
-        \\ &&&&&& battery volumn less than 80\% to 90\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn less than 80\% to 90\%, {\color{blue} \faBatteryThreeQuarters}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         306 &
@@ -223,8 +227,8 @@
         {\color{red}   \ding{182}} {\color{green}   \ding{182}} &
         {\color{red}   \ding{182}} {\color{green}   \ding{182}} &
         contant on, no flashing, battery is full.
-        \\ &&&&&& battery volumn less than 90\% to 100\%
-        \\ &&&&&& charger inserted
+        \\ &&&&&& battery volumn less than 90\% to 100\%, {\color{blue} \faBatteryFull}
+        \\ &&&&&& charger inserted {\color{green} \faChargingStation}
         \\
         \hline
         \hline

@@ -13,6 +13,9 @@ BoldFont=simhei.ttf, SlantedFont=simkai.ttf]{simsun.ttc}
 \usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{ragged2e}
+\usepackage{bbding}
+%\usepackage[pro]{fontawesome5}
+\usepackage{fontawesome5}
 %
 \usepackage{textcomp}
 \usepackage{fontawesome}
