@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tikzpicture}[ scale =1 ,
+    circed /.style ={ circle , draw = blue , fill },
+    rected /.style ={ rectangle , draw = black , fill = green , thick
+    }]
+
+
+    \draw (-5,0) -- (5,0);
+    \draw (0,50) -- (0,50);
+
+    \node [circle,    draw=blue] at ( -3.0 , 27.57 ) { $101$ };
+    \node [circle,    draw=blue] at ( -3.4 , 27.2 ) { $101$ };
+
+    \node [rectangle, draw=red]  at ( 3 , -3 ) { $102$ };
+
+\end{tikzpicture} 
+
+\end{document} 
