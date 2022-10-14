@@ -1,4 +1,5 @@
 
+dateX:=$(shell date +%Y_%m%d_%H%M%P)
 clean_dst11:=*.log *.ps *.dvi *.aux *.out *.toc
 clean_dst21:=$(foreach aa1,$(clean_dst11), tmp/$(aa1)) tmp/*.pdf
 clean_dst22:=$(foreach aa1,$(clean_dst11), */$(aa1))
@@ -28,6 +29,7 @@ PDFs:=$(filter-out $(PDFs_out),$(PDFs))
 all: $(PDFs)
 	@echo
 	@ls -l pdf/*.pdf |head -n 20
+	@-ls -l $(PDF9regen) /tmp/dyn_*.pdf
 	echo "$${index_html}" > pdf/index.html
 
 #pdf/latex_002_article_1998.pdf:Makefile
@@ -60,31 +62,38 @@ endef
 
 
 define FUNCcombine9regen
-$1: \
-	mm1=$$(shell cat \
-	$$(wildcard src*/$$(basename $$(notdir $(1))).regen) \
-	|sed \
-		-e 's;^ *;;g' \
-		-e '/^#/d' \
-		-e '/^ *$$$$/d' \
-		)
-$1: \
-	$$(foreach b9,\
+$1: mm1=$$(firstword \
 	$$(shell cat \
 	$$(wildcard src*/$$(basename $$(notdir $(1))).regen) \
 	|sed \
 		-e 's;^ *;;g' \
 		-e '/^#/d' \
 		-e '/^ *$$$$/d' \
-		),$$(wildcard src*/$$(b9)))
+		))
+$1: mm2=$$(shell echo -n $$(mm1) |sed -e 's;\.xelatex$$$$;;g')
+$1: mm3=$$(wildcard src*/$$(mm1))
+$1: mm4=/tmp/$$(mm2).pdf
+$1: mm5=$$(mm2).pdf
+$1: mm6=/tmp/dyn_$(dateX).pdf
 
+$1: 
+	@echo
 	@echo building $1 : begin
-	echo $$^
+	echo para == $$^
 	#### touch $$^
+	@echo mm1 "$$(mm1)"
+	@echo mm2 "$$(mm2)"
+	@echo mm3 "$$(mm3)"
+	@echo mm4 "$$(mm4)"
+	@echo mm5 "$$(mm5)"
+	@echo mm6 "$$(mm6)"
 	cd tmp/ && rm -f *.log *.out *.aux 
-	cd tmp/ && xelatex $$(notdir $$^)
-	echo mm1 "$$(mm1)"
+	cd tmp/ && xelatex ../$$(mm3)
+	cd tmp/ && cp $$(mm5) $$(mm6)
+	cd tmp/ && cp $$(mm5) $$@
+	cd tmp/ && mv $$(mm5) $$(mm4)
 	@echo building $1 : end
+	@echo
 endef
 
 
@@ -164,7 +173,7 @@ ga:
 	git add .
 
 gc:
-	git commit -a -m '$(shell date +%Y_%m%d_%H%M%P)'
+	git commit -a -m '$(dateX)'
 
 X : ga gc up
 
