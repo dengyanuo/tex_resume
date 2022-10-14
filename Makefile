@@ -9,6 +9,7 @@ F1latex:=$(wildcard src*/*.latex)
 F2tex:=$(wildcard src*/*.tex bible*/*.tex)
 F3xelatex:=$(wildcard xelatex*/*.xelatex bible*/*.xelatex src*/*.xelatex )
 F7combine:=$(wildcard src*/*.combine)
+F9regen:=$(wildcard src*/*.regen)
 F8books:=$(wildcard books/*.pdf)
 F8books+=$(wildcard s_pdf0?/*.pdf)
 Fs:=$(F1latex) $(F2tex)
@@ -17,8 +18,9 @@ PDF1latex:=$(foreach     aa1,$(basename $(notdir $(F1latex))),pdf/$(aa1).pdf)
 PDF2tex:=$(foreach       aa1,$(basename $(notdir $(F2tex))),pdf/$(aa1).pdf)
 PDF3xelatex:=$(foreach   aa1,$(basename $(notdir $(F3xelatex))),pdf/$(aa1).pdf)
 PDF7combine:=$(foreach   aa1,$(basename $(notdir $(F7combine))),pdf/$(aa1).pdf)
+PDF9regen:=$(foreach     aa1,$(basename $(notdir $(F9regen))),/tmp/$(aa1).pdf)
 PDF8books:=$(foreach     aa1,$(basename $(notdir $(F8books))),pdf/$(aa1).pdf)
-PDFs:=$(PDF1latex) $(PDF2tex) $(PDF3xelatex) $(PDF8books) $(PDF7combine)
+PDFs:=$(PDF1latex) $(PDF2tex) $(PDF3xelatex) $(PDF8books) $(PDF7combine) $(PDF9regen)
 PDFs_out:=example_tex01.tex
 PDFs:=$(filter-out $(PDFs_out),$(PDFs))
 
@@ -55,6 +57,37 @@ $1 : \
 	@ls -l $1 || (echo $1 not found. 1738188 ; exit 28)
 
 endef
+
+
+define FUNCcombine9regen
+$1: \
+	mm1=$$(shell cat \
+	$$(wildcard src*/$$(basename $$(notdir $(1))).regen) \
+	|sed \
+		-e 's;^ *;;g' \
+		-e '/^#/d' \
+		-e '/^ *$$$$/d' \
+		)
+$1: \
+	$$(foreach b9,\
+	$$(shell cat \
+	$$(wildcard src*/$$(basename $$(notdir $(1))).regen) \
+	|sed \
+		-e 's;^ *;;g' \
+		-e '/^#/d' \
+		-e '/^ *$$$$/d' \
+		),$$(wildcard src*/$$(b9)))
+
+	@echo building $1 : begin
+	echo $$^
+	#### touch $$^
+	cd tmp/ && rm -f *.log *.out *.aux 
+	cd tmp/ && xelatex $$(notdir $$^)
+	echo mm1 "$$(mm1)"
+	@echo building $1 : end
+endef
+
+
 
 define FUNCbooks8pdf
 $1 : $(wildcard books/$(basename $(notdir $(1))).pdf) \
@@ -105,6 +138,7 @@ $(foreach aa3,$(PDF1latex),$(eval       $(call FUNClatex1pdf, $(aa3))))
 $(foreach aa3,$(PDF2tex),$(eval         $(call FUNCtex2pdf,   $(aa3))))
 $(foreach aa3,$(PDF3xelatex),$(eval     $(call FUNCxelatex2pdf,   $(aa3))))
 $(foreach aa3,$(PDF7combine),$(eval     $(call FUNCcombine7pdf, $(aa3))))
+$(foreach aa3,$(PDF9regen),$(eval       $(call FUNCcombine9regen, $(aa3))))
 $(foreach aa3,$(PDF8books),$(eval       $(call FUNCbooks8pdf, $(aa3))))
 
 c clean:
