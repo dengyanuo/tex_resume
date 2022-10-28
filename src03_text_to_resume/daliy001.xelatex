@@ -1,0 +1,162 @@
+\input ../header/example_xelatex03.xelatex
+%
+%\def \FFbase {\FFrg \baselineskip 10.0pt}
+\def \FFbase {\FFrf \baselineskip 10.0pt}
+%\def \FFbase {\FFrf \baselineskip 9.5pt}
+%\def \FFbase {\FFrf \baselineskip 9.0pt}
+%\def \FFbase {\FFrf \baselineskip 8.0pt}
+%\def \FFbase {\FFre \baselineskip 10.0pt}
+%\def \FFbase {\FFrd \baselineskip 10.0pt}
+%
+%\def \FFbU {\FFbg}
+%\def \FFbL {\FFbf}
+%\def \FFbU {\FFbf}
+%\def \FFbL {\FFbe}
+\def \FFbU {\FFbe}
+\def \FFbL {\FFbd}
+%
+%\def \FFss {\FFtf}
+%\def \FFss {\FFte}
+\def \FFss {\FFtd}
+%
+%\def \addtionbreak {\medbreak}
+%\def \addtionbreak {\vskip 0.1pt}
+%\def \addtionbreak {\vskip 1pt}
+%\def \addtionbreak {\vskip 1.2pt}
+%\def \addtionbreak {\vskip 1.3pt}
+%\def \addtionbreak {\vskip 2pt}
+%\def \addtionbreak {\vskip 2.2pt}
+%\def \addtionbreak {\vskip 2.4pt}
+%\def \addtionbreak {\vskip 3pt}
+\def \addtionbreak {\vskip 3.3pt}
+%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 5.3pt}
+%\def \addtionbreak {\vskip 6pt}
+%
+%
+%\def \beforebreak {\vskip 2.2pt}
+%\def \beforebreak {\vskip 2.0pt}
+%\def \beforebreak {\vskip 1.8pt}
+%\def \beforebreak {\vskip 1.6pt}
+%\def \beforebreak {\vskip 1.4pt}
+%\def \beforebreak {\vskip 1.3pt}
+\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 0.8pt}
+%
+%
+%
+%
+%
+%
+%
+%
+%%%{\FFbq
+%%%\parskip 1em
+%%%\baselineskip 1.5em
+%%%\parindent 2em
+%%%
+%%%Hi, I am James. 
+%%%
+%%%I have accepted an offer in Michigan. 
+%%%
+%%%I am relocating. 
+%%%
+%%%I am close to work, \\
+%%%and I have no plan to find a new job.
+%%%}
+%%%\pagebreak
+
+\FFbase
+
+\begin{tabular}{llr}
+    %\hskip 5pt
+    \hskip -5pt
+    %\multirow{2}{*}{\FFbo R\'{e}sum\'{e} \hskip 12pt } 
+    \multirow{2}{*}{\FFbo R\'{e}sum\'{e} 
+    %\hskip 42pt 
+    %\hskip 22pt 
+    %\hskip 12pt 
+    %\hskip 10pt 
+    \hskip 38pt%space01
+    } 
+    & 
+    {\FFbU
+    %James Yanuo Deng,(408)444-5520
+    (James)\hskip 2pt Yanuo Deng,\hskip 21pt 
+    \href{tel:+14084445520}{+1(408)444-5520}
+    }
+    %& 
+    %\hskip 12pt 
+    %\hskip 27pt 
+    %\hskip 5pt 
+    %\hskip 38pt%space01
+    \hfill
+    \href{https://en.wikipedia.org/wiki/Employment_authorization_document}
+    {
+        {
+            \color{red}
+            \ding{234}
+            \ding{43}
+        }
+        %EAD \hskip 0pt C08}
+        %(relocatable)
+        %(workpermit)
+        \hskip 3pt 
+        \color{blue}
+        %no sponsership is needed
+        work permit:
+        C08 EAD}
+    \\ &
+    %{
+    %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
+    %1565 Cress Way, Olivehurst, CA 95961 
+    2090 Pauline Blvd,
+    %2090 Pauline Blvd Apt 2B,
+    %\href{https://goo.gl/maps/fjPDExHRpGstxNVi9}{Ann Arbor, MI 48103}
+    \href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
+    %}
+    %\hskip 13pt
+    %\hskip 12pt
+    %\hskip 8pt
+    %\hskip 38pt%space01
+    \hskip 45pt%space01
+    %\hfill
+    %& 
+    \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
+    \\   
+\end{tabular}
+%{\beforebreak } 
+{\par\noindent\hrule} 
+%
+%
+\parskip 1em
+{\addtionbreak }
+
+{\FFbU Daliy Work }
+%{\par \FFss Seinor Electric Engineer, July 2021 - Now}
+{\par * Hired as a "Senior Electronic Engineer". Work in both hardware and software. }
+{\par * Meet with mechanical engineer, discuss what we need.}
+{\par * Write specifications for what we proposed.}
+{\par * To lead our electronics team to disscuss with Mechanical team to approve proposal.}
+{\par * Draw schematic.}
+{\par * Layout PCB.}
+{\par * Send out the order to assemble PCB.}
+{\par * Debug PCB hardware by multimeter, oscilliscope, logic analyzer, electronics load, and high/low Temperature Aging Environmental Test Chamber.}
+{\par * Write codes for FPGA/MCU/CPU. Debug them.}
+{\par * Meet with mechanical engineer, review progress.}
+{\par * Train the trainees.}
+{\par * Give advice to solve the problems from my coworkers.}
+{\par * Set the next-gen product research as a long term task.}
+
+
+{\FFbU Why open }
+{\par * Nuclear industry belongs to high tech. But it is limited/narrow.}
+{\par * I prefer to enter medic or vehicle industry/market.}
+
+{\FFbU Work permit }
+{\par * I use an asylum EAD card as my work permit.}
+{\par * Click on the top right of this PDF it will guid to What EAD card is.}
+{\par * No extra sponsorship is needed.}
+
+            \end{document}
+
