@@ -1,6 +1,17 @@
 #!/bin/bash
 
+# https://www.biblegateway.com/passage/?search=Mark%201&version=NIV
+# https://www.biblegateway.com/passage/?search=Mark%202&version=NIV
 # https://www.biblegateway.com/passage/?search=1+peter+1&version=NIV
+# 1.
+#select form the "chapter_list.txt" to get the chapter name:
+#"Mark" or: "1+Peter"
+# if chapter 2,3,or 4, then : 1+Peter+2 , 1+Peter+3 
+#
+#2.
+#./bible_get_01_niv.sh   Mark
+#./bible_get_01_niv.sh   1+Peter
+
 
 test -z "${bibleVsion}" && bibleVsion=NIV
 
