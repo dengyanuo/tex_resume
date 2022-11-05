@@ -77,51 +77,73 @@
     %\hskip 22pt 
     %\hskip 12pt 
     %\hskip 10pt 
-    \hskip 38pt%space01
+    \hskip 31pt%space01
+    %\hskip 7pt%space01
     } 
     & 
     {\FFbU
     %James Yanuo Deng,(408)444-5520
-    (James)\hskip 2pt Yanuo Deng,\hskip 21pt 
-    \href{tel:+14084445520}{+1(408)444-5520}
+    (James)\hskip 2pt Yanuo Deng,\hskip 5pt 
+    \href{tel:+14084445520}{(408)444-5520}
     }
     %& 
     %\hskip 12pt 
     %\hskip 27pt 
     %\hskip 5pt 
     %\hskip 38pt%space01
-    \hfill
+    %\hfill
+    {
+        %\hskip 1pt 
+        \color{red}
+        %\ding{234}
+        \HandCuffLeft
+        %\HandLeft
+        \hskip 3pt
+        Click
+        \HandCuffRight
+        %\HandRight
+        %\ding{43}
+        \hskip 5pt 
+    }
     \href{https://en.wikipedia.org/wiki/Employment_authorization_document}
     {
-        {
-            \color{red}
-            \ding{234}
-            \ding{43}
-        }
         %EAD \hskip 0pt C08}
         %(relocatable)
         %(workpermit)
-        \hskip 3pt 
         \color{blue}
         %no sponsership is needed
-        work permit:
-        C08 EAD}
+        Work Permit: C08 EAD}
     \\ &
     %{
     %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
     %1565 Cress Way, Olivehurst, CA 95961 
-    2090 Pauline Blvd,
+    %2090 Pauline Blvd,
+    Pauline Blvd,
     %2090 Pauline Blvd Apt 2B,
     %\href{https://goo.gl/maps/fjPDExHRpGstxNVi9}{Ann Arbor, MI 48103}
     \href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
     %}
     %\hskip 13pt
-    %\hskip 12pt
     %\hskip 8pt
     %\hskip 38pt%space01
-    \hskip 45pt%space01
+    %\hskip 26pt
     %\hfill
     %& 
+    \hskip 6pt%space01
+    {
+        %\hskip 1pt 
+        \color{red}
+        %\ding{234}
+        %\HandLeft
+        \HandCuffLeft
+        \hskip 3pt
+        Click
+        %\HandRight
+        \HandCuffRight
+        %\ding{43}
+        \hskip 6pt 
+    }
+
     \href{mailto:deng.ya.nuo@gmail.com}{deng.ya.nuo@gmail.com}
     \\   
 \end{tabular}
@@ -132,9 +154,10 @@
 {\addtionbreak }
 {\FFbU CAREER PATH}
 \hfill
-{\FFbL \color{red} Prefer KY. \color{blue} Open(relocate) to MI, IN, OH. }
+{\FFbL \color{red} Prefer KY(Negotiable). \color{blue} Open(relocate) to MI, IN, OH. }
 %\hskip 383pt
-\hfill
+%\hfill
+\hskip 8pt
 {\FFbb
 %06/29/2022
 %\today
@@ -174,22 +197,24 @@ WORKING EXPERIENCE
 
 {\beforebreak } {\FFbL H3D Inc., Michigan, USA }
 {
-    \color{red}
-    \ding{234}
-    %\hfill
-    \hskip 8pt
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
-    \ding{43}
     \hfill
+    \color{red}
+    %\ding{234}
+    %\hskip 8pt
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    %\ding{43}
+    Click
+    %\ding{43}
+    \HandCuffRight
+    \hskip 5pt
 }
 \href 
 {https://h3dgamma.com/team.php}{https://h3dgamma.com/team.php}
