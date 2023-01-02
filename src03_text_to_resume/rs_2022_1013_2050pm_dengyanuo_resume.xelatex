@@ -118,10 +118,12 @@
     %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
     %1565 Cress Way, Olivehurst, CA 95961 
     %2090 Pauline Blvd,
-    Pauline Blvd,
+    % Pauline Blvd,
+    10th Street,
     %2090 Pauline Blvd Apt 2B,
     %\href{https://goo.gl/maps/fjPDExHRpGstxNVi9}{Ann Arbor, MI 48103}
-    \href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
+    %\href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
+    \href{https://www.google.com/maps/place/Ann+Arbor}{Middlesboro, KY 40965}
     %}
     %\hskip 13pt
     %\hskip 8pt
@@ -154,10 +156,11 @@
 {\addtionbreak }
 {\FFbU CAREER PATH}
 \hfill
-{\FFbL \color{red} Prefer KY(Negotiable). \color{blue} Open(relocate) to MI. }
+%\hskip 54pt
+%{\FFbL \color{blue} Open(relocate,negotiable) to KY. }
+{\FFbL \color{blue} Open to nearby Middlesboro KY(VA,TN), or remote}
 %\hskip 383pt
-%\hfill
-\hskip 32pt
+\hfill
 {\FFbb
 %06/29/2022
 %\today
@@ -218,7 +221,8 @@ WORKING EXPERIENCE
 }
 \href 
 {https://h3dgamma.com/team.php}{https://h3dgamma.com/team.php}
-{\par \FFss Seinor Electric Engineer, July 2021 - Now}
+%{\par \FFss Seinor Electric Engineer, July 2021 - Now}
+{\par \FFss Seinor Electric Engineer, July 2021 - Nov, 2022}
 {\par * Gcc(ARM)/Xilinx FPGA/I2C/SPI/UART.  }
 {\par * Review\&write specification/draw schematic/KiCad/DipTrace/PCB layout/MCU program. }
 {\par * USB-C Power Delivery(PD).}

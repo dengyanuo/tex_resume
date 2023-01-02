@@ -30,7 +30,11 @@ all: $(PDFs)
 	@echo
 	@ls -l pdf/*.pdf |head -n 20
 	@-ls -l $(PDF9regen) /tmp/dyn_*.pdf
+	@-/usr/bin/cp $(PDF9regen) ~/11/99/
 	echo "$${index_html}" > pdf/index.html
+
+vv:
+	vim `ls src03_text_to_resume/rs_202*.xelatex |tail -n 1`
 
 #pdf/latex_002_article_1998.pdf:Makefile
 pre1latex:=$(foreach aa1,$(F1latex),$$(eval $(aa1):pdf/$(aa1)))
