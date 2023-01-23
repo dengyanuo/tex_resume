@@ -29,8 +29,8 @@ PDFs:=$(filter-out $(PDFs_out),$(PDFs))
 all: $(PDFs)
 	@echo
 	@ls -l pdf/*.pdf |head -n 20
-	@-ls -l $(PDF9regen) /tmp/dyn_*.pdf
-	@-/usr/bin/cp $(PDF9regen) ~/11/99/
+	-ls -l $(PDF9regen) /tmp/dyn_*.pdf
+	-/usr/bin/cp /tmp/dyn_202*m.pdf ~/11/99/
 	echo "$${index_html}" > pdf/index.html
 
 vv:
