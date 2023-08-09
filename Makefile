@@ -158,7 +158,8 @@ c clean:
 	$(if $(clean_dst91),rm -f $(clean_dst91))
 
 ca clean_all:
-	$(if $(clean_dst92),rm -f $(clean_dst92))
+	$(if $(clean_dst92),rm -f $(clean_dst92) )
+	rm -f /tmp/*.pdf 
 
 m vim_makefile:
 	vim Makefile

@@ -28,19 +28,20 @@
 %\def \addtionbreak {\vskip 2.2pt}
 %\def \addtionbreak {\vskip 2.4pt}
 %\def \addtionbreak {\vskip 3pt}
-\def \addtionbreak {\vskip 3.3pt}
-%\def \addtionbreak {\vskip 4.3pt}
+%\def \addtionbreak {\vskip 3.3pt}
+\def \addtionbreak {\vskip 4.3pt}
 %\def \addtionbreak {\vskip 5.3pt}
 %\def \addtionbreak {\vskip 6pt}
 %
 %
+\def \beforebreak {\vskip 3.2pt}
 %\def \beforebreak {\vskip 2.2pt}
 %\def \beforebreak {\vskip 2.0pt}
 %\def \beforebreak {\vskip 1.8pt}
 %\def \beforebreak {\vskip 1.6pt}
 %\def \beforebreak {\vskip 1.4pt}
 %\def \beforebreak {\vskip 1.3pt}
-\def \beforebreak {\vskip 1.2pt}
+%\def \beforebreak {\vskip 1.2pt}
 %\def \beforebreak {\vskip 0.8pt}
 %
 %
@@ -197,61 +198,22 @@ Licensed and Certified Electronic Engineer, China, 2008
 {\FFbU
 WORKING EXPERIENCE
 }
-
-{\beforebreak } {\FFbL H3D Inc., Michigan, USA }
-{
-    \hfill
-    \color{red}
-    %\ding{234}
-    %\hskip 8pt
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    %\ding{43}
-    Click
-    %\ding{43}
-    \HandCuffRight
-    \hskip 5pt
-}
-\href 
-{https://h3dgamma.com/team.php}{https://h3dgamma.com/team.php}
-%{\par \FFss Seinor Electric Engineer, July 2021 - Now}
-{\par \FFss Seinor Electric Engineer, July 2021 - Nov, 2022}
+%
+%
+{\beforebreak } {\FFbL A Save Cantonese Organization, Kentucky }
+{\FFss Android Software Engineer, Dec, 2022 - Now}
+{\par * Java programming for a security voice meeting APP using XMPP protocol.  }
+%
+%
+{\beforebreak } {\FFbL H3D Inc., Michigan }
+{\FFss Seinor Electric Engineer, July 2021 - Nov, 2022}
 {\par * Gcc(ARM)/Bash/GnuMake/SED/Awk/Perl/Python/Xilinx FPGA/I2C/SPI/UART.  }
 {\par * Review\&write specification/draw schematic/KiCad/DipTrace/PCB layout/MCU program. }
 {\par * USB-C Power Delivery(PD).}
-%%333% {\beforebreak } {\FFbL Self-employed, California/Michigan, USA }
-%%333% {\par \FFss Network Security Admin, Website Designer, Feb 2021 - Now}
-%%333% %\href {https://www.isaycakissmyass.com/}
-%%333% \href {https://www.icacnpo.com/}
-%%333% {
-%%333%     \color{red}
-%%333%     \ding{234}
-%%333%     \hfill
-%%333%     \ding{43}
-%%333%     \ding{43}
-%%333%     \color{blue}
-%%333%     %https://www.isaycakissmyass.com/
-%%333%     https://www.icacnpo.com/
-%%333% %    \color{red}
-%%333% %    \raisebox{-0pt}{
-%%333% %        \faExternalLink
-%%333% %    }
-%%333% %    \hskip 1pt
-%%333% %    \raisebox{-5pt}{
-%%333% %        \mouseA
-%%333% %    }
-%%333% }
 %
 %
 {\beforebreak } {\FFbL C-Matrixtech CO.LTD., Zhuhai, China }
-{\par \FFss Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
+{\FFss Integrated Circuit Engineer, Dec 2017 - Feb 2019 }
 {\par * A self-powered and low-power MCU SOC chips for iPhone Lightning cables. Mass production. }
 {\par * Verilog+FPGA+Cadence NC(Incisive)+Synopsys Verdi. UVM simulation+Mixed(Analog) verify. }
 {\par * Xilinx autobuild \& remote download firmware platform for remote team work.  }
@@ -259,35 +221,35 @@ WORKING EXPERIENCE
 %
 %
 {\beforebreak } {\FFbL Viomi CO.LTD., Foshan, China }
-{\par \FFss Software (Firmware) Engineer, May 2017 - Oct 2017 }
+{\FFss Software (Firmware) Engineer, May 2017 - Oct 2017 }
 {\par * Buildroot; C/C++ Linux driver for the WiFi chip; Speech Recognition \& Synthesis App for Linux.  }
 {\par * UART, GPIO, SPI, NAND flash, TCP/UDP/IP, WiFi driver debug. }
 %
 %
 %
 {\beforebreak } {\FFbL Blueway CO.LTD., Huizhou, China }
-{\par \FFss Software (Firmware) Engineer, May 2016 - Apr 2017 }
+{\FFss Software (Firmware) Engineer, May 2016 - Apr 2017 }
 {\par * FreeRTOS/STM32F4/C/C++. Ingenic X1000E USB OnTheGo. OpenOCD for jtag.  }
 {\par * Mathematica to optimize the walking path of the mowers (AI path planning).  }
 %
 %
 %
 {\beforebreak } {\FFbL Adon CO.LTD., Foshan, China }
-{\par \FFss Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
+{\FFss Software (Firmware) Engineer, Oct 2013 - Dec 2015 }
 {\par * C/C++, Linux driver \& app for the Homepod (iPhone WiFi speaker/charger). }
 {\par * U-Boot (Bootloader) porting; Qualcomm AR9331: WiFi, I2S, UART, SPI, GPIO. OpenWRT.  }
 %
 %
 %
 {\beforebreak } {\FFbL Skyit Software CO.LTD., Shunde, China }
-{\par \FFss Software Engineer, Dec 2011 - Jul 2013 }
+{\FFss Software Engineer, Dec 2011 - Jul 2013 }
 %{\par * Windows Client App by C\#; MySQL API by C to the first order a meal Android App in China.  }
 {\par * 
 Developed the first meal order App for Android in China; Windows C/C++/C\#; MySQL.}
 %
 %
-{\beforebreak } {\FFbL Vbridge Microsystem Inc, San Jose, California, USA.  }
-{\par \FFss Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
+{\beforebreak } {\FFbL Vbridge Microsystem Inc, San Jose, California.  }
+{\FFss Digital Integrated Circuit Engineer, Apr 2005 - May 2008 }
 {\par * IP cores of security engineer (TLS) : AES, DES, 3DES, MD5, SHA1, CRC + 5-bits MCU core.  }
 {\par * All IP cores tapout in a dual-MIPS SOC Chip. Bootloader porting. NC(Incisive) + Verdi.  }
 {\par * UDP data package sender/receiver by Altera. OmniVision Image sensor data modified by Altera.  }
@@ -300,11 +262,10 @@ Developed the first meal order App for Android in China; Windows C/C++/C\#; MySQ
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
 %\par Yuba College, ESL Class, 2021
 %\par Evergreen Valley College, ESL Class, 2020
-\par Xi'an University of Technology, China
+\par * Xi'an University of Technology, China
 {
     \par
-    \hskip 1em MSc in Microelectronics \& Solid State Electronics, 2005
-    \par \hskip 1em BSc in Microelectronics Technology, 2002
+    MSc in Microelectronics \& Solid State Electronics, 2005; BSc in Microelectronics Technology, 2002
 }
 %
 %
