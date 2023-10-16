@@ -73,14 +73,15 @@
     %\hskip 5pt
     \hskip -5pt
     %\multirow{2}{*}{\FFbo R\'{e}sum\'{e} \hskip 12pt } 
-    \multirow{2}{*}{\FFbo R\'{e}sum\'{e} 
+    \multirow{2}{*}{\FFbo R\'{e}sum\'{e}
     %\hskip 42pt 
     %\hskip 22pt 
     %\hskip 12pt 
     %\hskip 10pt 
-    \hskip 31pt%space01
     %\hskip 7pt%space01
-    } 
+    %\hskip 1pt%space01
+    \hskip 31pt%space01
+    }
     & 
     {\FFbU
     %James Yanuo Deng,(408)444-5520
@@ -113,7 +114,7 @@
         %(workpermit)
         \color{blue}
         %no sponsership is needed
-        Work Permit: C08 EAD}
+        Work Permit: \color{red}C08 EAD}
     \\ &
     %{
     %1565 Cress Way, Olivehurst,\hskip 6pt CA\hskip 7pt 95961 
@@ -124,7 +125,8 @@
     %2090 Pauline Blvd Apt 2B,
     %\href{https://goo.gl/maps/fjPDExHRpGstxNVi9}{Ann Arbor, MI 48103}
     %\href{https://www.google.com/maps/place/Ann+Arbor}{Ann Arbor, MI 48103}
-    \href{https://www.google.com/maps/place/Ann+Arbor}{Middlesboro, KY 40965}
+    %\href{https://www.google.com/maps/place/Ann+Arbor}{Middlesboro, KY 40965}
+    \href{https://www.google.com/maps/place/Middlesboro,+KY+40965/}{Middlesboro, KY 40965}
     %}
     %\hskip 13pt
     %\hskip 8pt
@@ -189,6 +191,7 @@ and schematic and PCB design in China and USA. Current front yard worker in Kent
 {\FFbU PROFESSIONAL QUALIFICATION }
 \beforebreak
 Licensed and Certified Electronic Engineer, China, 2008
+\hfill    \href{https://www.linkedin.com/in/yanuodeng/}{Linkedin}
 %
 %
 %
@@ -200,9 +203,9 @@ WORKING EXPERIENCE
 }
 %
 %
-{\beforebreak } {\FFbL A Save Cantonese Organization, Kentucky }
+{\beforebreak } {\FFbL EAAFB Organization, Kentucky }
 {\FFss Android Software Engineer, Dec, 2022 - Now}
-{\par * Java programming for a security voice meeting APP using XMPP protocol.  }
+{\par * Java for a security voice/audio meeting/chating/conference Android APP on XMPP protocol.  }
 %
 %
 {\beforebreak } {\FFbL H3D Inc., Michigan }
@@ -306,11 +309,23 @@ I find satifications in seeing projects completed and perfected.
 %{\beforebreak } {\par\noindent\hrule} {\beforebreak }
 %
 %
+\par Qian Xu,
+EAAFB Inc.,
+Software Manager,
+\hfill
+\href{tel:+16064490983}{(606)449-0983},
+\hskip 52pt
+\href{
+    mailto:usy667788@gmail.com
+}{
+    usy667788@gmail.com
+}
 \par Michael Streicher,
 H3D Inc.,
 EE/CZT Manager,
+\hfill
 \href{tel:+17346616416,,121}{(734)661-6416\hskip 2pt ext\hskip 2pt 121},
-\hskip 15pt
+\hskip 0pt
 \href{
     mailto:michael@h3dgamma.com
 }{
@@ -322,8 +337,9 @@ Teledyne Microwave,
 VP Engineer,
 %408-421-7303,
 %4084217303,
+\hfill
 \href{tel:+14084217303}{(408)421-7303},
-\hskip 27pt
+\hskip 23pt
 \href{
     mailto:dan.teuthorn@teledyne.com
 }{

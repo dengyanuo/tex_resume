@@ -159,6 +159,7 @@ c clean:
 
 ca clean_all:
 	$(if $(clean_dst92),rm -f $(clean_dst92) )
+	rm ~/11/99/dyn_202*.pdf
 	rm -f /tmp/*.pdf 
 
 m vim_makefile:
